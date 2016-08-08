@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Nucleo-STLink.PrjPcb]
+   Generated File[Nucleo-STLink.TXT]
+   Generated File[Nucleo-STLink.LDP]
+   Generated File[Nucleo-STLink.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 7:26:28 PM On 7/20/2016

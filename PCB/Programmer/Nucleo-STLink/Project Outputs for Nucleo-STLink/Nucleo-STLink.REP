@@ -1,0 +1,116 @@
+*************************************************************
+FileName = Nucleo-STLink.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Layer
+      File : Nucleo-STLink.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : Nucleo-STLink.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : Nucleo-STLink.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : Nucleo-STLink.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D18
+    D19
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Nucleo-STLink.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D18
+    D19
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Nucleo-STLink.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : Nucleo-STLink.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : Nucleo-STLink.GM15
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D11
+    D21
+*************************************************************
+

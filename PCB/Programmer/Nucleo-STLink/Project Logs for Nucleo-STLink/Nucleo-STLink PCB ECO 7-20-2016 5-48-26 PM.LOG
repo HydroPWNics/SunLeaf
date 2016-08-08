@@ -1,0 +1,25 @@
+Added Component: Designator=J1(FTSH-105-XX-X-DV)
+Added Component: Designator=P1(HDR1X6)
+Added Pin To Net: NetName=GND Pin=J1-3
+Added Pin To Net: NetName=GND Pin=J1-7
+Added Pin To Net: NetName=GND Pin=J1-9
+Added Pin To Net: NetName=GND Pin=P1-3
+Added Net: Name=GND
+Added Pin To Net: NetName=JTDI Pin=J1-8
+Added Net: Name=JTDI
+Added Pin To Net: NetName=NRESET Pin=J1-10
+Added Pin To Net: NetName=NRESET Pin=P1-5
+Added Net: Name=NRESET
+Added Pin To Net: NetName=SWCLK_TCK Pin=J1-4
+Added Pin To Net: NetName=SWCLK_TCK Pin=P1-2
+Added Net: Name=SWCLK_TCK
+Added Pin To Net: NetName=SWDIO_TMS Pin=J1-2
+Added Pin To Net: NetName=SWDIO_TMS Pin=P1-4
+Added Net: Name=SWDIO_TMS
+Added Pin To Net: NetName=SWO_TDO Pin=J1-6
+Added Pin To Net: NetName=SWO_TDO Pin=P1-6
+Added Net: Name=SWO_TDO
+Added Pin To Net: NetName=VCC_TARGET Pin=J1-1
+Added Pin To Net: NetName=VCC_TARGET Pin=P1-1
+Added Net: Name=VCC_TARGET
+Added Class: Name=Nucleo-STLink
