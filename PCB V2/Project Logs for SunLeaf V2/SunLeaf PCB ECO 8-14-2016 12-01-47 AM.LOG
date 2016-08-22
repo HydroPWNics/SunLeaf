@@ -1,0 +1,15 @@
+Added Component: Designator=D2(LED2012120)
+Added Component: Designator=R29(R0402)
+Added Pin To Net: NetName=GND Pin=D2-C
+Added Pin To Net: NetName=NetRN6_3 Pin=U1-8
+Added Pin To Net: NetName=NetRN6_4 Pin=U1-9
+Added Pin To Net: NetName=NetRN6_1 Pin=U1-10
+Added Pin To Net: NetName=NetRN6_2 Pin=U1-11
+Added Pin To Net: NetName=NetD2_A Pin=D2-A
+Added Pin To Net: NetName=NetD2_A Pin=R29-2
+Added Net: Name=NetD2_A
+Added Pin To Net: NetName=NetR29_1 Pin=R29-1
+Added Pin To Net: NetName=NetR29_1 Pin=U1-38
+Added Net: Name=NetR29_1
+Added Member To Class: ClassName=U_MCU - STM32F446RET6 Member=Component D2 5988140107F
+Added Member To Class: ClassName=U_MCU - STM32F446RET6 Member=Component R29 1k

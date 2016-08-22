@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=D2 NewDesignator=D4
+Change Net Name : Old Net Name=NetD2_A New Net Name=NetD4_A
+Added Pin To Net: NetName=HEARTBEAT Pin=R29-1
+Added Pin To Net: NetName=HEARTBEAT Pin=U1-33
+Added Net: Name=HEARTBEAT

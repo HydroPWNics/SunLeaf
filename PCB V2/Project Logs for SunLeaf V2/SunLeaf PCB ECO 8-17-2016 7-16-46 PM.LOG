@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=NetIC1_6 Pin=P2-2
+Removed Pin From Net: NetName=NetIC1_6 Pin=R21-1
+Removed Pin From Net: NetName=GND Pin=R22-2
+Removed Pin From Net: NetName=GND Pin=SW2-1
+Removed Pin From Net: NetName=NetC29_2 Pin=SW2-2
+Change Component Designator: OldDesignator=IC2 NewDesignator=IC1
+Added Pin To Net: NetName=GND Pin=IC1-1
+Added Pin To Net: NetName=GND Pin=IC1-5
+Added Pin To Net: NetName=NetIC1_6 Pin=IC1-6
+Added Pin To Net: NetName=NetIC1_7 Pin=IC1-7
+Added Pin To Net: NetName=GND Pin=IC1-9
+Added Pin To Net: NetName=ESP_URX Pin=IC1-10
+Added Pin To Net: NetName=ESP_TRX Pin=IC1-11
+Added Pin To Net: NetName=NetC29_2 Pin=IC1-12
+Added Pin To Net: NetName=GND Pin=IC1-13
+Added Pin To Net: NetName=3.3VCC Pin=IC1-15
+Added Pin To Net: NetName=GND Pin=R22-1
+Added Pin To Net: NetName=NetIC1_6 Pin=R22-2
+Added Pin To Net: NetName=NetC29_2 Pin=SW2-1
+Added Pin To Net: NetName=GND Pin=SW2-2
+Added Pin To Net: NetName=NetIC1_8 Pin=IC1-8
+Added Pin To Net: NetName=NetIC1_8 Pin=P2-2
+Added Pin To Net: NetName=NetIC1_8 Pin=R21-1
+Added Net: Name=NetIC1_8

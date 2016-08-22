@@ -1,0 +1,163 @@
+Removed Pin From Net: NetName=NetD4_4 Pin=DA1-1
+Removed Pin From Net: NetName=NetD4_1 Pin=DA1-2
+Removed Pin From Net: NetName=NetD5_1 Pin=DA10-2
+Removed Pin From Net: NetName=GND Pin=DA10-3
+Removed Pin From Net: NetName=3.3VCC Pin=J13-2
+Removed Pin From Net: NetName=GND Pin=J13-3
+Removed Pin From Net: NetName=NetD4_1 Pin=J14-1
+Removed Pin From Net: NetName=3.3VCC Pin=J14-2
+Removed Pin From Net: NetName=GND Pin=J14-3
+Removed Pin From Net: NetName=3.3VCC Pin=J15-2
+Removed Pin From Net: NetName=GND Pin=J15-3
+Removed Pin From Net: NetName=NetD5_1 Pin=J16-1
+Removed Pin From Net: NetName=3.3VCC Pin=J16-2
+Removed Pin From Net: NetName=GND Pin=J16-3
+Change Component Footprint: Designator=J13 Old Footprint=B3B-PH-K-S(LF)(SN) New Footprint=B4B-PH-K-S(LF)(SN)
+Change Component Footprint: Designator=J14 Old Footprint=B3B-PH-K-S(LF)(SN) New Footprint=B4B-PH-K-S(LF)(SN)
+Change Component Footprint: Designator=J15 Old Footprint=B3B-PH-K-S(LF)(SN) New Footprint=B4B-PH-K-S(LF)(SN)
+Change Component Footprint: Designator=J16 Old Footprint=B3B-PH-K-S(LF)(SN) New Footprint=B4B-PH-K-S(LF)(SN)
+Change Component Comment : Designator=J13 Old Comment=B3B-PH-K-S(LF)(SN) New Comment=B4B-PH-K-S LF SN
+Change Component Comment : Designator=J14 Old Comment=B3B-PH-K-S(LF)(SN) New Comment=B4B-PH-K-S LF SN
+Change Component Comment : Designator=J15 Old Comment=B3B-PH-K-S(LF)(SN) New Comment=B4B-PH-K-S LF SN
+Change Component Comment : Designator=J16 Old Comment=B3B-PH-K-S(LF)(SN) New Comment=B4B-PH-K-S LF SN
+Added Component: Designator=D6(BAV70S)
+Added Component: Designator=D7(BAV70S)
+Added Component: Designator=D8(BAV70S)
+Added Component: Designator=D9(BAV70S)
+Added Component: Designator=D10(BAV70S)
+Added Component: Designator=D11(BAV70S)
+Added Component: Designator=D12(BAV70S)
+Added Component: Designator=D13(BAV70S)
+Added Component: Designator=D14(BAV70S)
+Added Component: Designator=DA12(SOT95P230X110-3N)
+Added Component: Designator=DA13(SOT95P230X110-3N)
+Added Component: Designator=R34(R0402)
+Added Component: Designator=R35(R0402)
+Added Component: Designator=R36(R0402)
+Added Component: Designator=R37(R0402)
+Added Component: Designator=R38(R0402)
+Added Pin To Net: NetName=NetD5_1 Pin=D5-4
+Added Pin To Net: NetName=NetD5_1 Pin=D5-5
+Added Pin To Net: NetName=S_SCL1 Pin=D6-1
+Added Pin To Net: NetName=S_SCL1 Pin=D6-2
+Added Pin To Net: NetName=3.3VCC Pin=D6-3
+Added Pin To Net: NetName=S_SDA1 Pin=D6-4
+Added Pin To Net: NetName=S_SDA1 Pin=D6-5
+Added Pin To Net: NetName=3.3VCC Pin=D6-6
+Added Pin To Net: NetName=S_SCL2 Pin=D7-1
+Added Pin To Net: NetName=S_SCL2 Pin=D7-2
+Added Pin To Net: NetName=3.3VCC Pin=D7-3
+Added Pin To Net: NetName=S_SDA2 Pin=D7-4
+Added Pin To Net: NetName=S_SDA2 Pin=D7-5
+Added Pin To Net: NetName=3.3VCC Pin=D7-6
+Added Pin To Net: NetName=S_SCL3 Pin=D8-1
+Added Pin To Net: NetName=S_SCL3 Pin=D8-2
+Added Pin To Net: NetName=3.3VCC Pin=D8-3
+Added Pin To Net: NetName=S_SDA3 Pin=D8-4
+Added Pin To Net: NetName=S_SDA3 Pin=D8-5
+Added Pin To Net: NetName=3.3VCC Pin=D8-6
+Added Pin To Net: NetName=S_SCL4 Pin=D9-1
+Added Pin To Net: NetName=S_SCL4 Pin=D9-2
+Added Pin To Net: NetName=3.3VCC Pin=D9-3
+Added Pin To Net: NetName=S_SDA4 Pin=D9-4
+Added Pin To Net: NetName=S_SDA4 Pin=D9-5
+Added Pin To Net: NetName=3.3VCC Pin=D9-6
+Added Pin To Net: NetName=NetDA6_2 Pin=D10-1
+Added Pin To Net: NetName=NetDA6_2 Pin=D10-2
+Added Pin To Net: NetName=3.3VCC Pin=D10-3
+Added Pin To Net: NetName=NetDA6_1 Pin=D10-4
+Added Pin To Net: NetName=NetDA6_1 Pin=D10-5
+Added Pin To Net: NetName=3.3VCC Pin=D10-6
+Added Pin To Net: NetName=NetDA7_1 Pin=D11-1
+Added Pin To Net: NetName=NetDA7_1 Pin=D11-2
+Added Pin To Net: NetName=3.3VCC Pin=D11-3
+Added Pin To Net: NetName=NetDA7_2 Pin=D11-4
+Added Pin To Net: NetName=NetDA7_2 Pin=D11-5
+Added Pin To Net: NetName=3.3VCC Pin=D11-6
+Added Pin To Net: NetName=NetDA8_1 Pin=D12-1
+Added Pin To Net: NetName=NetDA8_1 Pin=D12-2
+Added Pin To Net: NetName=3.3VCC Pin=D12-3
+Added Pin To Net: NetName=NetDA8_2 Pin=D12-4
+Added Pin To Net: NetName=NetDA8_2 Pin=D12-5
+Added Pin To Net: NetName=3.3VCC Pin=D12-6
+Added Pin To Net: NetName=3.3VCC Pin=D13-3
+Added Pin To Net: NetName=3.3VCC Pin=D13-6
+Added Pin To Net: NetName=3.3VCC Pin=D14-3
+Added Pin To Net: NetName=3.3VCC Pin=D14-6
+Added Pin To Net: NetName=NetD4_1 Pin=DA1-1
+Added Pin To Net: NetName=NetD4_4 Pin=DA1-2
+Added Pin To Net: NetName=NetD5_1 Pin=DA10-1
+Added Pin To Net: NetName=GND Pin=DA12-3
+Added Pin To Net: NetName=GND Pin=DA13-3
+Added Pin To Net: NetName=NetD4_1 Pin=J13-2
+Added Pin To Net: NetName=3.3VCC Pin=J13-3
+Added Pin To Net: NetName=GND Pin=J13-4
+Added Pin To Net: NetName=NetD5_1 Pin=J14-2
+Added Pin To Net: NetName=3.3VCC Pin=J14-3
+Added Pin To Net: NetName=GND Pin=J14-4
+Added Pin To Net: NetName=3.3VCC Pin=J15-3
+Added Pin To Net: NetName=GND Pin=J15-4
+Added Pin To Net: NetName=3.3VCC Pin=J16-3
+Added Pin To Net: NetName=GND Pin=J16-4
+Added Pin To Net: NetName=NetC29_2 Pin=R34-1
+Change Net Name : Old Net Name=NetDA6_1 New Net Name=NetD10_4
+Change Net Name : Old Net Name=NetDA6_2 New Net Name=NetD10_1
+Change Net Name : Old Net Name=NetDA7_1 New Net Name=NetD11_1
+Change Net Name : Old Net Name=NetDA7_2 New Net Name=NetD11_4
+Change Net Name : Old Net Name=NetDA8_1 New Net Name=NetD12_1
+Change Net Name : Old Net Name=NetDA8_2 New Net Name=NetD12_4
+Added Pin To Net: NetName=NetD13_1 Pin=D13-1
+Added Pin To Net: NetName=NetD13_1 Pin=D13-2
+Added Pin To Net: NetName=NetD13_1 Pin=DA12-1
+Added Pin To Net: NetName=NetD13_1 Pin=J15-2
+Added Pin To Net: NetName=NetD13_1 Pin=R36-1
+Added Net: Name=NetD13_1
+Added Pin To Net: NetName=NetD13_4 Pin=D13-4
+Added Pin To Net: NetName=NetD13_4 Pin=D13-5
+Added Pin To Net: NetName=NetD13_4 Pin=DA12-2
+Added Pin To Net: NetName=NetD13_4 Pin=J15-1
+Added Pin To Net: NetName=NetD13_4 Pin=R35-1
+Added Net: Name=NetD13_4
+Added Pin To Net: NetName=NetD14_1 Pin=D14-1
+Added Pin To Net: NetName=NetD14_1 Pin=D14-2
+Added Pin To Net: NetName=NetD14_1 Pin=D14-4
+Added Pin To Net: NetName=NetD14_1 Pin=D14-5
+Added Pin To Net: NetName=NetD14_1 Pin=DA13-1
+Added Pin To Net: NetName=NetD14_1 Pin=J16-2
+Added Pin To Net: NetName=NetD14_1 Pin=R38-1
+Added Net: Name=NetD14_1
+Added Pin To Net: NetName=NetDA10_2 Pin=DA10-2
+Added Pin To Net: NetName=NetDA10_2 Pin=J14-1
+Added Pin To Net: NetName=NetDA10_2 Pin=R31-1
+Added Net: Name=NetDA10_2
+Added Pin To Net: NetName=NetDA13_2 Pin=DA13-2
+Added Pin To Net: NetName=NetDA13_2 Pin=J16-1
+Added Pin To Net: NetName=NetDA13_2 Pin=R37-1
+Added Net: Name=NetDA13_2
+Added Pin To Net: NetName=NetR34_2 Pin=R34-2
+Added Pin To Net: NetName=NetR34_2 Pin=U1-16
+Added Net: Name=NetR34_2
+Added Pin To Net: NetName=NetR35_2 Pin=R35-2
+Added Net: Name=NetR35_2
+Added Pin To Net: NetName=NetR36_2 Pin=R36-2
+Added Net: Name=NetR36_2
+Added Pin To Net: NetName=NetR37_2 Pin=R37-2
+Added Net: Name=NetR37_2
+Added Pin To Net: NetName=NetR38_2 Pin=R38-2
+Added Net: Name=NetR38_2
+Added Member To Class: ClassName=U_Sensors - I2C_Grove Member=Component D6 BAV70S,115
+Added Member To Class: ClassName=U_Sensors - I2C_Grove Member=Component D7 BAV70S,115
+Added Member To Class: ClassName=U_Sensors - I2C_Grove Member=Component D8 BAV70S,115
+Added Member To Class: ClassName=U_Sensors - I2C_Grove Member=Component D9 BAV70S,115
+Added Member To Class: ClassName=U_Sensors - UART_Grove Member=Component D10 BAV70S,115
+Added Member To Class: ClassName=U_Sensors - UART_Grove Member=Component D11 BAV70S,115
+Added Member To Class: ClassName=U_Sensors - UART_Grove Member=Component D12 BAV70S,115
+Added Member To Class: ClassName=U_Expansion & Analog Member=Component D13 BAV70S,115
+Added Member To Class: ClassName=U_Expansion & Analog Member=Component D14 BAV70S,115
+Added Member To Class: ClassName=U_Expansion & Analog Member=Component DA12 PESD3V3L2BT,215
+Added Member To Class: ClassName=U_Expansion & Analog Member=Component DA13 PESD3V3L2BT,215
+Added Member To Class: ClassName=U_WiFi - ESP8266 SoC Member=Component R34 200 ohm
+Added Member To Class: ClassName=U_Expansion & Analog Member=Component R35 200 ohm
+Added Member To Class: ClassName=U_Expansion & Analog Member=Component R36 200 ohm
+Added Member To Class: ClassName=U_Expansion & Analog Member=Component R37 200 ohm
+Added Member To Class: ClassName=U_Expansion & Analog Member=Component R38 200 ohm

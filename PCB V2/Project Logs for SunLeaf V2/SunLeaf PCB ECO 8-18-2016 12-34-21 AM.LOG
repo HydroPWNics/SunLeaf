@@ -1,0 +1,9 @@
+Added Component: Designator=P1(HDR1X4)
+Added Pin To Net: NetName=GND Pin=P1-1
+Added Pin To Net: NetName=ESP_URX Pin=P1-3
+Added Pin To Net: NetName=ESP_TRX Pin=P1-4
+Added Pin To Net: NetName=PGM_MODE Pin=IC1-8
+Added Pin To Net: NetName=PGM_MODE Pin=P1-2
+Added Pin To Net: NetName=PGM_MODE Pin=R21-1
+Added Net: Name=PGM_MODE
+Added Member To Class: ClassName=U_WiFi - ESP8266 SoC Member=Component P1 Header 4

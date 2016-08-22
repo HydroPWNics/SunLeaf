@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=PGM_MODE Pin=RN7-5
+Added Pin To Net: NetName=PGM_MODE Pin=RN7-4
+Added Pin To Net: NetName=NetRN7_5 Pin=RN7-5
+Added Pin To Net: NetName=NetRN7_5 Pin=U1-54
+Added Net: Name=NetRN7_5

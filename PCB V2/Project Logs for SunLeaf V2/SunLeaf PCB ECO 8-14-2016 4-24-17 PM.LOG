@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=NetDA6_1 Pin=RN3-6
+Removed Pin From Net: NetName=NetRN5_2 Pin=U1-10
+Removed Pin From Net: NetName=NetRN5_1 Pin=U1-11
+Removed Pin From Net: NetName=SW_EN Pin=U1-20
+Removed Pin From Net: NetName=SW_S0 Pin=U1-21
+Added Pin To Net: NetName=SW_EN Pin=U1-16
+Added Pin To Net: NetName=SW_S0 Pin=U1-17
+Added Pin To Net: NetName=NetRN5_2 Pin=U1-20
+Added Pin To Net: NetName=NetRN5_1 Pin=U1-21

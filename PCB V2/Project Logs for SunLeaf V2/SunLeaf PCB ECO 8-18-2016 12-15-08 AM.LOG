@@ -1,0 +1,7 @@
+Added Component: Designator=R31(R0402)
+Added Pin To Net: NetName=NetIC1_4 Pin=IC1-4
+Added Pin To Net: NetName=NetIC1_4 Pin=R31-1
+Added Net: Name=NetIC1_4
+Added Pin To Net: NetName=NetR31_2 Pin=R31-2
+Added Net: Name=NetR31_2
+Added Member To Class: ClassName=U_WiFi - ESP8266 SoC Member=Component R31 200 ohm

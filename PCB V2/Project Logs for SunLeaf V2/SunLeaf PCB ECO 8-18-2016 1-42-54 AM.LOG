@@ -1,0 +1,3 @@
+Added Component: Designator=T1(1909763-1)
+Added Pin To Net: NetName=ANTENNA Pin=T1-1
+Added Member To Class: ClassName=U_WiFi - ESP8266 SoC Member=Component T1 1909763-1

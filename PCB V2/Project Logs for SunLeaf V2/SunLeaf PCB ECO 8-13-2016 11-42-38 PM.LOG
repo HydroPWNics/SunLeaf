@@ -1,0 +1,16 @@
+Added Component: Designator=C8(C0402)
+Added Component: Designator=C9(C0402)
+Added Component: Designator=C34(C0402)
+Added Component: Designator=C35(C0402)
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=3.3VCC Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=3.3VCC Pin=C9-2
+Added Pin To Net: NetName=GND Pin=C34-1
+Added Pin To Net: NetName=3.3VCC Pin=C34-2
+Added Pin To Net: NetName=GND Pin=C35-1
+Added Pin To Net: NetName=3.3VCC Pin=C35-2
+Added Member To Class: ClassName=U_Expansion & Analog Member=Component C8 0.1uF
+Added Member To Class: ClassName=U_Expansion & Analog Member=Component C9 0.1uF
+Added Member To Class: ClassName=U_Expansion & Analog Member=Component C34 0.1uF
+Added Member To Class: ClassName=U_Expansion & Analog Member=Component C35 0.1uF

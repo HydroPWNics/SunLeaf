@@ -1,0 +1,55 @@
+Removed Pin From Net: NetName=S_SCL1 Pin=D6-1
+Removed Pin From Net: NetName=S_SCL1 Pin=D6-2
+Removed Pin From Net: NetName=3.3VCC Pin=D6-3
+Removed Pin From Net: NetName=S_SDA1 Pin=D6-4
+Removed Pin From Net: NetName=S_SDA1 Pin=D6-5
+Removed Pin From Net: NetName=3.3VCC Pin=D6-6
+Removed Pin From Net: NetName=S_SCL2 Pin=D7-1
+Removed Pin From Net: NetName=S_SCL2 Pin=D7-2
+Removed Pin From Net: NetName=3.3VCC Pin=D7-3
+Removed Pin From Net: NetName=S_SDA2 Pin=D7-4
+Removed Pin From Net: NetName=S_SDA2 Pin=D7-5
+Removed Pin From Net: NetName=3.3VCC Pin=D7-6
+Removed Pin From Net: NetName=S_SCL3 Pin=D8-1
+Removed Pin From Net: NetName=S_SCL3 Pin=D8-2
+Removed Pin From Net: NetName=3.3VCC Pin=D8-3
+Removed Pin From Net: NetName=S_SDA3 Pin=D8-4
+Removed Pin From Net: NetName=S_SDA3 Pin=D8-5
+Removed Pin From Net: NetName=3.3VCC Pin=D8-6
+Removed Pin From Net: NetName=S_SCL4 Pin=D9-1
+Removed Pin From Net: NetName=S_SCL4 Pin=D9-2
+Removed Pin From Net: NetName=3.3VCC Pin=D9-3
+Removed Pin From Net: NetName=S_SDA4 Pin=D9-4
+Removed Pin From Net: NetName=S_SDA4 Pin=D9-5
+Removed Pin From Net: NetName=3.3VCC Pin=D9-6
+Removed Pin From Net: NetName=NetD10_1 Pin=D10-1
+Removed Pin From Net: NetName=NetD10_1 Pin=D10-2
+Removed Pin From Net: NetName=3.3VCC Pin=D10-3
+Removed Pin From Net: NetName=NetD10_4 Pin=D10-4
+Removed Pin From Net: NetName=NetD10_4 Pin=D10-5
+Removed Pin From Net: NetName=3.3VCC Pin=D10-6
+Removed Pin From Net: NetName=NetD11_1 Pin=D11-1
+Removed Pin From Net: NetName=NetD11_1 Pin=D11-2
+Removed Pin From Net: NetName=3.3VCC Pin=D11-3
+Removed Pin From Net: NetName=NetD11_4 Pin=D11-4
+Removed Pin From Net: NetName=NetD11_4 Pin=D11-5
+Removed Pin From Net: NetName=3.3VCC Pin=D11-6
+Removed Pin From Net: NetName=NetD12_1 Pin=D12-1
+Removed Pin From Net: NetName=NetD12_1 Pin=D12-2
+Removed Pin From Net: NetName=3.3VCC Pin=D12-3
+Removed Pin From Net: NetName=NetD12_4 Pin=D12-4
+Removed Pin From Net: NetName=NetD12_4 Pin=D12-5
+Removed Pin From Net: NetName=3.3VCC Pin=D12-6
+Removed Member From Class: ClassName=U_Sensors - I2C_Grove Member=D6
+Removed Member From Class: ClassName=U_Sensors - I2C_Grove Member=D7
+Removed Member From Class: ClassName=U_Sensors - I2C_Grove Member=D8
+Removed Member From Class: ClassName=U_Sensors - I2C_Grove Member=D9
+Removed Member From Class: ClassName=U_Sensors - UART_Grove Member=D10
+Removed Member From Class: ClassName=U_Sensors - UART_Grove Member=D11
+Removed Member From Class: ClassName=U_Sensors - UART_Grove Member=D12
+Change Net Name : Old Net Name=NetD10_1 New Net Name=NetDA6_2
+Change Net Name : Old Net Name=NetD10_4 New Net Name=NetDA6_1
+Change Net Name : Old Net Name=NetD11_1 New Net Name=NetDA7_1
+Change Net Name : Old Net Name=NetD11_4 New Net Name=NetDA7_2
+Change Net Name : Old Net Name=NetD12_1 New Net Name=NetDA8_1
+Change Net Name : Old Net Name=NetD12_4 New Net Name=NetDA8_2

@@ -1,0 +1,48 @@
+Removed Pin From Net: NetName=NetD4_4 Pin=R29-1
+Removed Pin From Net: NetName=NetD4_1 Pin=R30-1
+Removed Pin From Net: NetName=NetDA10_2 Pin=R31-1
+Removed Pin From Net: NetName=NetD5_1 Pin=R32-1
+Removed Pin From Net: NetName=NetD13_4 Pin=R35-1
+Removed Pin From Net: NetName=NetD13_1 Pin=R36-1
+Removed Pin From Net: NetName=NetDA13_2 Pin=R37-1
+Removed Pin From Net: NetName=NetD14_1 Pin=R38-1
+Removed Member From Class: ClassName=U_Expansion & Analog Member=R29
+Removed Member From Class: ClassName=U_Expansion & Analog Member=R30
+Removed Member From Class: ClassName=U_Expansion & Analog Member=R31
+Removed Member From Class: ClassName=U_Expansion & Analog Member=R32
+Removed Member From Class: ClassName=U_Expansion & Analog Member=R35
+Removed Member From Class: ClassName=U_Expansion & Analog Member=R36
+Removed Member From Class: ClassName=U_Expansion & Analog Member=R37
+Removed Member From Class: ClassName=U_Expansion & Analog Member=R38
+Added Component: Designator=RN5(EXB-N8V201JX - CAC-50P200X100-8N)
+Added Component: Designator=RN6(EXB-N8V201JX - CAC-50P200X100-8N)
+Added Pin To Net: NetName=NetDA10_2 Pin=RN5-5
+Added Pin To Net: NetName=NetD5_1 Pin=RN5-6
+Added Pin To Net: NetName=NetD4_4 Pin=RN5-7
+Added Pin To Net: NetName=NetD4_1 Pin=RN5-8
+Added Pin To Net: NetName=NetD13_1 Pin=RN6-5
+Added Pin To Net: NetName=NetD13_4 Pin=RN6-6
+Added Pin To Net: NetName=NetD14_1 Pin=RN6-7
+Added Pin To Net: NetName=NetDA13_2 Pin=RN6-8
+Added Pin To Net: NetName=NetRN5_1 Pin=RN5-1
+Added Pin To Net: NetName=NetRN5_1 Pin=U1-24
+Added Net: Name=NetRN5_1
+Added Pin To Net: NetName=NetRN5_2 Pin=RN5-2
+Added Pin To Net: NetName=NetRN5_2 Pin=U1-23
+Added Net: Name=NetRN5_2
+Added Pin To Net: NetName=NetRN5_3 Pin=RN5-3
+Added Pin To Net: NetName=NetRN5_3 Pin=U1-26
+Added Net: Name=NetRN5_3
+Added Pin To Net: NetName=NetRN5_4 Pin=RN5-4
+Added Pin To Net: NetName=NetRN5_4 Pin=U1-25
+Added Net: Name=NetRN5_4
+Added Pin To Net: NetName=NetRN6_1 Pin=RN6-1
+Added Net: Name=NetRN6_1
+Added Pin To Net: NetName=NetRN6_2 Pin=RN6-2
+Added Net: Name=NetRN6_2
+Added Pin To Net: NetName=NetRN6_3 Pin=RN6-3
+Added Net: Name=NetRN6_3
+Added Pin To Net: NetName=NetRN6_4 Pin=RN6-4
+Added Net: Name=NetRN6_4
+Added Member To Class: ClassName=U_Expansion & Analog Member=Component RN5 200 ohm
+Added Member To Class: ClassName=U_Expansion & Analog Member=Component RN6 200 ohm
