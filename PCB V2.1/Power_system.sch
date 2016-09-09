@@ -351,10 +351,10 @@ Wire Wire Line
 	10100 2900 10875 2900
 Connection ~ 10325 2900
 $Comp
-L +3.3V #PWR029
+L +3.3V #PWR34
 U 1 1 57D80E79
 P 10875 2900
-F 0 "#PWR029" H 10875 2750 50  0001 C CNN
+F 0 "#PWR34" H 10875 2750 50  0001 C CNN
 F 1 "+3.3V" H 10875 3040 50  0000 C CNN
 F 2 "" H 10875 2900 50  0000 C CNN
 F 3 "" H 10875 2900 50  0000 C CNN
@@ -362,10 +362,10 @@ F 3 "" H 10875 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR030
+L GND #PWR33
 U 1 1 57D80F19
 P 9600 3350
-F 0 "#PWR030" H 9600 3100 50  0001 C CNN
+F 0 "#PWR33" H 9600 3100 50  0001 C CNN
 F 1 "GND" H 9600 3200 50  0000 C CNN
 F 2 "" H 9600 3350 50  0000 C CNN
 F 3 "" H 9600 3350 50  0000 C CNN
@@ -423,10 +423,10 @@ Wire Wire Line
 	4675 4875 4675 3250
 Connection ~ 6000 3325
 $Comp
-L GND #PWR031
+L GND #PWR32
 U 1 1 57D82F5E
 P 5225 4600
-F 0 "#PWR031" H 5225 4350 50  0001 C CNN
+F 0 "#PWR32" H 5225 4350 50  0001 C CNN
 F 1 "GND" H 5225 4450 50  0000 C CNN
 F 2 "" H 5225 4600 50  0000 C CNN
 F 3 "" H 5225 4600 50  0000 C CNN
@@ -507,10 +507,10 @@ F 20 "1µF 25V Ceramic Capacitor X5R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR032
+L GND #PWR31
 U 1 1 57D853F5
 P 4100 3350
-F 0 "#PWR032" H 4100 3100 50  0001 C CNN
+F 0 "#PWR31" H 4100 3100 50  0001 C CNN
 F 1 "GND" H 4100 3200 50  0000 C CNN
 F 2 "" H 4100 3350 50  0000 C CNN
 F 3 "" H 4100 3350 50  0000 C CNN
@@ -518,66 +518,10 @@ F 3 "" H 4100 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L S3B-PH-K-S(LF)(SN) J4
-U 1 1 57D893C2
-P 1725 4050
-F 0 "J4" H 1675 4225 60  0000 C CNN
-F 1 "S3B-PH-K-S(LF)(SN)" H 2125 3875 60  0000 C CNN
-F 2 "PCB_Footprints:S3B-PH-K-S(LF)(SN)" H 1575 4125 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1450 4425 60  0001 C CNN
-F 4 "0.07217 @ 5000" H 1550 4525 60  0001 C CNN "Cost"
-F 5 "9 Sept 2016" H 1650 4625 60  0001 C CNN "Date Created "
-F 6 "9 Sept 2016" H 1750 4725 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 1850 4825 60  0001 C CNN "Designer "
-F 8 "5.5mm" H 1950 4925 60  0001 C CNN "Height"
-F 9 "Yes" H 2050 5025 60  0001 C CNN "RHoS?"
-F 10 "JST Sales America Inc" H 2150 5125 60  0001 C CNN "MFR"
-F 11 "S3B-PH-K-S(LF)(SN)" H 2250 5225 60  0001 C CNN "MFR#"
-F 12 "Through Hole" H 2350 5325 60  0001 C CNN "Mounting"
-F 13 "3" H 2450 5425 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 2550 5525 60  0001 C CNN "Status"
-F 15 "N/A" H 2650 5625 60  0001 C CNN "Tolerance"
-F 16 "Through Hole right angle connector." H 2750 5725 60  0001 C CNN "Type"
-F 17 "N/A" H 2850 5825 60  0001 C CNN "Voltage"
-F 18 "N/A" H 2950 5925 60  0001 C CNN "Wattage"
-F 19 "N/A" H 3050 6025 60  0001 C CNN "Component-Value"
-F 20 "3 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole, Right Angle Tin" H 3150 6125 60  0001 C CNN "Description"
-	1    1725 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L S2B-PH-K-S(LF)(SN) J3
-U 1 1 57D89682
-P 1725 3625
-F 0 "J3" H 1675 3800 60  0000 C CNN
-F 1 "S2B-PH-K-S(LF)(SN)" H 2100 3525 60  0000 C CNN
-F 2 "PCB_Footprints:S2B-PH-K-S(LF)(SN)" H 1575 3700 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1450 4000 60  0001 C CNN
-F 4 "0.06152 @ 5000" H 1550 4100 60  0001 C CNN "Cost"
-F 5 "9 Sept 2016" H 1650 4200 60  0001 C CNN "Date Created "
-F 6 "9 Sept 2016" H 1750 4300 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 1850 4400 60  0001 C CNN "Designer "
-F 8 "5.5mm" H 1950 4500 60  0001 C CNN "Height"
-F 9 "Yes" H 2050 4600 60  0001 C CNN "RHoS?"
-F 10 "JST Sales America Inc" H 2150 4700 60  0001 C CNN "MFR"
-F 11 "S2B-PH-K-S(LF)(SN)" H 2250 4800 60  0001 C CNN "MFR#"
-F 12 "Through Hole" H 2350 4900 60  0001 C CNN "Mounting"
-F 13 "2" H 2450 5000 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 2550 5100 60  0001 C CNN "Status"
-F 15 "N/A" H 2650 5200 60  0001 C CNN "Tolerance"
-F 16 "Through Hole right angle connector." H 2750 5300 60  0001 C CNN "Type"
-F 17 "N/A" H 2850 5400 60  0001 C CNN "Voltage"
-F 18 "N/A" H 2950 5500 60  0001 C CNN "Wattage"
-F 19 "N/A" H 3050 5600 60  0001 C CNN "Component-Value"
-F 20 "2 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole, Right Angle Tin" H 3150 5700 60  0001 C CNN "Description"
-	1    1725 3625
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR033
+L GND #PWR30
 U 1 1 57D89874
 P 2750 3625
-F 0 "#PWR033" H 2750 3375 50  0001 C CNN
+F 0 "#PWR30" H 2750 3375 50  0001 C CNN
 F 1 "GND" H 2750 3475 50  0000 C CNN
 F 2 "" H 2750 3625 50  0000 C CNN
 F 3 "" H 2750 3625 50  0000 C CNN
@@ -627,10 +571,10 @@ Wire Wire Line
 	2200 3400 3050 3400
 Connection ~ 2200 2900
 $Comp
-L GND #PWR034
+L GND #PWR29
 U 1 1 57D8ABE6
 P 2725 4125
-F 0 "#PWR034" H 2725 3875 50  0001 C CNN
+F 0 "#PWR29" H 2725 3875 50  0001 C CNN
 F 1 "GND" H 2725 3975 50  0000 C CNN
 F 2 "" H 2725 4125 50  0000 C CNN
 F 3 "" H 2725 4125 50  0000 C CNN
@@ -651,4 +595,60 @@ Text Label 6625 2900 0    60   ~ 0
 BAT
 Text Notes 2375 1675 0    197  ~ 39
 Battery Charge Controller and Power Supply\n
+$Comp
+L S3B-PH-SM4-TB(LF)(SN) J4
+U 1 1 57DB73BE
+P 1725 4050
+F 0 "J4" H 1675 4225 60  0000 C CNN
+F 1 "S3B-PH-SM4-TB(LF)(SN)" H 2125 3875 60  0000 C CNN
+F 2 "PCB_Footprints:S3B-PH-SM4-TB(LF)(SN)" H 1575 4125 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1450 4425 60  0001 C CNN
+F 4 "0.28250 @ 5000" H 1550 4525 60  0001 C CNN "Cost"
+F 5 "9 Sept 2016" H 1650 4625 60  0001 C CNN "Date Created "
+F 6 "9 Sept 2016" H 1750 4725 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 1850 4825 60  0001 C CNN "Designer "
+F 8 "5.5mm" H 1950 4925 60  0001 C CNN "Height"
+F 9 "Yes" H 2050 5025 60  0001 C CNN "RHoS?"
+F 10 "JST Sales America Inc" H 2150 5125 60  0001 C CNN "MFR"
+F 11 "S3B-PH-K-S(LF)(SN)" H 2250 5225 60  0001 C CNN "MFR#"
+F 12 "Through Hole" H 2350 5325 60  0001 C CNN "SMT/SMD"
+F 13 "3" H 2450 5425 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 2550 5525 60  0001 C CNN "Status"
+F 15 "N/A" H 2650 5625 60  0001 C CNN "Tolerance"
+F 16 "Surface Mount Right Angle 3 Pin Connector" H 2750 5725 60  0001 C CNN "Type"
+F 17 "N/A" H 2850 5825 60  0001 C CNN "Voltage"
+F 18 "N/A" H 2950 5925 60  0001 C CNN "Wattage"
+F 19 "N/A" H 3050 6025 60  0001 C CNN "Component-Value"
+F 20 "3 Positions Header, Shrouded Connector 0.079\" (2.00mm) Surface Mount, Right Angle Tin" H 3150 6125 60  0001 C CNN "Description"
+	1    1725 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L S2B-PH-SM4-TB(LF)(SN) J3
+U 1 1 57DB74B4
+P 1725 3625
+F 0 "J3" H 1675 3800 60  0000 C CNN
+F 1 "S2B-PH-SM4-TB(LF)(SN)" H 2100 3525 60  0000 C CNN
+F 2 "PCB_Footprints:S2B-PH-SM4-TB(LF)(SN)" H 1575 3700 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1450 4000 60  0001 C CNN
+F 4 "0.24037 @ 5000" H 1550 4100 60  0001 C CNN "Cost"
+F 5 "9 Sept 2016" H 1650 4200 60  0001 C CNN "Date Created "
+F 6 "9 Sept 2016" H 1750 4300 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 1850 4400 60  0001 C CNN "Designer "
+F 8 "5.5mm" H 1950 4500 60  0001 C CNN "Height"
+F 9 "Yes" H 2050 4600 60  0001 C CNN "RHoS?"
+F 10 "JST Sales America Inc" H 2150 4700 60  0001 C CNN "MFR"
+F 11 "S2B-PH-SM4-TB(LF)(SN)" H 2250 4800 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 2350 4900 60  0001 C CNN "Mounting"
+F 13 "2" H 2450 5000 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 2550 5100 60  0001 C CNN "Status"
+F 15 "N/A" H 2650 5200 60  0001 C CNN "Tolerance"
+F 16 "Surface mount right angle 2 pin connector" H 2750 5300 60  0001 C CNN "Type"
+F 17 "N/A" H 2850 5400 60  0001 C CNN "Voltage"
+F 18 "N/A" H 2950 5500 60  0001 C CNN "Wattage"
+F 19 "N/A" H 3050 5600 60  0001 C CNN "Component-Value"
+F 20 "2 Positions Header, Shrouded Connector 0.079\" (2.00mm) Surface Mount, Right Angle Tin" H 3150 5700 60  0001 C CNN "Description"
+	1    1725 3625
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
