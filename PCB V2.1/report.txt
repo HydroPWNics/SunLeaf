@@ -1,0 +1,276 @@
+Info: Reading netlist file "C:\Users\adam\Documents\GitHub\SunLeaf\PCB V2.1\SunLeaf_V2.net".
+
+Info: Using references to match components and footprints.
+
+Info: Checking netlist component footprint "C1:/57B61A1E/57D3E960:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C2:/57B61A1E/57D48EF3:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C3:/57B61A1E/57D3E467:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C4:/57B61A1E/57D3E837:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C5:/57B61A1E/57D3F68C:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C6:/57B61A1E/57D3E9F9:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C7:/57B61A1E/57D3E897:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C8:/57B61A1E/57D4BBD2:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C9:/57B61A1E/57D3E8FC:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C10:/57B61A1E/57D3EAB5:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C11:/57B61A1E/57D3F7F6:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C12:/57B61A1E/57D4ACA5:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C13:/57B61A1E/57D3EDE8:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C14:/57B61A1E/57D3EC0B:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C15:/57B61A1E/57D3ED47:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C16:/57B61A1E/57D3FD9C:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C17:/57B61A95/57D7004A:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C18:/57B61A95/57D7456A:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C19:/57B61A98/57D8511B:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C20:/57B61A98/57D7E6BF:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C21:/57B61A98/57D7E7A5:PCB_Footprints:C0603".
+
+Info: Checking netlist component footprint "C22:/57B61A9B/57D943DB:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C23:/57B61A9B/57D8F945:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C24:/57B61A9B/57D961FE:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C25:/57B61A9B/57D9626E:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C26:/57B61A9B/57D962E7:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C27:/57B61A9E/57DA1651:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C28:/57B61A9E/57D99ADB:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C29:/57B61A9E/57DA1C61:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C30:/57B61A9E/57DA1CE8:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C31:/57B61A9E/57DA1D68:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C32:/57B61AA1/57DA8E85:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C33:/57B61AA1/57DADFE6:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C34:/57B61AA1/57DAE056:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "C35:/57B61AA1/57DAE0C1:PCB_Footprints:C0402".
+
+Info: Checking netlist component footprint "D1:/57B61A98/57D7E99D:PCB_Footprints:BAT20JFILM".
+
+Info: Checking netlist component footprint "D2:/57B61A9B/57D8F8AD:PCB_Footprints:BAT20JFILM".
+
+Info: Checking netlist component footprint "D3:/57B61A9B/57D96D43:PCB_Footprints:BAT20JFILM".
+
+Info: Checking netlist component footprint "D4:/57B61A9B/57D96DCE:PCB_Footprints:BAT20JFILM".
+
+Info: Checking netlist component footprint "D5:/57B61A9B/57D96E44:PCB_Footprints:BAT20JFILM".
+
+Info: Checking netlist component footprint "D6:/57B61A9E/57D99BC3:PCB_Footprints:BAT20JFILM".
+
+Info: Checking netlist component footprint "D7:/57B61A9E/57DA2BC2:PCB_Footprints:BAT20JFILM".
+
+Info: Checking netlist component footprint "D8:/57B61A9E/57DA2C56:PCB_Footprints:BAT20JFILM".
+
+Info: Checking netlist component footprint "D9:/57B61A9E/57DA2CE9:PCB_Footprints:BAT20JFILM".
+
+Info: Checking netlist component footprint "D10:/57B61AA1/57DA8D85:PCB_Footprints:BAT20JFILM".
+
+Info: Checking netlist component footprint "D11:/57B61AA1/57DAB4C5:PCB_Footprints:BAT20JFILM".
+
+Info: Checking netlist component footprint "D12:/57B61AA1/57DAB536:PCB_Footprints:BAT20JFILM".
+
+Info: Checking netlist component footprint "D13:/57B61AA1/57DAB5A4:PCB_Footprints:BAT20JFILM".
+
+Info: Checking netlist component footprint "DA1:/57B61A1E/57D3FF98:PCB_Footprints:ESDA6V1BC6".
+
+Info: Checking netlist component footprint "FB1:/57B61A1E/57D3F3A4:PCB_Footprints:BLM15HG601SN1D".
+
+Info: Checking netlist component footprint "FB2:/57B61A1E/57D402B4:PCB_Footprints:MI0603K300R-10".
+
+Info: Checking netlist component footprint "IC1:/57B61A95/57D6FE85:PCB_Footprints:ESP-09".
+
+Info: Checking netlist component footprint "J1:/57B61A1E/57D3F2B2:PCB_Footprints:20021121-00010C4LF".
+
+Info: Checking netlist component footprint "J2:/57B61A1E/57D3F16A:PCB_Footprints:0475890001".
+
+Info: Checking netlist component footprint "J3:/57B61A98/57D89682:PCB_Footprints:S2B-PH-K-S(LF)(SN)".
+
+Info: Checking netlist component footprint "J4:/57B61A98/57D893C2:PCB_Footprints:S3B-PH-K-S(LF)(SN)".
+
+Info: Checking netlist component footprint "J5:/57B61A9B/57D8F65D:PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)".
+
+Info: Checking netlist component footprint "J6:/57B61A9B/57D8FDE5:PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)".
+
+Info: Checking netlist component footprint "J7:/57B61A9B/57D8FE56:PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)".
+
+Info: Checking netlist component footprint "J8:/57B61A9B/57D8FD5D:PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)".
+
+Info: Checking netlist component footprint "J9:/57B61A9E/57D9A024:PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)".
+
+Info: Checking netlist component footprint "J10:/57B61A9E/57D99FC5:PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)".
+
+Info: Checking netlist component footprint "J11:/57B61A9E/57D999BD:PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)".
+
+Info: Checking netlist component footprint "J12:/57B61A9E/57D99F67:PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)".
+
+Info: Checking netlist component footprint "J13:/57B61AA1/57DA8F85:PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)".
+
+Info: Checking netlist component footprint "J14:/57B61AA1/57DA91C9:PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)".
+
+Info: Checking netlist component footprint "J15:/57B61AA1/57DA92E6:PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)".
+
+Info: Checking netlist component footprint "J16:/57B61AA1/57DA93AE:PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)".
+
+Info: Checking netlist component footprint "LED1:/57B61A95/57D796B9:PCB_Footprints:LED0603".
+
+Info: Checking netlist component footprint "LED2:/57B61A98/57D7EE0F:PCB_Footprints:LED0603".
+
+Info: Checking netlist component footprint "LED3:/57B61A98/57D7ED65:PCB_Footprints:LED0603".
+
+Info: Checking netlist component footprint "P1:/57B61A95/57D7B8BB:Pin_Headers:Pin_Header_Straight_1x04".
+
+Info: Checking netlist component footprint "Q1:/57B61A98/57D89B7F:PCB_Footprints:DMG2307L-7".
+
+Info: Checking netlist component footprint "Q2:/57B61A98/57D7EA87:PCB_Footprints:DMG2307L-7".
+
+Info: Checking netlist component footprint "R1:/57B61A1E/57D3FC9A:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R2:/57B61A1E/57D45682:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R3:/57B61A1E/57D571C2:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R4:/57B61A1E/57D3F4DE:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R5:/57B61A1E/57D557C4:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R6:/57B61A1E/57D3F944:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R7:/57B61A1E/57D3FB7A:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R8:/57B61A1E/57D68161:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R9:/57B61A1E/57D59ED7:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R10:/57B61A1E/57D68216:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R11:/57B61A1E/57D682DA:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R12:/57B61A95/57D76547:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R13:/57B61A95/57D700DC:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R14:/57B61A95/57D76B97:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R15:/57B61A95/57D769FB:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R16:/57B61A95/57D76831:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R17:/57B61A95/57D79AD8:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R18:/57B61A95/57D70170:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R19:/57B61A95/57D74E69:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R20:/57B61A95/57D74EE4:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R21:/57B61A95/57D74CB7:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R22:/57B61A98/57D7ECB5:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R23:/57B61A98/57D83FE1:PCB_Footprints:R0805".
+
+Info: Checking netlist component footprint "R24:/57B61A98/57D7E5D5:PCB_Footprints:R0805".
+
+Info: Checking netlist component footprint "R25:/57B61A98/57D82740:PCB_Footprints:R0805".
+
+Info: Checking netlist component footprint "R26:/57B61A9B/57D8FA1F:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R27:/57B61A9E/57D99E4D:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R28:/57B61A9E/57D9E715:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R29:/57B61A9E/57D9E77A:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R30:/57B61A9E/57D9E7EA:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R31:/57B61A9E/57D9E84D:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R32:/57B61A9E/57D9E8B3:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R33:/57B61A9E/57D9EA54:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "R34:/57B61A9E/57D9EAC2:PCB_Footprints:R0402".
+
+Info: Checking netlist component footprint "SW1:/57B61A1E/57D40112:PCB_Footprints:B3U-1000P".
+
+Info: Checking netlist component footprint "SW2:/57B61A95/57D6FFB4:PCB_Footprints:B3U-1000P".
+
+Info: Checking netlist component footprint "T1:/57B61A95/57D73CA9:PCB_Footprints:1909763-1".
+
+Info: Checking netlist component footprint "U1:/57B61A1E/57D433D8:PCB_Footprints:STM32F446RET6".
+
+Info: Checking netlist component footprint "U2:/57B61A98/57D7E4F0:PCB_Footprints:BQ24210".
+
+Info: Checking netlist component footprint "U3:/57B61A98/57D7E887:PCB_Footprints:AZ1117CR-3.3TRG1".
+
+Info: Checking netlist component footprint "U4:/57B61A9B/57D92F7E:PCB_Footprints:74HC4052D".
+
+Info: Checking netlist component footprint "U5:/57B61A9E/57D9B690:PCB_Footprints:PCA9518DBQR".
+
+Info: Checking netlist component footprint "X1:/57B61A1E/57D3EF78:PCB_Footprints:ABM3B8.000MHZB2T".
+
+Info: Checking netlist component footprint "X2:/57B61A1E/57D3F070:PCB_Footprints:ABS07-32.768KHZ-9-T".
+
+Error: Component 'D2' pad '3' not found in footprint 'PCB_Footprints:BAT20JFILM'
+
+Error: Component 'D3' pad '3' not found in footprint 'PCB_Footprints:BAT20JFILM'
+
+Error: Component 'D4' pad '3' not found in footprint 'PCB_Footprints:BAT20JFILM'
+
+Error: Component 'D5' pad '3' not found in footprint 'PCB_Footprints:BAT20JFILM'
+
+Error: Component 'D6' pad '3' not found in footprint 'PCB_Footprints:BAT20JFILM'
+
+Error: Component 'D7' pad '3' not found in footprint 'PCB_Footprints:BAT20JFILM'
+
+Error: Component 'D8' pad '3' not found in footprint 'PCB_Footprints:BAT20JFILM'
+
+Error: Component 'D9' pad '3' not found in footprint 'PCB_Footprints:BAT20JFILM'
+
+Error: Component 'D10' pad '3' not found in footprint 'PCB_Footprints:BAT20JFILM'
+
+Error: Component 'D11' pad '3' not found in footprint 'PCB_Footprints:BAT20JFILM'
+
+Error: Component 'D12' pad '3' not found in footprint 'PCB_Footprints:BAT20JFILM'
+
+Error: Component 'D13' pad '3' not found in footprint 'PCB_Footprints:BAT20JFILM'
+
+Error: Component 'IC1' pad '8' not found in footprint 'PCB_Footprints:ESP-09'
+
+Error: Component 'IC1' pad '6' not found in footprint 'PCB_Footprints:ESP-09'
+
+Error: Component 'IC1' pad '7' not found in footprint 'PCB_Footprints:ESP-09'
+
+Error: Component 'J2' pad '7' not found in footprint 'PCB_Footprints:0475890001'
+
+Error: Component 'J2' pad '11' not found in footprint 'PCB_Footprints:0475890001'
+
+Error: Component 'J2' pad '10' not found in footprint 'PCB_Footprints:0475890001'
+

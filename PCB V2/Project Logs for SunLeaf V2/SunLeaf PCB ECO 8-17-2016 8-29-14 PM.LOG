@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=BAT Pin=J4-2
-Removed Pin From Net: NetName=GND Pin=J4-3
-Added Pin To Net: NetName=GND Pin=J4-2
-Added Pin To Net: NetName=BAT Pin=J4-3

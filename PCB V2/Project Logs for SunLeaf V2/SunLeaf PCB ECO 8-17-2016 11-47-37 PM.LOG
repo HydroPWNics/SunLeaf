@@ -1,6 +1,0 @@
-Added Component: Designator=TP1(Alligator-TP)
-Added Component: Designator=TP2(Alligator-TP)
-Added Pin To Net: NetName=GND Pin=TP1-1
-Added Pin To Net: NetName=GND Pin=TP2-1
-Added Member To Class: ClassName=U_Power Member=Component TP1 Test-Point
-Added Member To Class: ClassName=U_Power Member=Component TP2 Test-Point

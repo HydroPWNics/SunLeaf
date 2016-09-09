@@ -30,6 +30,8 @@ LIBS:contrib
 LIBS:valves
 LIBS:stm32
 LIBS:ESP8266
+LIBS:HydroPWNics_Lib
+LIBS:ESP32-footprints-Shem-Lib
 LIBS:SunLeaf_V2-cache
 EELAYER 25 0
 EELAYER END

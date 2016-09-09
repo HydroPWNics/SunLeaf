@@ -1,4 +1,1549 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# +3V3
+#
+DEF +3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+3V3" 0 140 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# 0475890001-MicroUSBPort
+#
+DEF 0475890001-MicroUSBPort J 0 40 Y Y 1 F N
+F0 "J" -150 650 60 H V C CNN
+F1 "0475890001-MicroUSBPort" 700 650 60 H V C CNN
+F2 "PCB_Footprints:0475890001" -250 550 60 H I C CNN
+F3 "http://www.molex.com/pdm_docs/sd/475890001_sd.pdf" -150 650 60 H I C CNN
+F4 "0.50908 @ 500" -50 750 60 H I C CNN "Cost"
+F5 "19 Aug 2016" 150 950 60 H I C CNN "Date Created"
+F6 "19 Aug 2016" 150 950 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 250 1050 60 H I C CNN "Designer"
+F8 "2.5mm" 350 1150 60 H I C CNN "Height"
+F9 "Yes" 450 1250 60 H I C CNN "RHoS?"
+F10 "Molex" 550 1350 60 H I C CNN "MFR"
+F11 "0475890001" 650 1450 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 750 1550 60 H I C CNN "Mounting"
+F13 "11" 850 1650 60 H I C CNN "Pin Count#"
+F14 "Active" 950 1750 60 H I C CNN "Status"
+F15 "N/A" 1050 1850 60 H I C CNN "Tolerance"
+F16 "USB Connector" 1150 1950 60 H I C CNN "Type"
+F17 "5V" 1250 2050 60 H I C CNN "Voltage"
+F18 "N/A" 1350 2150 60 H I C CNN "Wattage"
+F19 "N/A" 1450 2250 60 H I C CNN "Component-Value"
+F20 "USB - micro AB Receptacle Connector 5 Position Surface Mount, Right Angle, Horizontal" 1550 2350 60 H I C CNN "Description"
+DRAW
+S -200 600 650 100 1 1 0 N
+X VBUS 1 -400 550 200 R 50 50 1 1 B
+X D- 2 -400 450 200 R 50 50 1 1 B
+X D+ 3 -400 350 200 R 50 50 1 1 B
+X ID 4 -400 250 200 R 50 50 1 1 B
+X GND 5 -400 150 200 R 50 50 1 1 B
+X SHLD 6 100 -100 200 U 50 50 1 1 B
+X SHLD 7 200 -100 200 U 50 50 1 1 B
+X SHLD 8 300 -100 200 U 50 50 1 1 B
+X SHLD 9 400 -100 200 U 50 50 1 1 B
+X SHLD 10 500 -100 200 U 50 50 1 1 B
+X SHLD 11 600 -100 200 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# 1909763-1
+#
+DEF 1909763-1 T 0 40 Y Y 1 F N
+F0 "T" 150 -50 60 H V C CNN
+F1 "1909763-1" 350 50 60 H V C CNN
+F2 "PCB_Footprints:1909763-1" 50 -150 60 H I C CNN
+F3 "https://media.digikey.com/pdf/PCNs/TE%20Connectivity/E-15-016061(2).pdf" -300 175 60 H I C CNN
+F4 "0.24000 @ 5000" -200 275 60 H I C CNN "Cost"
+F5 "8 Sept 2016" -100 375 60 H I C CNN "Date Created"
+F6 "8 Sept 2016" 0 475 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 575 60 H I C CNN "Designer"
+F8 "1.25mm" 200 675 60 H I C CNN "Height"
+F9 "Yes" 300 775 60 H I C CNN "RHoS?"
+F10 "TE Connectivity AMP Connectors" 400 875 60 H I C CNN "MFR"
+F11 "1909763-1" 500 975 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1075 60 H I C CNN "Mounting"
+F13 "2" 700 1175 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1275 60 H I C CNN "Status"
+F15 "N/A" 900 1375 60 H I C CNN "Tolerance"
+F16 "Coaxial RF Connector" 1000 1475 60 H I C CNN "Type"
+F17 "N/A" 1100 1575 60 H I C CNN "Voltage"
+F18 "N/A" 1200 1675 60 H I C CNN "Wattage"
+F19 "50 ohm" 1300 1775 60 H I C CNN "Component-Value"
+F20 "Ultra Miniature Coaxial Connector Jack, Male Pin 50 Ohm Surface Mount Solder" 1400 1875 60 H I C CNN "Description"
+DRAW
+C 0 0 35 0 1 0 N
+S -75 75 75 -75 0 1 0 N
+X ~ 1 -275 0 200 R 50 50 1 1 B
+X ~ 2 0 -275 200 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# 20021121-00010C4LF
+#
+DEF 20021121-00010C4LF J 0 40 Y Y 1 F N
+F0 "J" -100 400 60 H V C CNN
+F1 "20021121-00010C4LF" 350 -300 60 H V C CNN
+F2 "PCB_Footprints:20021121-00010C4LF" 850 250 60 H I C CNN
+F3 "http://portal.fciconnect.com/Comergent//fci/drawing/20021121.pdf" 850 -450 60 H I C CNN
+F4 "0.32 @ 15000" 0 500 60 H I C CNN "Cost"
+F5 "20 Aug 2016" 100 600 60 H I C CNN "Date Created "
+F6 "20 Aug 2016" 200 700 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 300 800 60 H I C CNN "Designer"
+F8 "5.5mm" 400 900 60 H I C CNN "Height"
+F9 "Yes" 500 1000 60 H I C CNN "RHoS?"
+F10 "Amphenol FCI" 600 1100 60 H I C CNN "MFR"
+F11 "20021121-00010C4LF" 700 1200 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 800 1300 60 H I C CNN "Mounting"
+F13 "10" 900 1400 60 H I C CNN "Pin Count#"
+F14 "Active" 1000 1500 60 H I C CNN "Status"
+F15 "N/A" 1100 1600 60 H I C CNN "Tolerance"
+F16 "SMT Male Pin Connector, ARM Cortex Debug/JTAG" 1200 1700 60 H I C CNN "Type"
+F17 "200V MAX" 1300 1800 60 H I C CNN "Voltage"
+F18 "N/A" 1400 1900 60 H I C CNN "Wattage"
+F19 "N/A" 1500 2000 60 H I C CNN "Component-Value"
+F20 "Ten Pin header unshrouded SMT ARM Cortex M Debug Port" 1600 2100 60 H I C CNN "Description"
+DRAW
+S -150 350 150 -250 1 1 0 f
+X 1 1 -350 250 197 R 50 50 1 1 B
+X 2 2 350 250 197 L 50 50 1 1 B
+X 3 3 -350 150 197 R 50 50 1 1 B
+X 4 4 350 150 197 L 50 50 1 1 B
+X 5 5 -350 50 197 R 50 50 1 1 B
+X 6 6 350 50 197 L 50 50 1 1 B
+X 7 7 -350 -50 197 R 50 50 1 1 B
+X 8 8 350 -50 197 L 50 50 1 1 B
+X 9 9 -350 -150 197 R 50 50 1 1 B
+X 10 10 350 -150 197 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# 74HC4052D
+#
+DEF 74HC4052D U 0 40 Y Y 1 F N
+F0 "U" -150 550 60 H V C CNN
+F1 "74HC4052D" 75 -650 60 H V C CNN
+F2 "PCB_Footprints:74HC4052D" 1450 775 60 H I C CNN
+F3 "" 0 -650 60 H I C CNN
+F4 "0.13695 @ 2500" -50 650 60 H I C CNN "Cost"
+F5 "18 Aug 16" 150 850 60 H I C CNN "Date Created"
+F6 "18 Aug 16" 250 950 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 350 1050 60 H I C CNN "Designer"
+F8 "1.75mm" 450 1150 60 H I C CNN "Height"
+F9 "Yes" 550 1250 60 H I C CNN "RHoS?"
+F10 "NXP Semiconductors" 650 1350 60 H I C CNN "MFR"
+F11 "74HC4052D,653" 750 1450 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 850 1550 60 H I C CNN "Mounting"
+F13 "16" 950 1650 60 H I C CNN "Pin Count#"
+F14 "Active" 1050 1750 60 H I C CNN "Satus"
+F15 "N/A" 1150 1850 60 H I C CNN "Tolerance"
+F16 "Analog Mux/Demux 4X1 74xx" 1250 1950 60 H I C CNN "Type"
+F17 "3.3V" 1350 2050 60 H I C CNN "Voltage"
+F18 "N/A" 1350 2050 60 H I C CNN "Wattage"
+F19 "N/A" 1450 2150 60 H I C CNN "Component-Value"
+F20 "2 Circuit IC Switch 4:1 150 Ohm 16-SO" 1550 2250 60 H I C CNN "Description"
+DRAW
+S -200 500 250 -575 0 1 0 f
+X 2Y0 1 450 250 200 L 50 50 1 1 P
+X 2Y2 2 450 -275 200 L 50 50 1 1 P
+X 2Z 3 -400 300 200 R 50 50 1 1 P
+X 2Y3 4 450 -525 200 L 50 50 1 1 P
+X 2Y1 5 450 -50 200 L 50 50 1 1 B
+X E 6 -400 0 200 R 50 50 1 1 P
+X VEE 7 -400 450 200 R 50 50 1 1 P
+X GND 8 -400 -525 200 R 50 50 1 1 P
+X S1 9 -400 -200 200 R 50 50 1 1 P
+X S0 10 -400 -100 200 R 50 50 1 1 P
+X 1Y3 11 450 -450 200 L 50 50 1 1 P
+X 1Y0 12 450 175 200 L 50 50 1 1 P
+X 1Z 13 -400 200 200 R 50 50 1 1 P
+X 1Y1 14 450 25 200 L 50 50 1 1 P
+X 1Y2 15 450 -200 200 L 50 50 1 1 B
+X VCC 16 450 450 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ABM3B8.000MHZB2T
+#
+DEF ABM3B8.000MHZB2T X 0 40 Y Y 1 F N
+F0 "X" -100 200 60 H V C CNN
+F1 "ABM3B8.000MHZB2T" 500 200 60 H V C CNN
+F2 "PCB_Footprints:ABM3B8.000MHZB2T" -200 100 60 H I C CNN
+F3 "http://www.abracon.com/Resonators/abm3b.pdf" -100 200 60 H I C CNN
+F4 "0.30450 @ 5000" 500 800 60 H I C CNN "Cost"
+F5 "19 Aug 2016" 100 400 60 H I C CNN "Date Created "
+F6 "5 Sept 2016" 200 500 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 300 600 60 H I C CNN "Designer"
+F8 "1.10mm" 600 900 60 H I C CNN "Height"
+F9 "Yes" 700 1000 60 H I C CNN "RHoS?"
+F10 "Abracon LLC" 800 1100 60 H I C CNN "MFR"
+F11 "ABM3B-8.000MHZ-B2-T" 900 1200 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 1000 1300 60 H I C CNN "Mounting"
+F13 "4" 900 1200 60 H I C CNN "Pin Count#"
+F14 "Active" 1000 1300 60 H I C CNN "Status"
+F15 "N/A" 1100 1400 60 H I C CNN "Tolerance"
+F16 "Crystal Oscillator" 1200 1500 60 H I C CNN "Type"
+F17 "3.3V" 1300 1600 60 H I C CNN "Voltage"
+F18 "N/A" 1400 1700 60 H I C CNN "Wattage"
+F19 "8MHZ-18pF-Loading" 1500 1800 60 H I C CNN "Component-Value"
+F20 "8MHz ±20ppm Crystal 18pF 200 Ohm -20°C ~ 70°C Surface Mount 4-SMD, No Lead (DFN, LCC)" 1600 1900 60 H I C CNN "Description"
+DRAW
+P 2 1 1 0 -100 -100 150 -100 N
+P 2 1 1 0 -50 -100 -50 -75 N
+P 2 1 1 0 -50 50 -25 50 N
+P 2 1 1 0 -25 -75 -25 125 N
+P 2 1 1 0 75 125 75 -75 N
+P 2 1 1 0 100 -75 100 -100 N
+P 2 1 1 0 100 50 75 50 N
+P 4 1 1 0 -50 125 -50 150 100 150 100 125 N
+P 5 1 1 0 0 100 50 100 50 -50 0 -50 0 100 N
+X ~ 1 -250 50 197 R 50 50 1 1 B
+X ~ 2 300 50 197 L 50 50 1 1 B
+X ~ 3 -100 -300 197 U 50 50 1 1 B
+X ~ 4 150 -300 197 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# ABS07-32.768KHZ-9-T
+#
+DEF ABS07-32.768KHZ-9-T X 0 40 Y Y 1 F N
+F0 "X" -100 200 60 H V C CNN
+F1 "ABS07-32.768KHZ-9-T" 400 -200 60 H V C CNN
+F2 "PCB_Footprints:ABS07-32.768KHZ-9-T" -50 -100 60 H I C CNN
+F3 "http://www.abracon.com/Resonators/ABS07.pdf" 2300 1800 60 H I C CNN
+F4 "0.18000 @ 3K" 0 300 60 H I C CNN "Cost"
+F5 "20 Aug 2016" 100 400 60 H I C CNN "Date Created "
+F6 "20 Aug 2016" 200 500 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 300 600 60 H I C CNN "Designer "
+F8 "2.5mm" 400 700 60 H I C CNN "Height"
+F9 "Yes" 500 800 60 H I C CNN "RHoS?"
+F10 "Abracon LLC" 700 1000 60 H I C CNN "MFR"
+F11 "ABS07-32.768KHZ-9-T" 800 1100 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 900 1200 60 H I C CNN "Mounting"
+F13 "2" 1000 1300 60 H I C CNN "Pin Count#"
+F14 "Active" 1100 1400 60 H I C CNN "Status"
+F15 "±20ppm" 1200 1500 60 H I C CNN "Tolerance"
+F16 "Crystal Oscillator 32.768KHZ" 1300 1600 60 H I C CNN "Type"
+F17 "N/A" 1400 1700 60 H I C CNN "Voltage"
+F18 "N/A" 1500 1800 60 H I C CNN "Wattage"
+F19 "32.768kHz ±20ppm Crystal 9pF 70 kOhm -40°C ~ 85°C Surface Mount 2-SMD, No Lead" 1600 1900 60 H I C CNN "Description"
+F20 "32.768KHZ-9pF-Loading" 1600 1900 60 H I C CNN "Component-Value"
+DRAW
+P 2 1 1 0 -100 -100 -100 -100 N
+P 2 1 1 0 -75 0 -100 0 N
+P 2 1 1 0 -75 100 -75 -100 N
+P 2 1 1 0 25 0 50 0 N
+P 2 1 1 0 25 100 25 -100 N
+P 2 1 1 0 50 100 50 100 N
+P 4 1 1 0 -100 100 -100 150 50 150 50 100 N
+P 5 1 1 0 -50 -100 -50 100 0 100 0 -100 -50 -100 N
+P 5 1 1 0 50 -100 50 -150 -50 -150 -100 -150 -100 -100 N
+X ~ 1 -200 0 98 R 50 50 1 1 B
+X ~ 2 150 0 98 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# AZ1117CR-3.3TRG1_1
+#
+DEF AZ1117CR-3.3TRG1_1 U 0 40 Y Y 1 F N
+F0 "U" -250 200 60 H V C CNN
+F1 "AZ1117CR-3.3TRG1_1" 400 200 60 H V C CNN
+F2 "PCB_Footprints:AZ1117CR-3.3TRG1" -350 100 60 H I C CNN
+F3 "" -250 200 60 H I C CNN
+F4 "0.08330 @ 5000" -150 300 60 H I C CNN "Cost"
+F5 "19 Aug 2016" -50 400 60 H I C CNN "Date Created"
+F6 "19 Aug 2016" 50 500 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 150 600 60 H I C CNN "Designer"
+F8 "1.6mm" 250 700 60 H I C CNN "Height"
+F9 "Yes" 350 800 60 H I C CNN "RHoS?"
+F10 "Diodes Inc" 450 900 60 H I C CNN "MFR"
+F11 "AZ1117CR-3.3TRG1" 550 1000 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 650 1100 60 H I C CNN "Mounting"
+F13 "4" 750 1200 60 H I C CNN "Pin Count#"
+F14 "Active" 850 1300 60 H I C CNN "Status"
+F15 "N/A" 950 1400 60 H I C CNN "Tolerance"
+F16 "LDO Linear DC Voltage Regulator" 1050 1500 60 H I C CNN "Type"
+F17 "3.7V input 3.3V Output" 1150 1600 60 H I C CNN "Voltage"
+F18 "N/A" 1250 1700 60 H I C CNN "Wattage"
+F19 "N/A" 1350 1800 60 H I C CNN "Component-Value"
+F20 "Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 800mA SOT-89" 1450 1900 60 H I C CNN "Description"
+DRAW
+S -300 150 300 -200 0 1 0 f
+X GND 1 0 -400 200 U 50 50 1 1 P
+X VOUT 2 500 50 200 L 50 50 1 1 O
+X VIN 3 -500 50 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# B3U-1000P
+#
+DEF ~B3U-1000P SW 0 40 Y Y 1 F N
+F0 "SW" -250 100 60 H V C CNN
+F1 "B3U-1000P" 0 -100 60 H I C CNN
+F2 "PCB_Footprints:B3U-1000P" -350 0 60 H I C CNN
+F3 "" -250 100 60 H I C CNN
+F4 "0" -150 200 60 H I C CNN "Cost"
+F5 "6 Sept 2016" -50 300 60 H I C CNN "Date Created "
+F6 "6 Sept 2016" 50 400 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 150 500 60 H I C CNN "Designer"
+F8 "0" 250 600 60 H I C CNN "Height"
+F9 "Yes" 350 700 60 H I C CNN "RHoS?"
+F10 "OMRON" 450 800 60 H I C CNN "MFR"
+F11 "B3U-1000P" 550 900 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 650 1000 60 H I C CNN "Mounting"
+F13 "2" 750 1100 60 H I C CNN "Pin Count#"
+F14 "Active" 850 1200 60 H I C CNN "Status"
+F15 "%" 950 1300 60 H I C CNN "Tolerance"
+F16 "Switch Momentary" 1050 1400 60 H I C CNN "Type"
+F17 "50V" 1150 1500 60 H I C CNN "Voltage"
+F18 "N/A" 1250 1600 60 H I C CNN "Wattage"
+F19 "N/A" 1350 1700 60 H I C CNN "Component-Value"
+F20 "Tactile Switch SPST-NO Top Actuated Surface Mount" 1450 1800 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -100 -50 -100 0 N
+P 2 0 1 0 -100 0 100 0 N
+P 3 0 1 0 -100 -50 100 -50 100 0 N
+P 4 0 1 0 -50 0 -50 50 50 50 50 0 N
+X ~ 1 -300 -50 200 R 50 50 1 1 I
+X ~ 2 300 -50 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# BAT20JFILM
+#
+DEF BAT20JFILM D 0 40 Y Y 1 F N
+F0 "D" -275 100 60 H V C CNN
+F1 "BAT20JFILM" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:BAT20JFILM" 1425 1925 60 H I C CNN
+F3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00012201.pdf" 1625 2050 60 H I C CNN
+F4 "0.09010 @ 6000" -150 200 60 H I C CNN "Cost"
+F5 "8 Sept 2016" -50 300 60 H I C CNN "Date Created"
+F6 "8 Sept 2016" 50 400 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 150 500 60 H I C CNN "Designer"
+F8 "1.13mm" 250 600 60 H I C CNN "Height"
+F9 "Yes" 350 700 60 H I C CNN "RhoS?"
+F10 "STMicroelectronics" 450 800 60 H I C CNN "MFR"
+F11 "BAT20JFILM" 550 900 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 650 1000 60 H I C CNN "Mounting"
+F13 "2" 750 1100 60 H I C CNN "Pin Count#"
+F14 "Active" 850 1200 60 H I C CNN "Status"
+F15 "N/A" 950 1300 60 H I C CNN "Tolerance"
+F16 "Schottky Diode" 1050 1400 60 H I C CNN "Type"
+F17 "N/A" 1150 1500 60 H I C CNN "Voltage"
+F18 "N/A" 1250 1600 60 H I C CNN "Wattage"
+F19 "N/A" 1350 1700 60 H I C CNN "Component-Value"
+F20 "Diode Schottky 23V 1A Surface Mount SOD-323" 1450 1800 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 0 -50 0 N
+P 2 0 1 0 25 50 25 -50 N
+P 2 0 1 0 50 0 25 0 N
+P 4 0 1 0 -25 50 -25 -50 25 0 -25 50 N
+X ~ 1 -250 0 200 R 50 50 1 1 P
+X ~ 2 250 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# BLM15HG601SN1D
+#
+DEF BLM15HG601SN1D FB 0 40 Y Y 1 F N
+F0 "FB" -350 150 60 H V C CNN
+F1 "BLM15HG601SN1D" 0 -100 60 H V C CNN
+F2 "PCB_Footprints:BLM15HG601SN1D" -450 50 60 H I C CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0110S0101BLM15H.pdf" -350 150 60 H I C CNN
+F4 "0.05090 @ 10000" -250 250 60 H I C CNN "Cost"
+F5 "8 Sept 2016" -150 350 60 H I C CNN "Date Created "
+F6 "8 Sept 2016" -50 450 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 50 550 60 H I C CNN "Designer "
+F8 "0.4mm" 150 650 60 H I C CNN "Height"
+F9 "Yest" 250 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 350 850 60 H I C CNN "MFR"
+F11 "BLM15HG601SN1D" 450 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 550 1050 60 H I C CNN "Mounting"
+F13 "2" 650 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 750 1250 60 H I C CNN "Status"
+F15 "N/A" 850 1350 60 H I C CNN "Tolerance"
+F16 "Ferrite  Beard 300mA" 950 1450 60 H I C CNN "Type"
+F17 "N/A" 1050 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1150 1650 60 H I C CNN "Wattage"
+F19 "600 ohm 300mA" 1250 1750 60 H I C CNN "Component-Value"
+F20 "FERRITE BEAD 600 OHM 0402 1LN" 1350 1850 60 H I C CNN "Description"
+DRAW
+A -151 0 49 1800 889 0 1 0 N -200 0 -150 50
+A -150 1 49 900 -11 0 1 0 N -150 50 -100 0
+A -51 0 49 1800 889 0 1 0 N -100 0 -50 50
+A -50 1 49 900 -11 0 1 0 N -50 50 0 0
+A 49 0 49 1800 889 0 1 0 N 0 0 50 50
+A 50 1 49 900 -11 0 1 0 N 50 50 100 0
+A 149 0 49 1800 889 0 1 0 N 100 0 150 50
+A 150 1 49 900 -11 0 1 0 N 150 50 200 0
+P 2 0 1 0 -200 100 200 100 N
+P 2 0 1 0 -200 150 -200 100 N
+P 2 0 1 0 200 150 -200 150 N
+P 2 0 1 0 200 150 200 100 N
+X ~ 1 -400 0 200 R 50 50 1 1 I
+X ~ 2 400 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# BQ24210DQCT
+#
+DEF BQ24210DQCT U 0 40 Y Y 1 F N
+F0 "U" -450 350 60 H V C CNN
+F1 "BQ24210DQCT" 50 350 60 H V C CNN
+F2 "PCB_Footprints:BQ24210" -550 250 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/bq24210.pdf" 1400 1900 60 H I C CNN
+F4 "1.46250 @ 1250" -350 450 60 H I C CNN "Cost"
+F5 "19 Aug 2016" -250 550 60 H I C CNN "Date Created"
+F6 "19 Aug 2016" -150 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" -50 750 60 H I C CNN "Designer"
+F8 "0.8mm" 50 850 60 H I C CNN "Height"
+F9 "Yes" 150 950 60 H I C CNN "RHoS?"
+F10 "Texas Instruments" 250 1050 60 H I C CNN "MFR"
+F11 "BQ24210DQCT" 350 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 450 1250 60 H I C CNN "Mounting "
+F13 "8" 550 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 650 1450 60 H I C CNN "Status"
+F15 "N/A" 750 1550 60 H I C CNN "Tolerance"
+F16 "Lithium Ion Battery Charge Controller Solar/USB" 850 1650 60 H I C CNN "Type"
+F17 "3.5-18VDC" 950 1750 60 H I C CNN "Voltage"
+F18 "N/A" 1050 1850 60 H I C CNN "Wattage"
+F19 "N/A" 1150 1950 60 H I C CNN "Component-Value"
+F20 "IC BATT CHARGER LI-ION 10WSON" 1250 2050 60 H I C CNN "Description"
+DRAW
+S -500 300 200 -650 0 1 0 f
+X VBUS 1 -700 250 200 R 50 50 1 1 I
+X ISET 2 -250 -850 200 U 50 50 1 1 I
+X VSS 3 -150 -850 200 U 50 50 1 1 I
+X VTSB 4 400 -150 200 L 50 50 1 1 I
+X TS 5 400 -500 200 L 50 50 1 1 I
+X PG 6 400 -50 200 L 50 50 1 1 I
+X EN 7 -700 -100 200 R 50 50 1 1 I
+X CHG 8 400 50 200 L 50 50 1 1 I
+X VDPM 9 -350 -850 200 U 50 50 1 1 I
+X BAT 10 400 250 200 L 50 50 1 1 I
+X GND-PAD 11 -50 -850 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# CL05A105KA5NQNC
+#
+DEF CL05A105KA5NQNC C 0 40 Y Y 1 F N
+F0 "C" -675 -50 60 H V C CNN
+F1 "CL05A105KA5NQNC" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05A105KA5NQNC.pdf" -650 150 60 H I C CNN
+F4 "0.05618 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "5 Sept 2016" -450 350 60 H I C CNN "Date Created"
+F6 "5 Sept 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.55mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 50 850 60 H I C CNN "MFR"
+F11 "CL05A105KA5NQNC" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "10%" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "25V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "1uF" -650 -250 60 H V C CNN "Componen-Value"
+F20 "1µF 25V Ceramic Capacitor X5R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# CL05A475KQ5NRNC
+#
+DEF CL05A475KQ5NRNC C 0 40 Y Y 1 F N
+F0 "C" -200 50 60 H V C CNN
+F1 "CL05A475KQ5NRNC" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05A475KQ5NRNC.pdf" -650 150 60 H I C CNN
+F4 "0.09500 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "5 Sept 2016" -450 350 60 H I C CNN "Date Created"
+F6 "5 Sept 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.55mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 50 850 60 H I C CNN "MFR"
+F11 "CL05A475KQ5NRNC" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "10%" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "25V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "4.7uF" -600 -250 60 H V C CNN "Componen-Value"
+F20 "4.7µF 6.3V Ceramic Capacitor X5R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 0 100 0 -100 N
+P 2 0 1 0 50 100 50 -100 N
+X ~ 1 -200 0 200 R 50 50 1 1 I
+X ~ 2 250 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# CL05B104JP5NNNC
+#
+DEF CL05B104JP5NNNC C 0 40 Y Y 1 F N
+F0 "C" -200 150 60 H V C CNN
+F1 "CL05B104JP5NNNC" 50 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" 250 50 60 H I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" 250 50 60 H I C CNN
+F4 "$0.00903 @ 5000" -100 250 60 H I C CNN "Cost"
+F5 "4 Sept 2016" 0 350 60 H I C CNN "Date Created"
+F6 "5 Sept 2016" 100 450 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 200 550 60 H I C CNN "Designer"
+F8 "0.55mm" 300 650 60 H I C CNN "Height"
+F9 "Yes" 400 750 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 500 850 60 H I C CNN "MFR"
+F11 "CL05B104JP5NNNC" 600 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 700 1050 60 H I C CNN "Mounting"
+F13 "2" 800 1150 60 H I C CNN "Pint Count#"
+F14 "Active" 900 1250 60 H I C CNN "Status"
+F15 "5%" 1000 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 1100 1450 60 H I C CNN "Type"
+F17 "10V" 1200 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1650 60 H I C CNN "Wattage"
+F19 "0.10uF" -225 -250 60 H V C CNN "Component-Value"
+F20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1850 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -50 100 -50 -100 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 -250 0 200 R 50 50 1 1 I
+X ~ 2 200 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# CL05C090CB5NNNC
+#
+DEF CL05C090CB5NNNC C 0 40 Y Y 1 F N
+F0 "C" -200 50 60 H V C CNN
+F1 "CL05C090CB5NNNC" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05C090CB5NNNC.pdf" -650 150 60 H I C CNN
+F4 "0.00550 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "5 Sept 2016" -450 350 60 H I C CNN "Date Created"
+F6 "5 Sept 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.55mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 50 850 60 H I C CNN "MFR"
+F11 "CL05C090CB5NNNC" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "0.25pF" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "9pF" -675 -250 60 H V C CNN "Componen-Value"
+F20 "9pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 0 100 0 -100 N
+P 2 0 1 0 50 100 50 -100 N
+X ~ 1 -200 0 200 R 50 50 1 1 I
+X ~ 2 250 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# CL05C180GB5NCNC
+#
+DEF CL05C180GB5NCNC C 0 40 Y Y 1 F N
+F0 "C" -200 50 60 H V C CNN
+F1 "CL05C180GB5NCNC" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" -650 150 60 H I C CNN
+F4 "0.00900 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "5 Sept 2016" -450 350 60 H I C CNN "Date Created"
+F6 "5 Sept 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.55mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 50 850 60 H I C CNN "MFR"
+F11 "CL05C180GB5NCNC" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "2%" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "18pF" -625 -250 60 H V C CNN "Componen-Value"
+F20 "18pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 0 100 0 -100 N
+P 2 0 1 0 50 100 50 -100 N
+X ~ 1 -200 0 200 R 50 50 1 1 I
+X ~ 2 250 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# CL05C470FB5NNNC
+#
+DEF CL05C470FB5NNNC C 0 40 Y Y 1 F N
+F0 "C" -200 50 60 H V C CNN
+F1 "CL05C470FB5NNNC" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" -650 150 60 H I C CNN
+F4 "0.01335 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "5 Sept 2016" -450 350 60 H I C CNN "Date Created"
+F6 "5 Sept 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.55mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 50 850 60 H I C CNN "MFR"
+F11 "CL05C470FB5NNNC" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "1%" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "47pF" -625 -225 60 H V C CNN "Componen-Value"
+F20 "47pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 0 100 0 -100 N
+P 2 0 1 0 50 100 50 -100 N
+X ~ 1 -200 0 200 R 50 50 1 1 I
+X ~ 2 250 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# CL10A106KQ8NNNC
+#
+DEF CL10A106KQ8NNNC C 0 40 Y Y 1 F N
+F0 "C" -200 50 60 H V C CNN
+F1 "CL10A106KQ8NNNC" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0603" -750 50 60 H I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL10A106KQ8NNNC.pdf" -650 150 60 H I C CNN
+F4 "0.05145 @ 4000" -550 250 60 H I C CNN "Cost"
+F5 "5 Sept 2016" -450 350 60 H I C CNN "Date Created"
+F6 "5 Sept 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.90mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 50 850 60 H I C CNN "MFR"
+F11 "CL10A106KQ8NNNC" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "10%" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0603" 650 1450 60 H I C CNN "Type"
+F17 "6.3V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "10uF" -625 -225 60 H V C CNN "Componen-Value"
+F20 "10µF 6.3V Ceramic Capacitor X5R 0603 (1608 Metric) 0.063\" L x 0.031\" W (1.60mm x 0.80mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 0 100 0 -100 N
+P 2 0 1 0 50 100 50 -100 N
+X ~ 1 -200 0 200 R 50 50 1 1 I
+X ~ 2 250 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# CONN_01X04
+#
+DEF CONN_01X04 P 0 40 Y N 1 F N
+F0 "P" 0 250 50 H V C CNN
+F1 "CONN_01X04" 100 0 50 V V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X04
+ Pin_Header_Angled_1X04
+ Socket_Strip_Straight_1X04
+ Socket_Strip_Angled_1X04
+$ENDFPLIST
+DRAW
+S -50 -145 10 -155 0 1 0 N
+S -50 -45 10 -55 0 1 0 N
+S -50 55 10 45 0 1 0 N
+S -50 155 10 145 0 1 0 N
+S -50 200 50 -200 0 1 0 N
+X P1 1 -200 150 150 R 50 50 1 1 P
+X P2 2 -200 50 150 R 50 50 1 1 P
+X P3 3 -200 -50 150 R 50 50 1 1 P
+X P4 4 -200 -150 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CPF0402B22RE1
+#
+DEF CPF0402B22RE1 R 0 40 Y Y 1 F N
+F0 "R" -300 350 60 H V C CNN
+F1 "CPF0402B22RE1" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" -300 450 60 H I C CNN
+F4 "0.10921 @ 1000" 1550 1950 60 H I C CNN "Cost"
+F5 "5 Sept 2016" -100 550 60 H I C CNN "Date Created"
+F6 "5 Sept 2016" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.35mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "TE Connectivity AMP Connectors" 400 1050 60 H I C CNN "MFR"
+F11 "CPF0402B22RE1" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "0.1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "chip resistor" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "22r" -300 -225 60 H V C CNN "Component-Value"
+F20 "RES SMD 22 OHM 0.1% 1/16W 0402" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DMG2307L-7
+#
+DEF DMG2307L-7 Q 0 40 Y Y 1 F N
+F0 "Q" -250 200 60 H V C CNN
+F1 "DMG2307L-7" 325 125 60 H V C CNN
+F2 "PCB_Footprints:DMG2307L-7" 1300 1650 60 H I C CNN
+F3 "http://www.diodes.com/_files/datasheets/DMG2307L.pdf" 1600 1850 60 H I C CNN
+F4 "0.08100 @ 3000" 1100 2150 60 H I C CNN "Cost"
+F5 "8 Sept 2016" 1150 2050 60 H I C CNN "Date Created "
+F6 "8 Sept 2016" 1200 1500 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 1100 1950 60 H I C CNN "Designer"
+F8 "0.4mm" 1150 1750 60 H I C CNN "Height"
+F9 "Yes" 1150 2250 60 H I C CNN "RHoS?"
+F10 "Diodes Incorporated" 1200 1400 60 H I C CNN "MFR"
+F11 "DMG2307L-7" 250 400 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 350 500 60 H I C CNN "Mounting"
+F13 "2" 450 600 60 H I C CNN "Pin Count#"
+F14 "Active" 550 700 60 H I C CNN "Status"
+F15 "N/A" 650 800 60 H I C CNN "Tolerance"
+F16 "MOSFET" 750 900 60 H I C CNN "Type"
+F17 "30V" 850 1000 60 H I C CNN "Voltage"
+F18 "N/A" 950 1100 60 H I C CNN "Wattage"
+F19 "N/A" 1050 1200 60 H I C CNN "Component-Value"
+F20 "MOSFET P-CH 30V 2.5A SOT-23" 1150 1300 60 H I C CNN "Description"
+DRAW
+S -50 -100 -75 -50 0 1 0 f
+S -50 -25 -75 25 0 1 0 f
+S -50 50 -75 100 0 1 0 f
+P 2 0 1 0 -100 100 -100 -100 N
+P 2 0 1 0 0 75 0 100 N
+P 2 0 1 0 50 -25 25 -50 N
+P 2 0 1 0 50 -25 100 -25 N
+P 2 0 1 0 125 0 100 -25 N
+P 3 0 1 0 -50 0 0 0 0 -100 N
+P 4 0 1 0 -50 75 75 75 75 -75 -50 -75 N
+P 4 0 1 0 0 0 -25 25 -25 -25 0 0 f
+P 4 0 1 0 50 25 100 25 75 -25 50 25 f
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 0 -300 200 U 50 50 1 1 I
+X ~ 3 0 300 200 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# ESDA6V1BC6
+#
+DEF ESDA6V1BC6 DA 0 40 Y Y 1 F N
+F0 "DA" 250 150 60 H V C CNN
+F1 "ESDA6V1BC6" 450 -150 60 H V C CNN
+F2 "PCB_Footprints:ESDA6V1BC6" -175 -75 60 H I C CNN
+F3 "http://www2.st.com/content/ccc/resource/technical/document/datasheet/21/07/21/e3/a8/df/42/a2/CD00001906.pdf/files/CD00001906.pdf/jcr:content/translations/en.CD00001906.pdf" 1100 1500 60 H I C CNN
+F4 "$0.14570 @ 3000" 1750 1650 60 H I C CNN "Cost"
+F5 "19 Aug 2016" 0 400 60 H I C CNN "Date Created"
+F6 "5 Sept 2016" 100 500 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 1950 1850 60 H I C CNN "Designer"
+F8 "1.3mm" 200 600 60 H I C CNN "Height"
+F9 "Yes" 1850 1750 60 H I C CNN "RHoS?"
+F10 "ST Microelectronics" 300 700 60 H I C CNN "MFR"
+F11 "ESDA6V1BC6" 400 800 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 500 900 60 H I C CNN "Mounting"
+F13 "6" 600 1000 60 H I C CNN "Pin Count#"
+F14 "Active" 700 1100 60 H I C CNN "Status"
+F15 "N/A" 800 1200 60 H I C CNN "Tolerance"
+F16 "Diode Array TVS" 900 1300 60 H I C CNN "Type"
+F17 "4V" 1000 1400 60 H I C CNN "Voltage"
+F18 "N/A" 1450 1350 60 H I C CNN "Wattage"
+F19 "N/A" 1550 1450 60 H I C CNN "Component-Value"
+F20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1650 1550 60 H I C CNN "Description"
+DRAW
+P 2 1 1 0 -300 50 -300 100 N
+P 2 1 1 0 -150 50 -150 100 N
+P 2 1 1 0 0 50 0 100 N
+P 2 1 1 0 150 50 150 100 N
+P 3 1 1 0 -300 -25 -325 -25 -350 -50 N
+P 3 1 1 0 -300 50 -325 50 -350 25 N
+P 3 1 1 0 -150 -25 -175 -25 -200 -50 N
+P 3 1 1 0 -150 50 -175 50 -200 25 N
+P 3 1 1 0 0 -25 -25 -25 -50 -50 N
+P 3 1 1 0 0 50 -25 50 -50 25 N
+P 3 1 1 0 150 -25 125 -25 100 -50 N
+P 3 1 1 0 150 50 125 50 100 25 N
+P 4 1 1 0 -300 -25 -300 50 -275 50 -250 75 N
+P 4 1 1 0 -300 50 -325 25 -275 25 -300 50 N
+P 4 1 1 0 -150 -25 -150 50 -125 50 -100 75 N
+P 4 1 1 0 -150 50 -175 25 -125 25 -150 50 N
+P 4 1 1 0 0 -25 0 50 25 50 50 75 N
+P 4 1 1 0 0 50 -25 25 25 25 0 50 N
+P 4 1 1 0 150 -25 150 50 175 50 200 75 N
+P 4 1 1 0 150 50 125 25 175 25 150 50 N
+P 5 1 1 0 -400 100 250 100 250 -100 -400 -100 -400 100 N
+P 5 1 1 0 -300 -75 -300 -100 -300 -25 -275 -25 -250 0 N
+P 5 1 1 0 -300 0 -275 0 -300 -25 -325 0 -300 0 N
+P 5 1 1 0 -150 -75 -150 -100 -150 -25 -125 -25 -100 0 N
+P 5 1 1 0 -150 0 -125 0 -150 -25 -175 0 -150 0 N
+P 5 1 1 0 0 -75 0 -100 0 -25 25 -25 50 0 N
+P 5 1 1 0 0 0 25 0 0 -25 -25 0 0 0 N
+P 5 1 1 0 150 -75 150 -100 150 -25 175 -25 200 0 N
+P 5 1 1 0 150 0 175 0 150 -25 125 0 150 0 N
+X ~ 1 -300 200 98 D 50 50 1 1 B
+X ~ 2 -150 -200 98 U 50 50 1 1 B
+X ~ 3 -150 200 98 D 50 50 1 1 B
+X ~ 4 0 200 98 D 50 50 1 1 B
+X ~ 5 0 -200 98 U 50 50 1 1 B
+X ~ 6 150 200 98 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# ESP_09
+#
+DEF ESP_09 IC 0 40 Y Y 1 F N
+F0 "IC" -300 1000 60 H V C CNN
+F1 "ESP_09" -250 -400 60 H V C CNN
+F2 "PCB_Footprints:ESP-09" 1400 600 60 H I C CNN
+F3 "" 1400 600 60 H I C CNN
+DRAW
+S -400 950 400 -350 0 1 0 f
+P 15 0 1 30 -350 550 -350 900 -250 900 -250 650 -150 650 -150 900 -50 900 -50 650 50 650 50 900 150 900 150 650 250 650 250 900 350 900 N
+X GND 1 -600 -300 200 R 50 50 1 1 P
+X GPIO14 2 -600 -200 200 R 50 50 1 1 P
+X GPIO12 3 -600 -100 200 R 50 50 1 1 P
+X GPIO13 4 -600 0 200 R 50 50 1 1 P
+X GND 5 -600 100 200 R 50 50 1 1 P
+X GPIO15 6 -600 200 200 R 50 50 1 1 P
+X GPIO02 7 -600 300 200 R 50 50 1 1 P
+X GPIO0 8 -600 400 200 R 50 50 1 1 P
+X GND 9 600 400 200 L 50 50 1 1 P
+X RXD 10 600 300 200 L 50 50 1 1 P
+X TXD 11 600 200 200 L 50 50 1 1 P
+X RST 12 600 100 200 L 50 50 1 1 P
+X GND 13 600 0 200 L 50 50 1 1 P
+X WiFi_ANT 14 600 -100 200 L 50 50 1 1 P
+X VDD 15 600 -200 200 L 50 50 1 1 P
+X CH_PD 16 600 -300 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GND
+#
+DEF GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# LTST-C191KFKT
+#
+DEF LTST-C191KFKT LED 0 40 Y Y 1 F N
+F0 "LED" -275 100 60 H V C CNN
+F1 "LTST-C191KFKT" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:LED0603" 1425 1925 60 H I C CNN
+F3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-228/S_110_LTST-C191KGKT.pdf" 1625 2050 60 H I C CNN
+F4 "0.03760 @ 5000" -150 200 60 H I C CNN "Cost"
+F5 "8 Sept 2016" -50 300 60 H I C CNN "Date Created"
+F6 "8 Sept 2016" 50 400 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 150 500 60 H I C CNN "Designer"
+F8 "0.55mm" 250 600 60 H I C CNN "Height"
+F9 "Yes" 350 700 60 H I C CNN "RhoS?"
+F10 "Lite-On Inc" 450 800 60 H I C CNN "MFR"
+F11 "LTST-C191KFKT" 550 900 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 650 1000 60 H I C CNN "Mounting"
+F13 "2" 750 1100 60 H I C CNN "Pin Count#"
+F14 "Active" 850 1200 60 H I C CNN "Status"
+F15 "N/A" 950 1300 60 H I C CNN "Tolerance"
+F16 "0603 LED" 1050 1400 60 H I C CNN "Type"
+F17 "N/A" 1150 1500 60 H I C CNN "Voltage"
+F18 "N/A" 1250 1600 60 H I C CNN "Wattage"
+F19 "N/A" 1350 1700 60 H I C CNN "Component-Value"
+F20 "Orange 605nm LED Indication - Discrete 2V 0603 (1608 Metric)" 1450 1800 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 0 -50 0 N
+P 2 0 1 0 25 50 25 -50 N
+P 2 0 1 0 50 0 25 0 N
+P 2 0 1 0 75 -25 150 -100 N
+P 2 0 1 0 150 -100 125 -100 N
+P 2 0 1 0 150 -100 150 -75 N
+P 4 0 1 0 -25 50 -25 -50 25 0 -25 50 N
+P 5 0 1 0 50 -50 100 -100 100 -75 100 -100 75 -100 N
+X ~ 1 -250 0 200 R 50 50 1 1 P
+X ~ 2 250 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# LTST-C191KGKT
+#
+DEF LTST-C191KGKT LED 0 40 Y Y 1 F N
+F0 "LED" -275 100 60 H V C CNN
+F1 "LTST-C191KGKT" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:LED0603" 1425 1925 60 H I C CNN
+F3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-228/S_110_LTST-C191KGKT.pdf" 1625 2050 60 H I C CNN
+F4 "0.04040 @ 5000" -150 200 60 H I C CNN "Cost"
+F5 "8 Sept 2016" -50 300 60 H I C CNN "Date Created"
+F6 "8 Sept 2016" 50 400 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 150 500 60 H I C CNN "Designer"
+F8 "0.55mm" 250 600 60 H I C CNN "Height"
+F9 "Yes" 350 700 60 H I C CNN "RhoS?"
+F10 "Lite-On Inc" 450 800 60 H I C CNN "MFR"
+F11 "LTST-C191KGKT" 550 900 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 650 1000 60 H I C CNN "Mounting"
+F13 "2" 750 1100 60 H I C CNN "Pin Count#"
+F14 "Active" 850 1200 60 H I C CNN "Status"
+F15 "N/A" 950 1300 60 H I C CNN "Tolerance"
+F16 "0603 LED" 1050 1400 60 H I C CNN "Type"
+F17 "N/A" 1150 1500 60 H I C CNN "Voltage"
+F18 "N/A" 1250 1600 60 H I C CNN "Wattage"
+F19 "N/A" 1350 1700 60 H I C CNN "Component-Value"
+F20 "Green 571nm LED Indication - Discrete 2V 0603 (1608 Metric)" 1450 1800 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 0 -50 0 N
+P 2 0 1 0 25 50 25 -50 N
+P 2 0 1 0 50 0 25 0 N
+P 2 0 1 0 75 -25 150 -100 N
+P 2 0 1 0 150 -100 125 -100 N
+P 2 0 1 0 150 -100 150 -75 N
+P 4 0 1 0 -25 50 -25 -50 25 0 -25 50 N
+P 5 0 1 0 50 -50 100 -100 100 -75 100 -100 75 -100 N
+X ~ 1 -250 0 200 R 50 50 1 1 P
+X ~ 2 250 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# LTST-C193TBKT-5A
+#
+DEF LTST-C193TBKT-5A LED 0 40 Y Y 1 F N
+F0 "LED" -275 100 60 H V C CNN
+F1 "LTST-C193TBKT-5A" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:LED0603" 1425 1925 60 H I C CNN
+F3 "http://optoelectronics.liteon.com/upload/download/DS22-2004-060/P_100_LTST-C193TBKT-5A.pdf" 1625 2050 60 H I C CNN
+F4 "0.06102 @ 6000" -150 200 60 H I C CNN "Cost"
+F5 "8 Sept 2016" -50 300 60 H I C CNN "Date Created"
+F6 "8 Sept 2016" 50 400 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 150 500 60 H I C CNN "Designer"
+F8 "0.55mm" 250 600 60 H I C CNN "Height"
+F9 "Yes" 350 700 60 H I C CNN "RhoS?"
+F10 "Lite-On Inc" 450 800 60 H I C CNN "MFR"
+F11 "LTST-C193TBKT-5A" 550 900 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 650 1000 60 H I C CNN "Mounting"
+F13 "2" 750 1100 60 H I C CNN "Pin Count#"
+F14 "Active" 850 1200 60 H I C CNN "Status"
+F15 "N/A" 950 1300 60 H I C CNN "Tolerance"
+F16 "0603 LED" 1050 1400 60 H I C CNN "Type"
+F17 "2.8V Forward Voltage" 1150 1500 60 H I C CNN "Voltage"
+F18 "N/A" 1250 1600 60 H I C CNN "Wattage"
+F19 "N/A" 1350 1700 60 H I C CNN "Component-Value"
+F20 "Blue 470nm LED Indication - Discrete 2.8V 0603 (1608 Metric)" 1450 1800 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 0 -50 0 N
+P 2 0 1 0 25 50 25 -50 N
+P 2 0 1 0 50 0 25 0 N
+P 2 0 1 0 75 -25 150 -100 N
+P 2 0 1 0 150 -100 125 -100 N
+P 2 0 1 0 150 -100 150 -75 N
+P 4 0 1 0 -25 50 -25 -50 25 0 -25 50 N
+P 5 0 1 0 50 -50 100 -100 100 -75 100 -100 75 -100 N
+X ~ 1 -250 0 200 R 50 50 1 1 P
+X ~ 2 250 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MI0603K300R-10
+#
+DEF ~MI0603K300R-10 FB 0 40 Y Y 1 F N
+F0 "FB" -350 150 60 H V C CNN
+F1 "MI0603K300R-10" 0 250 60 H I C CNN
+F2 "PCB_Footprints:MI0603K300R-10" -450 50 60 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Steward%20PDFs/Part%20Number%20Guide.pdf" -350 150 60 H I C CNN
+F4 "0.02508 @ 1000" -250 250 60 H I C CNN "Cost"
+F5 "8 Sept 2016" -150 350 60 H I C CNN "Date Created "
+F6 "8 Sept 2016" -50 450 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 50 550 60 H I C CNN "Designer "
+F8 "0.95mm" 150 650 60 H I C CNN "Height"
+F9 "Yest" 250 750 60 H I C CNN "RHoS?"
+F10 "Laird-Signal Integrity Products" 350 850 60 H I C CNN "MFR"
+F11 "MI0603K300R-10" 450 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 550 1050 60 H I C CNN "Mounting"
+F13 "2" 650 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 750 1250 60 H I C CNN "Status"
+F15 "N/A" 850 1350 60 H I C CNN "Tolerance"
+F16 "Ferrite  Beard 1.5A" 950 1450 60 H I C CNN "Type"
+F17 "N/A" 1050 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1150 1650 60 H I C CNN "Wattage"
+F19 "30 ohm @ 100MHZ 1.5A" 1250 1750 60 H I C CNN "Component-Value"
+F20 "FERRITE BEAD 30 OHM 0603 1LN" 1350 1850 60 H I C CNN "Description"
+DRAW
+A -151 0 49 1800 889 0 1 0 N -200 0 -150 50
+A -150 1 49 900 -11 0 1 0 N -150 50 -100 0
+A -51 0 49 1800 889 0 1 0 N -100 0 -50 50
+A -50 1 49 900 -11 0 1 0 N -50 50 0 0
+A 49 0 49 1800 889 0 1 0 N 0 0 50 50
+A 50 1 49 900 -11 0 1 0 N 50 50 100 0
+A 149 0 49 1800 889 0 1 0 N 100 0 150 50
+A 150 1 49 900 -11 0 1 0 N 150 50 200 0
+P 2 0 1 0 -200 100 200 100 N
+P 2 0 1 0 -200 150 -200 100 N
+P 2 0 1 0 200 150 -200 150 N
+P 2 0 1 0 200 150 200 100 N
+X ~ 1 -400 0 200 R 50 50 1 1 I
+X ~ 2 400 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PCA9518DBQR
+#
+DEF PCA9518DBQR U 0 40 Y Y 1 F N
+F0 "U" -400 800 60 H V C CNN
+F1 "PCA9518DBQR" -150 -950 60 H V C CNN
+F2 "PCB_Footprints:PCA9518DBQR" 0 -250 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/pca9518.pdf" 400 1000 60 H I C CNN
+F4 "0.95062 @ 1000" -300 900 60 H I C CNN "Cost"
+F5 "18 Aug 2016" 1000 2100 60 H I C CNN "Date Created"
+F6 "18 Aug 2016" 950 2200 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" -100 1100 60 H I C CNN "Designer"
+F8 "1.75mm" 0 1200 60 H I C CNN "Height"
+F9 "Texas Instruments" 100 1300 60 H I C CNN "MFR"
+F10 "PCA9518DBQR" 200 1400 60 H I C CNN "MFR#"
+F11 "SMT/SMD" 300 1500 60 H I C CNN "Mounting"
+F12 "20" 400 1600 60 H I C CNN "Pin Count#"
+F13 "Active" 500 1700 60 H I C CNN "Status"
+F14 "N/A" 600 1800 60 H I C CNN "Tolerance"
+F15 "IC I2C Muxer" 700 1900 60 H I C CNN "Type"
+F16 "3.3V" 800 2000 60 H I C CNN "Voltage"
+F17 "N/A" 1000 2200 60 H I C CNN "Wattage"
+F18 "N/A" 1100 2300 60 H I C CNN "Component-Value"
+F19 "I2C Multiplexer Buffer Interface 20-QSOP" 1200 2400 60 H I C CNN "Description"
+DRAW
+S -450 750 300 -900 0 1 0 f
+X EXPSCL1 1 -650 450 200 R 50 50 1 1 P
+X EXPSCL2 2 -650 350 200 R 50 50 1 1 P
+X SCL0 3 -650 150 200 R 50 50 1 1 P
+X SDA0 4 -650 250 200 R 50 50 1 1 P
+X SCL1 5 500 250 200 L 50 50 1 1 P
+X SDA1 6 500 325 200 L 50 50 1 1 P
+X EN1 7 -650 0 200 R 50 50 1 1 P
+X SCL2 8 500 -100 200 L 50 50 1 1 P
+X SDA2 9 500 -25 200 L 50 50 1 1 P
+X VSS 10 -650 -800 200 R 50 50 1 1 P
+X VDD 20 500 650 200 L 50 50 1 1 P
+X EN2 11 -650 -100 200 R 50 50 1 1 P
+X SCL3 12 500 -450 200 L 50 50 1 1 P
+X SDA3 13 500 -375 200 L 50 50 1 1 P
+X EN3 14 -650 -200 200 R 50 50 1 1 P
+X SCL4 15 500 -800 200 L 50 50 1 1 P
+X SDA4 16 500 -725 200 L 50 50 1 1 P
+X EN4 17 -650 -300 200 R 50 50 1 1 P
+X EXPSDA1 18 -650 650 200 R 50 50 1 1 P
+X EXPSDA2 19 -650 550 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PESD3V3L2BT,215
+#
+DEF PESD3V3L2BT,215 D 0 40 Y Y 1 F N
+F0 "D" -275 100 60 H V C CNN
+F1 "PESD3V3L2BT,215" 25 -425 60 H V C CNN
+F2 "PCB_Footprints:BAT20JFILM" 1425 1925 60 H I C CNN
+F3 "http://www.nxp.com/documents/data_sheet/PESDXL2BT_SER.pdf" 1625 2050 60 H I C CNN
+F4 "0.15109 @ 6000" -150 200 60 H I C CNN "Cost"
+F5 "8 Sept 2016" -50 300 60 H I C CNN "Date Created"
+F6 "8 Sept 2016" 50 400 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 150 500 60 H I C CNN "Designer"
+F8 "1.13mm" 250 600 60 H I C CNN "Height"
+F9 "Yes" 350 700 60 H I C CNN "RhoS?"
+F10 "NXP Semiconductors" 450 800 60 H I C CNN "MFR"
+F11 "PESD3V3L2BT,215" 550 900 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 650 1000 60 H I C CNN "Mounting"
+F13 "2" 750 1100 60 H I C CNN "Pin Count#"
+F14 "Active" 850 1200 60 H I C CNN "Status"
+F15 "N/A" 950 1300 60 H I C CNN "Tolerance"
+F16 "TVS Diode Array x2" 1050 1400 60 H I C CNN "Type"
+F17 "N/A" 1150 1500 60 H I C CNN "Voltage"
+F18 "N/A" 1250 1600 60 H I C CNN "Wattage"
+F19 "N/A" 1350 1700 60 H I C CNN "Component-Value"
+F20 "TVS DIODE 3.3VWM 26VC SOT23" 1450 1800 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 -75 -50 -75 N
+P 2 0 1 0 -25 75 -50 75 N
+P 2 0 1 0 25 -25 25 -125 N
+P 2 0 1 0 25 125 25 25 N
+P 2 0 1 0 50 -75 25 -75 N
+P 2 0 1 0 50 75 25 75 N
+P 2 0 1 0 75 -75 50 -75 N
+P 2 0 1 0 75 75 50 75 N
+P 2 0 1 0 75 75 75 -75 N
+P 4 0 1 0 -25 -25 -25 -125 25 -75 -25 -25 N
+P 4 0 1 0 -25 125 -25 25 25 75 -25 125 N
+X ~ 1 -250 75 200 R 50 50 1 1 P
+X ~ 2 -250 -75 200 R 50 50 1 1 P
+X ~ 3 275 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC1005F102CS
+#
+DEF RC1005F102CS R 0 40 Y Y 1 F N
+F0 "R" -300 350 60 H V C CNN
+F1 "RC1005F102CS" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" -300 450 60 H I C CNN
+F4 "0.00173 @ 5000" 1550 1950 60 H I C CNN "Cost"
+F5 "5 Sept 2016" -100 550 60 H I C CNN "Date Created"
+F6 "5 Sept 2016" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 400 1050 60 H I C CNN "MFR"
+F11 "RC1005F102CS" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "%" 900 1550 60 H I C CNN "Tolerance"
+F16 "passive" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "1k" -525 -100 60 H V C CNN "Component-Value"
+F20 "RES SMD 1K OHM 1% 1/16W 0402" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# RC1005F103CS
+#
+DEF RC1005F103CS R 0 40 Y Y 1 F N
+F0 "R" -300 350 60 H V C CNN
+F1 "RC1005F103CS" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" -300 450 60 H I C CNN
+F4 "0.00173 @ 5000" 1550 1950 60 H I C CNN "Cost"
+F5 "5 Sept 2016" -100 550 60 H I C CNN "Date Created"
+F6 "5 Sept 2016" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 400 1050 60 H I C CNN "MFR"
+F11 "RC1005F103CS" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "passive" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "10k" -550 0 60 H V C CNN "Component-Value"
+F20 "RES SMD 10K OHM 1% 1/16W 0402" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# RC1005F105CS
+#
+DEF RC1005F105CS R 0 40 Y Y 1 F N
+F0 "R" -300 350 60 H V C CNN
+F1 "RC1005F105CS" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" -300 450 60 H I C CNN
+F4 "0.00173 @ 5000" 1550 1950 60 H I C CNN "Cost"
+F5 "5 Sept 2016" -100 550 60 H I C CNN "Date Created"
+F6 "5 Sept 2016" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 400 1050 60 H I C CNN "MFR"
+F11 "RC1005F105CS" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "%" 900 1550 60 H I C CNN "Tolerance"
+F16 "passive" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "1M" -275 -250 60 H V C CNN "Component-Value"
+F20 "RES SMD 1M OHM 1% 1/16W 0402" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# RC1005F201CS
+#
+DEF RC1005F201CS R 0 40 Y Y 1 F N
+F0 "R" -300 125 60 H V C CNN
+F1 "RC1005F201CS" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" -300 450 60 H I C CNN
+F4 "0.00257 @ 5000" 1550 1950 60 H I C CNN "Cost"
+F5 "5 Sept 2016" -100 550 60 H I C CNN "Date Created"
+F6 "5 Sept 2016" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 400 1050 60 H I C CNN "MFR"
+F11 "RC1005F201CS" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "passive" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "200r" -225 -250 60 H V C CNN "Component-Value"
+F20 "RES SMD 200 OHM 1% 1/16W 0402" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# RC1005F472CS
+#
+DEF RC1005F472CS R 0 40 Y Y 1 F N
+F0 "R" -300 75 60 H V C CNN
+F1 "RC1005F472CS" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" -300 450 60 H I C CNN
+F4 "0.00173 @ 5000" 1550 1950 60 H I C CNN "Cost"
+F5 "5 Sept 2016" -100 550 60 H I C CNN "Date Created"
+F6 "5 Sept 2016" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 400 1050 60 H I C CNN "MFR"
+F11 "RC1005F472CS" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "passive" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "4.7k" -250 -275 60 H V C CNN "Component-Value"
+F20 "RES SMD 4.7K OHM 1% 1/16W 0402" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# RC1005F4870CS
+#
+DEF RC1005F4870CS R 0 40 Y Y 1 F N
+F0 "R" -300 350 60 H V C CNN
+F1 "RC1005F4870CS" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" -300 450 60 H I C CNN
+F4 "0.00257 @ 5000" 1550 1950 60 H I C CNN "Cost"
+F5 "5 Sept 2016" -100 550 60 H I C CNN "Date Created"
+F6 "5 Sept 2016" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 400 1050 60 H I C CNN "MFR"
+F11 "RC1005F4870CS" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "passive" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "487r" -275 -250 60 H V C CNN "Component-Value"
+F20 "RES SMD 487 OHM 1% 1/16W 0402" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# RC1005J473CS
+#
+DEF RC1005J473CS R 0 40 Y Y 1 F N
+F0 "R" -300 100 60 H V C CNN
+F1 "RC1005J473CS" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" -300 450 60 H I C CNN
+F4 "0.00173 @ 5000" 1550 1950 60 H I C CNN "Cost"
+F5 "5 Sept 2016" -100 550 60 H I C CNN "Date Created"
+F6 "5 Sept 2016" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 400 1050 60 H I C CNN "MFR"
+F11 "RC1005J473CS" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "5%" 900 1550 60 H I C CNN "Tolerance"
+F16 "passive" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "47k" -275 -250 60 H V C CNN "Component-Value"
+F20 "RES SMD 47K OHM 5% 1/16W 0402" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# RC2012F202CS
+#
+DEF RC2012F202CS R 0 40 Y Y 1 F N
+F0 "R" -300 350 60 H V C CNN
+F1 "RC2012F202CS" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0805" -400 250 60 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" -300 450 60 H I C CNN
+F4 "0.00266 @ 5000" 1550 1950 60 H I C CNN "Cost"
+F5 "5 Sept 2016" -100 550 60 H I C CNN "Date Created"
+F6 "5 Sept 2016" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.6mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 400 1050 60 H I C CNN "MFR"
+F11 "RC2012F202CS" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "passive" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "2k" -300 -250 60 H V C CNN "Component-Value"
+F20 "RES SMD 2K OHM 1% 1/8W 0805" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# S2B-PH-K-S(LF)(SN)
+#
+DEF S2B-PH-K-S(LF)(SN) J 0 40 Y Y 1 F N
+F0 "J" -50 175 60 H V C CNN
+F1 "S2B-PH-K-S(LF)(SN)" 375 -100 60 H V C CNN
+F2 "PCB_Footprints:S2B-PH-K-S(LF)(SN)" -150 75 60 H I C CNN
+F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" -275 375 60 H I C CNN
+F4 "0.06152 @ 5000" -175 475 60 H I C CNN "Cost"
+F5 "9 Sept 2016" -75 575 60 H I C CNN "Date Created "
+F6 "9 Sept 2016" 25 675 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 125 775 60 H I C CNN "Designer "
+F8 "5.5mm" 225 875 60 H I C CNN "Height"
+F9 "Yes" 325 975 60 H I C CNN "RHoS?"
+F10 "JST Sales America Inc" 425 1075 60 H I C CNN "MFR"
+F11 "S2B-PH-K-S(LF)(SN)" 525 1175 60 H I C CNN "MFR#"
+F12 "Through Hole" 625 1275 60 H I C CNN "Mounting"
+F13 "2" 725 1375 60 H I C CNN "Pin Count#"
+F14 "Active" 825 1475 60 H I C CNN "Status"
+F15 "N/A" 925 1575 60 H I C CNN "Tolerance"
+F16 "Through Hole right angle connector." 1025 1675 60 H I C CNN "Type"
+F17 "N/A" 1125 1775 60 H I C CNN "Voltage"
+F18 "N/A" 1225 1875 60 H I C CNN "Wattage"
+F19 "N/A" 1325 1975 60 H I C CNN "Component-Value"
+F20 "2 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole, Right Angle Tin" 1425 2075 60 H I C CNN "Description"
+DRAW
+S -100 125 0 -50 0 1 0 N
+X ~ 1 200 75 200 L 50 50 1 1 B
+X ~ 2 200 0 200 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# S3B-PH-K-S(LF)(SN)
+#
+DEF S3B-PH-K-S(LF)(SN) J 0 40 Y Y 1 F N
+F0 "J" -50 175 60 H V C CNN
+F1 "S3B-PH-K-S(LF)(SN)" 400 -175 60 H V C CNN
+F2 "PCB_Footprints:S3B-PH-K-S(LF)(SN)" -150 75 60 H I C CNN
+F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" -275 375 60 H I C CNN
+F4 "0.07217 @ 5000" -175 475 60 H I C CNN "Cost"
+F5 "9 Sept 2016" -75 575 60 H I C CNN "Date Created "
+F6 "9 Sept 2016" 25 675 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 125 775 60 H I C CNN "Designer "
+F8 "5.5mm" 225 875 60 H I C CNN "Height"
+F9 "Yes" 325 975 60 H I C CNN "RHoS?"
+F10 "JST Sales America Inc" 425 1075 60 H I C CNN "MFR"
+F11 "S3B-PH-K-S(LF)(SN)" 525 1175 60 H I C CNN "MFR#"
+F12 "Through Hole" 625 1275 60 H I C CNN "Mounting"
+F13 "3" 725 1375 60 H I C CNN "Pin Count#"
+F14 "Active" 825 1475 60 H I C CNN "Status"
+F15 "N/A" 925 1575 60 H I C CNN "Tolerance"
+F16 "Through Hole right angle connector." 1025 1675 60 H I C CNN "Type"
+F17 "N/A" 1125 1775 60 H I C CNN "Voltage"
+F18 "N/A" 1225 1875 60 H I C CNN "Wattage"
+F19 "N/A" 1325 1975 60 H I C CNN "Component-Value"
+F20 "3 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole, Right Angle Tin" 1425 2075 60 H I C CNN "Description"
+DRAW
+S -100 125 0 -125 0 1 0 N
+X ~ 1 200 75 200 L 50 50 1 1 B
+X ~ 2 200 0 200 L 50 50 1 1 B
+X ~ 3 200 -75 200 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# S4B-PH-SM4-TB(LF)(SN)
+#
+DEF S4B-PH-SM4-TB(LF)(SN) J 0 40 Y Y 1 F N
+F0 "J" -50 175 60 H V C CNN
+F1 "S4B-PH-SM4-TB(LF)(SN)" 400 -250 60 H V C CNN
+F2 "PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)" -150 75 60 H I C CNN
+F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" -275 375 60 H I C CNN
+F4 "0.32612 @ 5000" -175 475 60 H I C CNN "Cost"
+F5 "9 Sept 2016" -75 575 60 H I C CNN "Date Created "
+F6 "9 Sept 2016" 25 675 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 125 775 60 H I C CNN "Designer "
+F8 "8mm" 225 875 60 H I C CNN "Height"
+F9 "Yes" 325 975 60 H I C CNN "RHoS?"
+F10 "JST Sales America Inc" 425 1075 60 H I C CNN "MFR"
+F11 "S4B-PH-SM4-TB(LF)(SN)" 525 1175 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 625 1275 60 H I C CNN "Mounting"
+F13 "4" 725 1375 60 H I C CNN "Pin Count#"
+F14 "Active" 825 1475 60 H I C CNN "Status"
+F15 "N/A" 925 1575 60 H I C CNN "Tolerance"
+F16 "Surface Mount Right angle 4 pin connector" 1025 1675 60 H I C CNN "Type"
+F17 "N/A" 1125 1775 60 H I C CNN "Voltage"
+F18 "N/A" 1225 1875 60 H I C CNN "Wattage"
+F19 "N/A" 1325 1975 60 H I C CNN "Component-Value"
+F20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" 1425 2075 60 H I C CNN "Description"
+DRAW
+S -100 125 0 -200 0 1 0 N
+X ~ 1 200 75 200 L 50 50 1 1 B
+X ~ 2 200 0 200 L 50 50 1 1 B
+X ~ 3 200 -75 200 L 50 50 1 1 B
+X ~ 4 200 -150 200 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# STM32F446RET6_-_TQFP64
+#
+DEF STM32F446RET6_-_TQFP64 U 0 40 Y Y 2 L N
+F0 "U" -125 2000 60 H V C CNN
+F1 "STM32F446RET6_-_TQFP64" 675 2000 60 H V C CNN
+F2 "PCB_Footprints:STM32F446RET6" -500 -650 60 H I C CNN
+F3 "http://www.st.com/web/en/resource/technical/document/datasheet/DM00037051.pdf" 1800 2850 60 H I C CNN
+F4 "4.87350 @ 1000" -500 1450 60 H I C CNN "Cost"
+F5 "19 Aug 2016" -400 1550 60 H I C CNN "Date Created"
+F6 "19 Aug 2016" -300 1650 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -200 1750 60 H I C CNN "Designer"
+F8 "1.6mm" -100 1850 60 H I C CNN "Height"
+F9 "Yes" 0 1950 60 H I C CNN "RHoS?"
+F10 "ST Microelectronics" 100 2050 60 H I C CNN "MFR"
+F11 "STM32F446RET6" 200 2150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 300 2250 60 H I C CNN "Mounting"
+F13 "64" 400 2350 60 H I C CNN "Pin Count#"
+F14 "Active" 500 2450 60 H I C CNN "Status"
+F15 "N/A" 600 2550 60 H I C CNN "Tolerance"
+F16 "ARM Cortex M4 Microcontroller" 700 2650 60 H I C CNN "Type"
+F17 "1.8-3.3V" 800 2750 60 H I C CNN "Voltage"
+DRAW
+S -700 1300 750 -1300 1 1 0 f
+S 800 -1550 800 -1550 1 1 0 N
+X PC13 2 950 -1000 200 L 50 50 1 1 B
+X PC14_OSC32_IN 3 950 -1100 200 L 50 50 1 1 B
+X PC15_OSC32_OUT 4 950 -1200 200 L 50 50 1 1 B
+X PC0 8 -900 -500 200 R 50 50 1 1 B
+X PC1 9 -900 -600 200 R 50 50 1 1 B
+X PC2 10 -900 -700 200 R 50 50 1 1 B
+X PA4 20 -900 800 200 R 50 50 1 1 B
+X VCAP_1 30 950 100 200 L 50 50 1 1 B
+X PC9 40 950 -600 200 L 50 50 1 1 B
+X PA15_JTDI 50 -900 -300 200 R 50 50 1 1 B
+X PC3 11 -900 -800 200 R 50 50 1 1 B
+X PA4 21 -900 700 200 R 50 50 1 1 B
+X PA8 41 -900 400 200 R 50 50 1 1 B
+X PC10 51 950 -700 200 L 50 50 1 1 B
+X PB8 61 950 400 200 L 50 50 1 1 B
+X PA6 22 -900 600 200 R 50 50 1 1 B
+X PA9 42 -900 300 200 R 50 50 1 1 B
+X PC11 52 950 -800 200 L 50 50 1 1 B
+X PB9 62 950 300 200 L 50 50 1 1 B
+X PA7 23 -900 500 200 R 50 50 1 1 B
+X PB12 33 950 0 200 L 50 50 1 1 B
+X PA10 43 -900 200 200 R 50 50 1 1 B
+X PC12 53 950 -900 200 L 50 50 1 1 B
+X PA0_WKUP 14 -900 1200 200 R 50 50 1 1 B
+X PC4 24 -900 -900 200 R 50 50 1 1 B
+X PB13 34 950 -100 200 L 50 50 1 1 B
+X PA11 44 -900 100 200 R 50 50 1 1 B
+X PA1 15 -900 1100 200 R 50 50 1 1 B
+X PC5 25 -900 -1000 200 R 50 50 1 1 B
+X PB14 35 950 -200 200 L 50 50 1 1 B
+X PA12 45 -900 0 200 R 50 50 1 1 B
+X PB3_JTDO-TRACRSWO 55 950 900 200 L 50 50 1 1 B
+X PA2 16 -900 1000 200 R 50 50 1 1 B
+X PB0 26 950 1200 200 L 50 50 1 1 B
+X PB15 36 950 -300 200 L 50 50 1 1 B
+X PA13_JTMS-SWDIO 46 -900 -100 200 R 50 50 1 1 B
+X PB4_NJTRST 56 950 800 200 L 50 50 1 1 B
+X PA3 17 -900 900 200 R 50 50 1 1 B
+X PB1 27 950 1100 200 L 50 50 1 1 B
+X PC6 37 -900 -1100 200 R 50 50 1 1 B
+X PB5 57 950 700 200 L 50 50 1 1 B
+X PB2_BOOT1 28 950 1000 200 L 50 50 1 1 B
+X PC7 38 -900 -1200 200 R 50 50 1 1 B
+X PB6 58 950 600 200 L 50 50 1 1 B
+X PB10 29 950 200 200 L 50 50 1 1 B
+X PC8 39 950 -500 200 L 50 50 1 1 B
+X PA14_JTCK-SWCLK 49 -900 -200 200 R 50 50 1 1 B
+X PB7 59 950 500 200 L 50 50 1 1 B
+S -200 1950 1250 650 2 1 0 f
+X VBAT 1 -400 1475 200 R 50 50 2 1 B
+X PH0_OSC_IN 5 -400 1850 200 R 50 50 2 1 B
+X PH1_OSC_OUT 6 -400 1700 200 R 50 50 2 1 B
+X NRST 7 1450 1850 200 L 50 50 2 1 B
+X BOOT0 60 1450 1750 200 L 50 50 2 1 B
+X VSS 31 1450 1050 200 L 50 50 2 1 B
+X VSSA 12 1450 1400 200 L 50 50 2 1 B
+X VDD 32 -400 1050 200 R 50 50 2 1 B
+X VDDA/VREF+ 13 -400 1150 200 R 50 50 2 1 B
+X VSS 63 1450 950 200 L 50 50 2 1 B
+X PD2 54 1450 1250 200 L 50 50 2 1 B
+X VDD 64 -400 950 200 R 50 50 2 1 B
+X VSS 47 1450 850 200 L 50 50 2 1 B
+X VSS 18 1450 750 200 L 50 50 2 1 B
+X VDD 48 -400 850 200 R 50 50 2 1 B
+X VDD 19 -400 750 200 R 50 50 2 1 B
+ENDDRAW
+ENDDEF
+#
 #End Library

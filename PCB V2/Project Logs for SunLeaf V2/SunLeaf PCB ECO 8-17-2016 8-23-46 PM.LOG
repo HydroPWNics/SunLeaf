@@ -1,5 +1,0 @@
-Added Component: Designator=U3(AZ1117CR-3.3TRG1 - SOT89-150P410X160-3N)
-Added Pin To Net: NetName=GND Pin=U3-1
-Added Pin To Net: NetName=3.3VCC Pin=U3-2
-Added Pin To Net: NetName=LDO_IN Pin=U3-3
-Added Member To Class: ClassName=U_Power Member=Component U3 AZ1117CR-3.3TRG1_1
