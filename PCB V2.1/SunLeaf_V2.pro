@@ -1,4 +1,4 @@
-update=9/9/2016 3:56:25 AM
+update=9/17/2016 5:13:09 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=197
 [eeschema]
 version=1
 LibDir=
@@ -58,17 +68,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=C:/Users/adam/Documents/GitHub/kicad-library/library/stm32
-LibName31=C:/Users/adam/Documents/GitHub/kicad-ESP8266/ESP8266
-LibName32=C:/Users/adam/Documents/GitHub/footprints/Libraries - KiCAD/HydroPWNics_Lib
-LibName33=C:/Users/adam/Documents/GitHub/ESP32-kiCAD-Footprints/ESP32-Footprints/ESP32-footprints-Shem-Lib
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=197
+LibName30=C:/Users/adam/Documents/GitHub/footprints/Libraries - KiCAD/HydroPWNics_Lib
+LibName31=C:/Users/adam/Documents/GitHub/ESP32-kiCAD-Footprints/ESP32-Footprints/ESP32-footprints-Shem-Lib
