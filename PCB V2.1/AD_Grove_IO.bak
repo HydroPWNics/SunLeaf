@@ -92,146 +92,6 @@ F 20 "TVS DIODE 3.3VWM 26VC SOT23" H 5675 6325 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L CL05B104JP5NNNC C32
-U 1 1 57DA8E85
-P 8875 4725
-F 0 "C32" V 8775 4800 60  0000 C CNN
-F 1 "CL05B104JP5NNNC" H 8925 4575 60  0001 C CNN
-F 2 "PCB_Footprints:C0402" H 9125 4775 60  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 9125 4775 60  0001 C CNN
-F 4 "$0.00903 @ 5000" H 8775 4975 60  0001 C CNN "Cost"
-F 5 "4 Sept 2016" H 8875 5075 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 8975 5175 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 9075 5275 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 9175 5375 60  0001 C CNN "Height"
-F 9 "Yes" H 9275 5475 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 9375 5575 60  0001 C CNN "MFR"
-F 11 "CL05B104JP5NNNC" H 9475 5675 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 9575 5775 60  0001 C CNN "Mounting"
-F 13 "2" H 9675 5875 60  0001 C CNN "Pint Count#"
-F 14 "Active" H 9775 5975 60  0001 C CNN "Status"
-F 15 "5%" H 9875 6075 60  0001 C CNN "Tolerance"
-F 16 "Ceramic Capacitor 0402" H 9975 6175 60  0001 C CNN "Type"
-F 17 "10V" H 10075 6275 60  0001 C CNN "Voltage"
-F 18 "N/A" H 10175 6375 60  0001 C CNN "Wattage"
-F 19 "0.10uF" V 8925 4900 60  0000 C CNN "Component-Value"
-F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 10375 6575 60  0001 C CNN "Description"
-	1    8875 4725
-	0    1    1    0   
-$EndComp
-$Comp
-L S4B-PH-SM4-TB(LF)(SN) J13
-U 1 1 57DA8F85
-P 10150 1925
-F 0 "J13" H 10100 2100 60  0000 C CNN
-F 1 "S4B-PH-SM4-TB(LF)(SN)" H 9675 2175 60  0000 C CNN
-F 2 "PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)" H 10000 2000 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 9875 2300 60  0001 C CNN
-F 4 "0.32612 @ 5000" H 9975 2400 60  0001 C CNN "Cost"
-F 5 "9 Sept 2016" H 10075 2500 60  0001 C CNN "Date Created "
-F 6 "9 Sept 2016" H 10175 2600 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 10275 2700 60  0001 C CNN "Designer "
-F 8 "8mm" H 10375 2800 60  0001 C CNN "Height"
-F 9 "Yes" H 10475 2900 60  0001 C CNN "RHoS?"
-F 10 "JST Sales America Inc" H 10575 3000 60  0001 C CNN "MFR"
-F 11 "S4B-PH-SM4-TB(LF)(SN)" H 10675 3100 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 10775 3200 60  0001 C CNN "Mounting"
-F 13 "4" H 10875 3300 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 10975 3400 60  0001 C CNN "Status"
-F 15 "N/A" H 11075 3500 60  0001 C CNN "Tolerance"
-F 16 "Surface Mount Right angle 4 pin connector" H 11175 3600 60  0001 C CNN "Type"
-F 17 "N/A" H 11275 3700 60  0001 C CNN "Voltage"
-F 18 "N/A" H 11375 3800 60  0001 C CNN "Wattage"
-F 19 "N/A" H 11475 3900 60  0001 C CNN "Component-Value"
-F 20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" H 11575 4000 60  0001 C CNN "Description"
-	1    10150 1925
-	-1   0    0    1   
-$EndComp
-$Comp
-L S4B-PH-SM4-TB(LF)(SN) J14
-U 1 1 57DA91C9
-P 10150 2650
-F 0 "J14" H 10100 2825 60  0000 C CNN
-F 1 "S4B-PH-SM4-TB(LF)(SN)" H 9700 2900 60  0000 C CNN
-F 2 "PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)" H 10000 2725 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 9875 3025 60  0001 C CNN
-F 4 "0.32612 @ 5000" H 9975 3125 60  0001 C CNN "Cost"
-F 5 "9 Sept 2016" H 10075 3225 60  0001 C CNN "Date Created "
-F 6 "9 Sept 2016" H 10175 3325 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 10275 3425 60  0001 C CNN "Designer "
-F 8 "8mm" H 10375 3525 60  0001 C CNN "Height"
-F 9 "Yes" H 10475 3625 60  0001 C CNN "RHoS?"
-F 10 "JST Sales America Inc" H 10575 3725 60  0001 C CNN "MFR"
-F 11 "S4B-PH-SM4-TB(LF)(SN)" H 10675 3825 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 10775 3925 60  0001 C CNN "Mounting"
-F 13 "4" H 10875 4025 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 10975 4125 60  0001 C CNN "Status"
-F 15 "N/A" H 11075 4225 60  0001 C CNN "Tolerance"
-F 16 "Surface Mount Right angle 4 pin connector" H 11175 4325 60  0001 C CNN "Type"
-F 17 "N/A" H 11275 4425 60  0001 C CNN "Voltage"
-F 18 "N/A" H 11375 4525 60  0001 C CNN "Wattage"
-F 19 "N/A" H 11475 4625 60  0001 C CNN "Component-Value"
-F 20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" H 11575 4725 60  0001 C CNN "Description"
-	1    10150 2650
-	-1   0    0    1   
-$EndComp
-$Comp
-L S4B-PH-SM4-TB(LF)(SN) J15
-U 1 1 57DA92E6
-P 10150 3375
-F 0 "J15" H 10100 3550 60  0000 C CNN
-F 1 "S4B-PH-SM4-TB(LF)(SN)" H 9675 3625 60  0000 C CNN
-F 2 "PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)" H 10000 3450 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 9875 3750 60  0001 C CNN
-F 4 "0.32612 @ 5000" H 9975 3850 60  0001 C CNN "Cost"
-F 5 "9 Sept 2016" H 10075 3950 60  0001 C CNN "Date Created "
-F 6 "9 Sept 2016" H 10175 4050 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 10275 4150 60  0001 C CNN "Designer "
-F 8 "8mm" H 10375 4250 60  0001 C CNN "Height"
-F 9 "Yes" H 10475 4350 60  0001 C CNN "RHoS?"
-F 10 "JST Sales America Inc" H 10575 4450 60  0001 C CNN "MFR"
-F 11 "S4B-PH-SM4-TB(LF)(SN)" H 10675 4550 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 10775 4650 60  0001 C CNN "Mounting"
-F 13 "4" H 10875 4750 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 10975 4850 60  0001 C CNN "Status"
-F 15 "N/A" H 11075 4950 60  0001 C CNN "Tolerance"
-F 16 "Surface Mount Right angle 4 pin connector" H 11175 5050 60  0001 C CNN "Type"
-F 17 "N/A" H 11275 5150 60  0001 C CNN "Voltage"
-F 18 "N/A" H 11375 5250 60  0001 C CNN "Wattage"
-F 19 "N/A" H 11475 5350 60  0001 C CNN "Component-Value"
-F 20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" H 11575 5450 60  0001 C CNN "Description"
-	1    10150 3375
-	-1   0    0    1   
-$EndComp
-$Comp
-L S4B-PH-SM4-TB(LF)(SN) J16
-U 1 1 57DA93AE
-P 10150 4075
-F 0 "J16" H 10100 4250 60  0000 C CNN
-F 1 "S4B-PH-SM4-TB(LF)(SN)" H 9675 4350 60  0000 C CNN
-F 2 "PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)" H 10000 4150 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 9875 4450 60  0001 C CNN
-F 4 "0.32612 @ 5000" H 9975 4550 60  0001 C CNN "Cost"
-F 5 "9 Sept 2016" H 10075 4650 60  0001 C CNN "Date Created "
-F 6 "9 Sept 2016" H 10175 4750 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 10275 4850 60  0001 C CNN "Designer "
-F 8 "8mm" H 10375 4950 60  0001 C CNN "Height"
-F 9 "Yes" H 10475 5050 60  0001 C CNN "RHoS?"
-F 10 "JST Sales America Inc" H 10575 5150 60  0001 C CNN "MFR"
-F 11 "S4B-PH-SM4-TB(LF)(SN)" H 10675 5250 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 10775 5350 60  0001 C CNN "Mounting"
-F 13 "4" H 10875 5450 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 10975 5550 60  0001 C CNN "Status"
-F 15 "N/A" H 11075 5650 60  0001 C CNN "Tolerance"
-F 16 "Surface Mount Right angle 4 pin connector" H 11175 5750 60  0001 C CNN "Type"
-F 17 "N/A" H 11275 5850 60  0001 C CNN "Voltage"
-F 18 "N/A" H 11375 5950 60  0001 C CNN "Wattage"
-F 19 "N/A" H 11475 6050 60  0001 C CNN "Component-Value"
-F 20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" H 11575 6150 60  0001 C CNN "Description"
-	1    10150 4075
-	-1   0    0    1   
-$EndComp
-$Comp
 L PESD3V3L2BT,215 D11
 U 1 1 57DAB4C5
 P 4825 4525
@@ -512,119 +372,115 @@ $EndComp
 Wire Wire Line
 	9725 1850 9950 1850
 $Comp
-L CL05B104JP5NNNC C33
-U 1 1 57DADFE6
-P 9225 4725
-F 0 "C33" V 9125 4800 60  0000 C CNN
-F 1 "CL05B104JP5NNNC" H 9275 4575 60  0001 C CNN
-F 2 "PCB_Footprints:C0402" H 9475 4775 60  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 9475 4775 60  0001 C CNN
-F 4 "$0.00903 @ 5000" H 9125 4975 60  0001 C CNN "Cost"
-F 5 "4 Sept 2016" H 9225 5075 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 9325 5175 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 9425 5275 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 9525 5375 60  0001 C CNN "Height"
-F 9 "Yes" H 9625 5475 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 9725 5575 60  0001 C CNN "MFR"
-F 11 "CL05B104JP5NNNC" H 9825 5675 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 9925 5775 60  0001 C CNN "Mounting"
-F 13 "2" H 10025 5875 60  0001 C CNN "Pint Count#"
-F 14 "Active" H 10125 5975 60  0001 C CNN "Status"
-F 15 "5%" H 10225 6075 60  0001 C CNN "Tolerance"
-F 16 "Ceramic Capacitor 0402" H 10325 6175 60  0001 C CNN "Type"
-F 17 "10V" H 10425 6275 60  0001 C CNN "Voltage"
-F 18 "N/A" H 10525 6375 60  0001 C CNN "Wattage"
-F 19 "0.10uF" V 9275 4900 60  0000 C CNN "Component-Value"
-F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 10725 6575 60  0001 C CNN "Description"
-	1    9225 4725
-	0    1    1    0   
+L B4B-PH-K-S(LF)(SN) J13
+U 1 1 57DD1243
+P 10150 1925
+F 0 "J13" H 10125 2175 60  0000 R CNN
+F 1 "B4B-PH-K-S(LF)(SN)" H 10150 2100 60  0000 R CNN
+F 2 "PCB_Footprints:B4B-PH-K-S(LF)(SN)" H 10000 2000 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 9875 2300 60  0001 C CNN
+F 4 "0.09682 @ 5000" H 9975 2400 60  0001 C CNN "Cost"
+F 5 "9 Sept 2016" H 10075 2500 60  0001 C CNN "Date Created "
+F 6 "9 Sept 2016" H 10175 2600 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 10275 2700 60  0001 C CNN "Designer "
+F 8 "8mm" H 10375 2800 60  0001 C CNN "Height"
+F 9 "Yes" H 10475 2900 60  0001 C CNN "RHoS?"
+F 10 "JST Sales America Inc" H 10575 3000 60  0001 C CNN "MFR"
+F 11 "B4B-PH-K-S(LF)(SN)" H 10675 3100 60  0001 C CNN "MFR#"
+F 12 "Through Hole" H 10775 3200 60  0001 C CNN "Mounting"
+F 13 "4" H 10875 3300 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 10975 3400 60  0001 C CNN "Status"
+F 15 "N/A" H 11075 3500 60  0001 C CNN "Tolerance"
+F 16 "Through Hole vertical connector." H 11175 3600 60  0001 C CNN "Type"
+F 17 "N/A" H 11275 3700 60  0001 C CNN "Voltage"
+F 18 "N/A" H 11375 3800 60  0001 C CNN "Wattage"
+F 19 "N/A" H 11475 3900 60  0001 C CNN "Component-Value"
+F 20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" H 11575 4000 60  0001 C CNN "Description"
+	1    10150 1925
+	-1   0    0    1   
 $EndComp
 $Comp
-L CL05B104JP5NNNC C34
-U 1 1 57DAE056
-P 9575 4725
-F 0 "C34" V 9475 4800 60  0000 C CNN
-F 1 "CL05B104JP5NNNC" H 9625 4575 60  0001 C CNN
-F 2 "PCB_Footprints:C0402" H 9825 4775 60  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 9825 4775 60  0001 C CNN
-F 4 "$0.00903 @ 5000" H 9475 4975 60  0001 C CNN "Cost"
-F 5 "4 Sept 2016" H 9575 5075 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 9675 5175 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 9775 5275 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 9875 5375 60  0001 C CNN "Height"
-F 9 "Yes" H 9975 5475 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 10075 5575 60  0001 C CNN "MFR"
-F 11 "CL05B104JP5NNNC" H 10175 5675 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 10275 5775 60  0001 C CNN "Mounting"
-F 13 "2" H 10375 5875 60  0001 C CNN "Pint Count#"
-F 14 "Active" H 10475 5975 60  0001 C CNN "Status"
-F 15 "5%" H 10575 6075 60  0001 C CNN "Tolerance"
-F 16 "Ceramic Capacitor 0402" H 10675 6175 60  0001 C CNN "Type"
-F 17 "10V" H 10775 6275 60  0001 C CNN "Voltage"
-F 18 "N/A" H 10875 6375 60  0001 C CNN "Wattage"
-F 19 "0.10uF" V 9625 4900 60  0000 C CNN "Component-Value"
-F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 11075 6575 60  0001 C CNN "Description"
-	1    9575 4725
-	0    1    1    0   
+L B4B-PH-K-S(LF)(SN) J14
+U 1 1 57DD14C2
+P 10150 2650
+F 0 "J14" H 10125 2900 60  0000 R CNN
+F 1 "B4B-PH-K-S(LF)(SN)" H 10150 2825 60  0000 R CNN
+F 2 "PCB_Footprints:B4B-PH-K-S(LF)(SN)" H 10000 2725 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 9875 3025 60  0001 C CNN
+F 4 "0.09682 @ 5000" H 9975 3125 60  0001 C CNN "Cost"
+F 5 "9 Sept 2016" H 10075 3225 60  0001 C CNN "Date Created "
+F 6 "9 Sept 2016" H 10175 3325 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 10275 3425 60  0001 C CNN "Designer "
+F 8 "8mm" H 10375 3525 60  0001 C CNN "Height"
+F 9 "Yes" H 10475 3625 60  0001 C CNN "RHoS?"
+F 10 "JST Sales America Inc" H 10575 3725 60  0001 C CNN "MFR"
+F 11 "B4B-PH-K-S(LF)(SN)" H 10675 3825 60  0001 C CNN "MFR#"
+F 12 "Through Hole" H 10775 3925 60  0001 C CNN "Mounting"
+F 13 "4" H 10875 4025 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 10975 4125 60  0001 C CNN "Status"
+F 15 "N/A" H 11075 4225 60  0001 C CNN "Tolerance"
+F 16 "Through Hole vertical connector." H 11175 4325 60  0001 C CNN "Type"
+F 17 "N/A" H 11275 4425 60  0001 C CNN "Voltage"
+F 18 "N/A" H 11375 4525 60  0001 C CNN "Wattage"
+F 19 "N/A" H 11475 4625 60  0001 C CNN "Component-Value"
+F 20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" H 11575 4725 60  0001 C CNN "Description"
+	1    10150 2650
+	-1   0    0    1   
 $EndComp
 $Comp
-L CL05B104JP5NNNC C35
-U 1 1 57DAE0C1
-P 9925 4725
-F 0 "C35" V 9825 4800 60  0000 C CNN
-F 1 "CL05B104JP5NNNC" H 9975 4575 60  0001 C CNN
-F 2 "PCB_Footprints:C0402" H 10175 4775 60  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 10175 4775 60  0001 C CNN
-F 4 "$0.00903 @ 5000" H 9825 4975 60  0001 C CNN "Cost"
-F 5 "4 Sept 2016" H 9925 5075 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 10025 5175 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 10125 5275 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 10225 5375 60  0001 C CNN "Height"
-F 9 "Yes" H 10325 5475 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 10425 5575 60  0001 C CNN "MFR"
-F 11 "CL05B104JP5NNNC" H 10525 5675 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 10625 5775 60  0001 C CNN "Mounting"
-F 13 "2" H 10725 5875 60  0001 C CNN "Pint Count#"
-F 14 "Active" H 10825 5975 60  0001 C CNN "Status"
-F 15 "5%" H 10925 6075 60  0001 C CNN "Tolerance"
-F 16 "Ceramic Capacitor 0402" H 11025 6175 60  0001 C CNN "Type"
-F 17 "10V" H 11125 6275 60  0001 C CNN "Voltage"
-F 18 "N/A" H 11225 6375 60  0001 C CNN "Wattage"
-F 19 "0.10uF" V 9975 4900 60  0000 C CNN "Component-Value"
-F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 11425 6575 60  0001 C CNN "Description"
-	1    9925 4725
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9925 4925 8875 4925
-Wire Wire Line
-	8875 4475 9925 4475
-Connection ~ 9575 4925
-Connection ~ 9225 4925
-Connection ~ 9225 4475
-Connection ~ 9575 4475
-$Comp
-L +3.3V #PWR77
-U 1 1 57DAE2C9
-P 9400 4475
-F 0 "#PWR77" H 9400 4325 50  0001 C CNN
-F 1 "+3.3V" H 9400 4615 50  0000 C CNN
-F 2 "" H 9400 4475 50  0000 C CNN
-F 3 "" H 9400 4475 50  0000 C CNN
-	1    9400 4475
-	1    0    0    -1  
+L B4B-PH-K-S(LF)(SN) J15
+U 1 1 57DD1540
+P 10150 3375
+F 0 "J15" H 10125 3625 60  0000 R CNN
+F 1 "B4B-PH-K-S(LF)(SN)" H 10150 3550 60  0000 R CNN
+F 2 "PCB_Footprints:B4B-PH-K-S(LF)(SN)" H 10000 3450 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 9875 3750 60  0001 C CNN
+F 4 "0.09682 @ 5000" H 9975 3850 60  0001 C CNN "Cost"
+F 5 "9 Sept 2016" H 10075 3950 60  0001 C CNN "Date Created "
+F 6 "9 Sept 2016" H 10175 4050 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 10275 4150 60  0001 C CNN "Designer "
+F 8 "8mm" H 10375 4250 60  0001 C CNN "Height"
+F 9 "Yes" H 10475 4350 60  0001 C CNN "RHoS?"
+F 10 "JST Sales America Inc" H 10575 4450 60  0001 C CNN "MFR"
+F 11 "B4B-PH-K-S(LF)(SN)" H 10675 4550 60  0001 C CNN "MFR#"
+F 12 "Through Hole" H 10775 4650 60  0001 C CNN "Mounting"
+F 13 "4" H 10875 4750 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 10975 4850 60  0001 C CNN "Status"
+F 15 "N/A" H 11075 4950 60  0001 C CNN "Tolerance"
+F 16 "Through Hole vertical connector." H 11175 5050 60  0001 C CNN "Type"
+F 17 "N/A" H 11275 5150 60  0001 C CNN "Voltage"
+F 18 "N/A" H 11375 5250 60  0001 C CNN "Wattage"
+F 19 "N/A" H 11475 5350 60  0001 C CNN "Component-Value"
+F 20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" H 11575 5450 60  0001 C CNN "Description"
+	1    10150 3375
+	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR78
-U 1 1 57DAE2F8
-P 9400 4925
-F 0 "#PWR78" H 9400 4675 50  0001 C CNN
-F 1 "GND" H 9400 4775 50  0000 C CNN
-F 2 "" H 9400 4925 50  0000 C CNN
-F 3 "" H 9400 4925 50  0000 C CNN
-	1    9400 4925
-	1    0    0    -1  
+L B4B-PH-K-S(LF)(SN) J16
+U 1 1 57DD15AB
+P 10150 4075
+F 0 "J16" H 10125 4325 60  0000 R CNN
+F 1 "B4B-PH-K-S(LF)(SN)" H 10150 4250 60  0000 R CNN
+F 2 "PCB_Footprints:B4B-PH-K-S(LF)(SN)" H 10000 4150 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 9875 4450 60  0001 C CNN
+F 4 "0.09682 @ 5000" H 9975 4550 60  0001 C CNN "Cost"
+F 5 "9 Sept 2016" H 10075 4650 60  0001 C CNN "Date Created "
+F 6 "9 Sept 2016" H 10175 4750 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 10275 4850 60  0001 C CNN "Designer "
+F 8 "8mm" H 10375 4950 60  0001 C CNN "Height"
+F 9 "Yes" H 10475 5050 60  0001 C CNN "RHoS?"
+F 10 "JST Sales America Inc" H 10575 5150 60  0001 C CNN "MFR"
+F 11 "B4B-PH-K-S(LF)(SN)" H 10675 5250 60  0001 C CNN "MFR#"
+F 12 "Through Hole" H 10775 5350 60  0001 C CNN "Mounting"
+F 13 "4" H 10875 5450 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 10975 5550 60  0001 C CNN "Status"
+F 15 "N/A" H 11075 5650 60  0001 C CNN "Tolerance"
+F 16 "Through Hole vertical connector." H 11175 5750 60  0001 C CNN "Type"
+F 17 "N/A" H 11275 5850 60  0001 C CNN "Voltage"
+F 18 "N/A" H 11375 5950 60  0001 C CNN "Wattage"
+F 19 "N/A" H 11475 6050 60  0001 C CNN "Component-Value"
+F 20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" H 11575 6150 60  0001 C CNN "Description"
+	1    10150 4075
+	-1   0    0    1   
 $EndComp
-Connection ~ 9400 4925
-Connection ~ 9400 4475
 $EndSCHEMATC
