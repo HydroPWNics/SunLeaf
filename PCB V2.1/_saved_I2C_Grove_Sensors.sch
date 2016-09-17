@@ -952,26 +952,26 @@ Wire Wire Line
 	950  2650 1200 2650
 Connection ~ 1075 2650
 $Comp
-L S4B-PH-SM4-TB(LF)(SN) J9
-U 1 1 57DBA521
+L B4B-PH-K-S(LF)(SN) J9
+U 1 1 57DD0115
 P 6100 3800
-F 0 "J9" H 6050 3975 60  0000 C CNN
-F 1 "S4B-PH-SM4-TB(LF)(SN)" V 5925 3400 60  0000 C CNN
-F 2 "PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)" H 5950 3875 60  0001 C CNN
+F 0 "J9" H 6100 3450 60  0000 R CNN
+F 1 "B4B-PH-K-S(LF)(SN)" H 6100 3550 60  0000 R CNN
+F 2 "PCB_Footprints:B4B-PH-K-S(LF)(SN)" H 5950 3875 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 5825 4175 60  0001 C CNN
-F 4 "0.32612 @ 5000" H 5925 4275 60  0001 C CNN "Cost"
+F 4 "0.09682 @ 5000" H 5925 4275 60  0001 C CNN "Cost"
 F 5 "9 Sept 2016" H 6025 4375 60  0001 C CNN "Date Created "
 F 6 "9 Sept 2016" H 6125 4475 60  0001 C CNN "Date Modified"
 F 7 "Adam Vadala-Roth" H 6225 4575 60  0001 C CNN "Designer "
 F 8 "8mm" H 6325 4675 60  0001 C CNN "Height"
 F 9 "Yes" H 6425 4775 60  0001 C CNN "RHoS?"
 F 10 "JST Sales America Inc" H 6525 4875 60  0001 C CNN "MFR"
-F 11 "S4B-PH-SM4-TB(LF)(SN)" H 6625 4975 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 6725 5075 60  0001 C CNN "Mounting"
+F 11 "B4B-PH-K-S(LF)(SN)" H 6625 4975 60  0001 C CNN "MFR#"
+F 12 "Through Hole" H 6725 5075 60  0001 C CNN "Mounting"
 F 13 "4" H 6825 5175 60  0001 C CNN "Pin Count#"
 F 14 "Active" H 6925 5275 60  0001 C CNN "Status"
 F 15 "N/A" H 7025 5375 60  0001 C CNN "Tolerance"
-F 16 "Surface Mount Right angle 4 pin connector" H 7125 5475 60  0001 C CNN "Type"
+F 16 "Through Hole vertical connector." H 7125 5475 60  0001 C CNN "Type"
 F 17 "N/A" H 7225 5575 60  0001 C CNN "Voltage"
 F 18 "N/A" H 7325 5675 60  0001 C CNN "Wattage"
 F 19 "N/A" H 7425 5775 60  0001 C CNN "Component-Value"
@@ -980,26 +980,26 @@ F 20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" 
 	-1   0    0    1   
 $EndComp
 $Comp
-L S4B-PH-SM4-TB(LF)(SN) J10
-U 1 1 57DBA8B1
+L B4B-PH-K-S(LF)(SN) J10
+U 1 1 57DD0488
 P 7650 4150
-F 0 "J10" H 7600 4325 60  0000 C CNN
-F 1 "S4B-PH-SM4-TB(LF)(SN)" V 7475 3750 60  0000 C CNN
-F 2 "PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)" H 7500 4225 60  0001 C CNN
+F 0 "J10" H 7650 3800 60  0000 R CNN
+F 1 "B4B-PH-K-S(LF)(SN)" H 7650 3900 60  0000 R CNN
+F 2 "PCB_Footprints:B4B-PH-K-S(LF)(SN)" H 7500 4225 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 7375 4525 60  0001 C CNN
-F 4 "0.32612 @ 5000" H 7475 4625 60  0001 C CNN "Cost"
+F 4 "0.09682 @ 5000" H 7475 4625 60  0001 C CNN "Cost"
 F 5 "9 Sept 2016" H 7575 4725 60  0001 C CNN "Date Created "
 F 6 "9 Sept 2016" H 7675 4825 60  0001 C CNN "Date Modified"
 F 7 "Adam Vadala-Roth" H 7775 4925 60  0001 C CNN "Designer "
 F 8 "8mm" H 7875 5025 60  0001 C CNN "Height"
 F 9 "Yes" H 7975 5125 60  0001 C CNN "RHoS?"
 F 10 "JST Sales America Inc" H 8075 5225 60  0001 C CNN "MFR"
-F 11 "S4B-PH-SM4-TB(LF)(SN)" H 8175 5325 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 8275 5425 60  0001 C CNN "Mounting"
+F 11 "B4B-PH-K-S(LF)(SN)" H 8175 5325 60  0001 C CNN "MFR#"
+F 12 "Through Hole" H 8275 5425 60  0001 C CNN "Mounting"
 F 13 "4" H 8375 5525 60  0001 C CNN "Pin Count#"
 F 14 "Active" H 8475 5625 60  0001 C CNN "Status"
 F 15 "N/A" H 8575 5725 60  0001 C CNN "Tolerance"
-F 16 "Surface Mount Right angle 4 pin connector" H 8675 5825 60  0001 C CNN "Type"
+F 16 "Through Hole vertical connector." H 8675 5825 60  0001 C CNN "Type"
 F 17 "N/A" H 8775 5925 60  0001 C CNN "Voltage"
 F 18 "N/A" H 8875 6025 60  0001 C CNN "Wattage"
 F 19 "N/A" H 8975 6125 60  0001 C CNN "Component-Value"
@@ -1008,26 +1008,26 @@ F 20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" 
 	-1   0    0    1   
 $EndComp
 $Comp
-L S4B-PH-SM4-TB(LF)(SN) J11
-U 1 1 57DBAB29
+L B4B-PH-K-S(LF)(SN) J11
+U 1 1 57DD051B
 P 9200 4500
-F 0 "J11" H 9150 4675 60  0000 C CNN
-F 1 "S4B-PH-SM4-TB(LF)(SN)" V 9025 4100 60  0000 C CNN
-F 2 "PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)" H 9050 4575 60  0001 C CNN
+F 0 "J11" H 9200 4150 60  0000 R CNN
+F 1 "B4B-PH-K-S(LF)(SN)" H 9200 4250 60  0000 R CNN
+F 2 "PCB_Footprints:B4B-PH-K-S(LF)(SN)" H 9050 4575 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 8925 4875 60  0001 C CNN
-F 4 "0.32612 @ 5000" H 9025 4975 60  0001 C CNN "Cost"
+F 4 "0.09682 @ 5000" H 9025 4975 60  0001 C CNN "Cost"
 F 5 "9 Sept 2016" H 9125 5075 60  0001 C CNN "Date Created "
 F 6 "9 Sept 2016" H 9225 5175 60  0001 C CNN "Date Modified"
 F 7 "Adam Vadala-Roth" H 9325 5275 60  0001 C CNN "Designer "
 F 8 "8mm" H 9425 5375 60  0001 C CNN "Height"
 F 9 "Yes" H 9525 5475 60  0001 C CNN "RHoS?"
 F 10 "JST Sales America Inc" H 9625 5575 60  0001 C CNN "MFR"
-F 11 "S4B-PH-SM4-TB(LF)(SN)" H 9725 5675 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 9825 5775 60  0001 C CNN "Mounting"
+F 11 "B4B-PH-K-S(LF)(SN)" H 9725 5675 60  0001 C CNN "MFR#"
+F 12 "Through Hole" H 9825 5775 60  0001 C CNN "Mounting"
 F 13 "4" H 9925 5875 60  0001 C CNN "Pin Count#"
 F 14 "Active" H 10025 5975 60  0001 C CNN "Status"
 F 15 "N/A" H 10125 6075 60  0001 C CNN "Tolerance"
-F 16 "Surface Mount Right angle 4 pin connector" H 10225 6175 60  0001 C CNN "Type"
+F 16 "Through Hole vertical connector." H 10225 6175 60  0001 C CNN "Type"
 F 17 "N/A" H 10325 6275 60  0001 C CNN "Voltage"
 F 18 "N/A" H 10425 6375 60  0001 C CNN "Wattage"
 F 19 "N/A" H 10525 6475 60  0001 C CNN "Component-Value"
@@ -1036,26 +1036,26 @@ F 20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" 
 	-1   0    0    1   
 $EndComp
 $Comp
-L S4B-PH-SM4-TB(LF)(SN) J12
-U 1 1 57DBAE04
+L B4B-PH-K-S(LF)(SN) J12
+U 1 1 57DD078E
 P 10775 4850
-F 0 "J12" H 10725 5025 60  0000 C CNN
-F 1 "S4B-PH-SM4-TB(LF)(SN)" V 10600 4450 60  0000 C CNN
-F 2 "PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)" H 10625 4925 60  0001 C CNN
+F 0 "J12" H 10775 4500 60  0000 R CNN
+F 1 "B4B-PH-K-S(LF)(SN)" H 10775 4600 60  0000 R CNN
+F 2 "PCB_Footprints:B4B-PH-K-S(LF)(SN)" H 10625 4925 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10500 5225 60  0001 C CNN
-F 4 "0.32612 @ 5000" H 10600 5325 60  0001 C CNN "Cost"
+F 4 "0.09682 @ 5000" H 10600 5325 60  0001 C CNN "Cost"
 F 5 "9 Sept 2016" H 10700 5425 60  0001 C CNN "Date Created "
 F 6 "9 Sept 2016" H 10800 5525 60  0001 C CNN "Date Modified"
 F 7 "Adam Vadala-Roth" H 10900 5625 60  0001 C CNN "Designer "
 F 8 "8mm" H 11000 5725 60  0001 C CNN "Height"
 F 9 "Yes" H 11100 5825 60  0001 C CNN "RHoS?"
 F 10 "JST Sales America Inc" H 11200 5925 60  0001 C CNN "MFR"
-F 11 "S4B-PH-SM4-TB(LF)(SN)" H 11300 6025 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 11400 6125 60  0001 C CNN "Mounting"
+F 11 "B4B-PH-K-S(LF)(SN)" H 11300 6025 60  0001 C CNN "MFR#"
+F 12 "Through Hole" H 11400 6125 60  0001 C CNN "Mounting"
 F 13 "4" H 11500 6225 60  0001 C CNN "Pin Count#"
 F 14 "Active" H 11600 6325 60  0001 C CNN "Status"
 F 15 "N/A" H 11700 6425 60  0001 C CNN "Tolerance"
-F 16 "Surface Mount Right angle 4 pin connector" H 11800 6525 60  0001 C CNN "Type"
+F 16 "Through Hole vertical connector." H 11800 6525 60  0001 C CNN "Type"
 F 17 "N/A" H 11900 6625 60  0001 C CNN "Voltage"
 F 18 "N/A" H 12000 6725 60  0001 C CNN "Wattage"
 F 19 "N/A" H 12100 6825 60  0001 C CNN "Component-Value"

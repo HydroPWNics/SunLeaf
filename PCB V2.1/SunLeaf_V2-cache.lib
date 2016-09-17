@@ -182,7 +182,7 @@ F2 "PCB_Footprints:ABM3B8.000MHZB2T" -200 100 60 H I C CNN
 F3 "http://www.abracon.com/Resonators/abm3b.pdf" -100 200 60 H I C CNN
 F4 "0.30450 @ 5000" 500 800 60 H I C CNN "Cost"
 F5 "19 Aug 2016" 100 400 60 H I C CNN "Date Created "
-F6 "5 Sept 2016" 200 500 60 H I C CNN "Date Modified"
+F6 "14 Sept 2016" 200 500 60 H I C CNN "Date Modified"
 F7 "Adam Vadala-Roth" 300 600 60 H I C CNN "Designer"
 F8 "1.10mm" 600 900 60 H I C CNN "Height"
 F9 "Yes" 700 1000 60 H I C CNN "RHoS?"
@@ -208,8 +208,8 @@ P 2 1 1 0 100 50 75 50 N
 P 4 1 1 0 -50 125 -50 150 100 150 100 125 N
 P 5 1 1 0 0 100 50 100 50 -50 0 -50 0 100 N
 X ~ 1 -250 50 197 R 50 50 1 1 B
-X ~ 2 300 50 197 L 50 50 1 1 B
-X ~ 3 -100 -300 197 U 50 50 1 1 B
+X ~ 2 -100 -300 197 U 50 50 1 1 B
+X ~ 3 300 50 197 L 50 50 1 1 B
 X ~ 4 150 -300 197 U 50 50 1 1 B
 ENDDRAW
 ENDDEF
@@ -285,6 +285,69 @@ X VIN 3 -500 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# B2B-PH-K-S(LF)(SN)
+#
+DEF B2B-PH-K-S(LF)(SN) J 0 40 Y Y 1 F N
+F0 "J" -50 175 60 H V C CNN
+F1 "B2B-PH-K-S(LF)(SN)" 375 -100 60 H V C CNN
+F2 "PCB_Footprints:B2B-PH-K-S(LF)(SN)" -150 75 60 H I C CNN
+F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" -275 375 60 H I C CNN
+F4 "0.06216 @ 5000" -175 475 60 H I C CNN "Cost"
+F5 "15 Sept 2016" -75 575 60 H I C CNN "Date Created "
+F6 "15 Sept 2016" 25 675 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 125 775 60 H I C CNN "Designer "
+F8 "6.6mm" 225 875 60 H I C CNN "Height"
+F9 "Yes" 325 975 60 H I C CNN "RHoS?"
+F10 "JST Sales America Inc" 425 1075 60 H I C CNN "MFR"
+F11 "B2B-PH-K-S(LF)(SN)" 525 1175 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 625 1275 60 H I C CNN "Mounting"
+F13 "2" 725 1375 60 H I C CNN "Pin Count#"
+F14 "Active" 825 1475 60 H I C CNN "Status"
+F15 "N/A" 925 1575 60 H I C CNN "Tolerance"
+F16 "Through hole mount 2 pin connector" 1025 1675 60 H I C CNN "Type"
+F17 "N/A" 1125 1775 60 H I C CNN "Voltage"
+F18 "N/A" 1225 1875 60 H I C CNN "Wattage"
+F19 "N/A" 1325 1975 60 H I C CNN "Component-Value"
+F20 "2 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" 1425 2075 60 H I C CNN "Description"
+DRAW
+S -100 125 0 -50 0 1 0 N
+X ~ 1 200 75 200 L 50 50 1 1 B
+X ~ 2 200 0 200 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# B3B-PH-K-S(LF)(SN)
+#
+DEF B3B-PH-K-S(LF)(SN) J 0 40 Y Y 1 F N
+F0 "J" -50 175 60 H V C CNN
+F1 "B3B-PH-K-S(LF)(SN)" 400 -175 60 H V C CNN
+F2 "PCB_Footprints:B3B-PH-K-S(LF)(SN)" -150 75 60 H I C CNN
+F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" -275 375 60 H I C CNN
+F4 "0.07765 @ 5000" -175 475 60 H I C CNN "Cost"
+F5 "14 Sept 2016" -75 575 60 H I C CNN "Date Created "
+F6 "14 Sept 2016" 25 675 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 125 775 60 H I C CNN "Designer "
+F8 "6.6mm" 225 875 60 H I C CNN "Height"
+F9 "Yes" 325 975 60 H I C CNN "RHoS?"
+F10 "JST Sales America Inc" 425 1075 60 H I C CNN "MFR"
+F11 "B3B-PH-K-S(LF)(SN)" 525 1175 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 625 1275 60 H I C CNN "Mounting"
+F13 "3" 725 1375 60 H I C CNN "Pin Count#"
+F14 "Active" 825 1475 60 H I C CNN "Status"
+F15 "N/A" 925 1575 60 H I C CNN "Tolerance"
+F16 "throughhole 3 Pin Connector" 1025 1675 60 H I C CNN "Type"
+F17 "N/A" 1125 1775 60 H I C CNN "Voltage"
+F18 "N/A" 1225 1875 60 H I C CNN "Wattage"
+F19 "N/A" 1325 1975 60 H I C CNN "Component-Value"
+F20 "3 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" 1425 2075 60 H I C CNN "Description"
+DRAW
+S -100 125 0 -125 0 1 0 N
+X ~ 1 200 75 200 L 50 50 1 1 B
+X ~ 2 200 0 200 L 50 50 1 1 B
+X ~ 3 200 -75 200 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # B3U-1000P
 #
 DEF ~B3U-1000P SW 0 40 Y Y 1 F N
@@ -316,6 +379,39 @@ P 3 0 1 0 -100 -50 100 -50 100 0 N
 P 4 0 1 0 -50 0 -50 50 50 50 50 0 N
 X ~ 1 -300 -50 200 R 50 50 1 1 I
 X ~ 2 300 -50 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# B4B-PH-K-S(LF)(SN)
+#
+DEF B4B-PH-K-S(LF)(SN) J 0 40 Y Y 1 F N
+F0 "J" -50 175 60 H V C CNN
+F1 "B4B-PH-K-S(LF)(SN)" 400 -250 60 H V C CNN
+F2 "PCB_Footprints:B4B-PH-K-S(LF)(SN)" -150 75 60 H I C CNN
+F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" -275 375 60 H I C CNN
+F4 "0.09682 @ 5000" -175 475 60 H I C CNN "Cost"
+F5 "9 Sept 2016" -75 575 60 H I C CNN "Date Created "
+F6 "9 Sept 2016" 25 675 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 125 775 60 H I C CNN "Designer "
+F8 "8mm" 225 875 60 H I C CNN "Height"
+F9 "Yes" 325 975 60 H I C CNN "RHoS?"
+F10 "JST Sales America Inc" 425 1075 60 H I C CNN "MFR"
+F11 "B4B-PH-K-S(LF)(SN)" 525 1175 60 H I C CNN "MFR#"
+F12 "Through Hole" 625 1275 60 H I C CNN "Mounting"
+F13 "4" 725 1375 60 H I C CNN "Pin Count#"
+F14 "Active" 825 1475 60 H I C CNN "Status"
+F15 "N/A" 925 1575 60 H I C CNN "Tolerance"
+F16 "Through Hole vertical connector." 1025 1675 60 H I C CNN "Type"
+F17 "N/A" 1125 1775 60 H I C CNN "Voltage"
+F18 "N/A" 1225 1875 60 H I C CNN "Wattage"
+F19 "N/A" 1325 1975 60 H I C CNN "Component-Value"
+F20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" 1425 2075 60 H I C CNN "Description"
+DRAW
+S -100 125 0 -200 0 1 0 N
+X ~ 1 200 75 200 L 50 50 1 1 B
+X ~ 2 200 0 200 L 50 50 1 1 B
+X ~ 3 200 -75 200 L 50 50 1 1 B
+X ~ 4 200 -150 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -595,38 +691,6 @@ X ~ 2 250 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# CL05C470FB5NNNC
-#
-DEF CL05C470FB5NNNC C 0 40 Y Y 1 F N
-F0 "C" -200 50 60 H V C CNN
-F1 "CL05C470FB5NNNC" -300 -150 60 H V C CNN
-F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
-F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" -650 150 60 H I C CNN
-F4 "0.01335 @ 5000" -550 250 60 H I C CNN "Cost"
-F5 "5 Sept 2016" -450 350 60 H I C CNN "Date Created"
-F6 "5 Sept 2016" -350 450 60 H I C CNN "Date Modifed"
-F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
-F8 "0.55mm" -150 650 60 H I C CNN "Height"
-F9 "Yes" -50 750 60 H I C CNN "RHoS?"
-F10 "Samsung Electro-Mechanics America, Inc." 50 850 60 H I C CNN "MFR"
-F11 "CL05C470FB5NNNC" 150 950 60 H I C CNN "MFR#"
-F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
-F13 "2" 350 1150 60 H I C CNN "Pin Count#"
-F14 "Active" 450 1250 60 H I C CNN "Status"
-F15 "1%" 550 1350 60 H I C CNN "Tolerance"
-F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
-F17 "50V" 750 1550 60 H I C CNN "Voltage"
-F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
-F19 "47pF" -625 -225 60 H V C CNN "Componen-Value"
-F20 "47pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
-DRAW
-P 2 0 1 0 0 100 0 -100 N
-P 2 0 1 0 50 100 50 -100 N
-X ~ 1 -200 0 200 R 50 50 1 1 I
-X ~ 2 250 0 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # CL10A106KQ8NNNC
 #
 DEF CL10A106KQ8NNNC C 0 40 Y Y 1 F N
@@ -826,11 +890,11 @@ ENDDEF
 #
 DEF ESP_09 IC 0 40 Y Y 1 F N
 F0 "IC" -300 1000 60 H V C CNN
-F1 "ESP_09" -250 -400 60 H V C CNN
+F1 "ESP_09" -250 -500 60 H V C CNN
 F2 "PCB_Footprints:ESP-09" 1400 600 60 H I C CNN
 F3 "" 1400 600 60 H I C CNN
 DRAW
-S -400 950 400 -350 0 1 0 f
+S -400 950 400 -450 0 1 0 f
 P 15 0 1 30 -350 550 -350 900 -250 900 -250 650 -150 650 -150 900 -50 900 -50 650 50 650 50 900 150 900 150 650 250 650 250 900 350 900 N
 X GND 1 -600 -300 200 R 50 50 1 1 P
 X GPIO14 2 -600 -200 200 R 50 50 1 1 P
@@ -848,6 +912,7 @@ X GND 13 600 0 200 L 50 50 1 1 P
 X WiFi_ANT 14 600 -100 200 L 50 50 1 1 P
 X VDD 15 600 -200 200 L 50 50 1 1 P
 X CH_PD 16 600 -300 200 L 50 50 1 1 P
+X GND-PAD 17 -600 -400 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -1073,7 +1138,7 @@ ENDDEF
 DEF PESD3V3L2BT,215 D 0 40 Y Y 1 F N
 F0 "D" -275 100 60 H V C CNN
 F1 "PESD3V3L2BT,215" 25 -425 60 H V C CNN
-F2 "PCB_Footprints:BAT20JFILM" 1425 1925 60 H I C CNN
+F2 "PCB_Footprints:PESD3V3L2BT,215" 1425 1925 60 H I C CNN
 F3 "http://www.nxp.com/documents/data_sheet/PESDXL2BT_SER.pdf" 1625 2050 60 H I C CNN
 F4 "0.15109 @ 6000" -150 200 60 H I C CNN "Cost"
 F5 "8 Sept 2016" -50 300 60 H I C CNN "Date Created"
@@ -1165,37 +1230,6 @@ F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
 F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
 F19 "10k" -550 0 60 H V C CNN "Component-Value"
 F20 "RES SMD 10K OHM 1% 1/16W 0402" 1400 2050 60 H I C CNN "Description"
-DRAW
-P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
-X ~ 1 -300 0 200 R 50 50 1 1 I
-X ~ 2 300 0 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# RC1005F105CS
-#
-DEF RC1005F105CS R 0 40 Y Y 1 F N
-F0 "R" -300 350 60 H V C CNN
-F1 "RC1005F105CS" 0 -150 60 H V C CNN
-F2 "PCB_Footprints:R0402" -400 250 60 H I C CNN
-F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" -300 450 60 H I C CNN
-F4 "0.00173 @ 5000" 1550 1950 60 H I C CNN "Cost"
-F5 "5 Sept 2016" -100 550 60 H I C CNN "Date Created"
-F6 "5 Sept 2016" 0 650 60 H I C CNN "Date Modified"
-F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
-F8 "0.4mm" 200 850 60 H I C CNN "Height"
-F9 "Yes" 300 950 60 H I C CNN "RHoS?"
-F10 "Samsung Electro-Mechanics America, Inc." 400 1050 60 H I C CNN "MFR"
-F11 "RC1005F105CS" 500 1150 60 H I C CNN "MFR#"
-F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
-F13 "2" 700 1350 60 H I C CNN "Pin Count#"
-F14 "Active" 800 1450 60 H I C CNN "Status"
-F15 "%" 900 1550 60 H I C CNN "Tolerance"
-F16 "passive" 1000 1650 60 H I C CNN "Type"
-F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
-F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
-F19 "1M" -275 -250 60 H V C CNN "Component-Value"
-F20 "RES SMD 1M OHM 1% 1/16W 0402" 1400 2050 60 H I C CNN "Description"
 DRAW
 P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
 X ~ 1 -300 0 200 R 50 50 1 1 I
@@ -1327,30 +1361,30 @@ X ~ 2 300 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# RC2012F202CS
+# RC1608J202CS
 #
-DEF RC2012F202CS R 0 40 Y Y 1 F N
+DEF RC1608J202CS R 0 40 Y Y 1 F N
 F0 "R" -300 350 60 H V C CNN
-F1 "RC2012F202CS" 0 -150 60 H V C CNN
-F2 "PCB_Footprints:R0805" -400 250 60 H I C CNN
+F1 "RC1608J202CS" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0603" -400 250 60 H I C CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" -300 450 60 H I C CNN
-F4 "0.00266 @ 5000" 1550 1950 60 H I C CNN "Cost"
-F5 "5 Sept 2016" -100 550 60 H I C CNN "Date Created"
-F6 "5 Sept 2016" 0 650 60 H I C CNN "Date Modified"
+F4 "0.00268 @ 5000" 1550 1950 60 H I C CNN "Cost"
+F5 "14 Sept 2016" -100 550 60 H I C CNN "Date Created"
+F6 "14 Sept 2016" 0 650 60 H I C CNN "Date Modified"
 F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
-F8 "0.6mm" 200 850 60 H I C CNN "Height"
+F8 "0.55mm" 200 850 60 H I C CNN "Height"
 F9 "Yes" 300 950 60 H I C CNN "RHoS?"
 F10 "Samsung Electro-Mechanics America, Inc." 400 1050 60 H I C CNN "MFR"
-F11 "RC2012F202CS" 500 1150 60 H I C CNN "MFR#"
+F11 "RC1608F202CS" 500 1150 60 H I C CNN "MFR#"
 F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
 F13 "2" 700 1350 60 H I C CNN "Pin Count#"
 F14 "Active" 800 1450 60 H I C CNN "Status"
 F15 "1%" 900 1550 60 H I C CNN "Tolerance"
 F16 "passive" 1000 1650 60 H I C CNN "Type"
 F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
-F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
-F19 "2k" -300 -250 60 H V C CNN "Component-Value"
-F20 "RES SMD 2K OHM 1% 1/8W 0805" 1400 2050 60 H I C CNN "Description"
+F18 "1/10" 1200 1850 60 H I C CNN "Wattage"
+F19 "2k" -550 0 60 H V C CNN "Component-Value"
+F20 "RES SMD 2K OHM 1% 1/10W 0603" 1400 2050 60 H I C CNN "Description"
 DRAW
 P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
 X ~ 1 -300 0 200 R 50 50 1 1 I
@@ -1358,66 +1392,38 @@ X ~ 2 300 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# S2B-PH-SM4-TB(LF)(SN)
+# RSB39VTE-17
 #
-DEF S2B-PH-SM4-TB(LF)(SN) J 0 40 Y Y 1 F N
-F0 "J" -50 175 60 H V C CNN
-F1 "S2B-PH-SM4-TB(LF)(SN)" 375 -100 60 H V C CNN
-F2 "PCB_Footprints:S2B-PH-SM4-TB(LF)(SN)" -150 75 60 H I C CNN
-F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" -275 375 60 H I C CNN
-F4 "0.24037 @ 5000" -175 475 60 H I C CNN "Cost"
-F5 "9 Sept 2016" -75 575 60 H I C CNN "Date Created "
-F6 "9 Sept 2016" 25 675 60 H I C CNN "Date Modified"
-F7 "Adam Vadala-Roth" 125 775 60 H I C CNN "Designer "
-F8 "5.5mm" 225 875 60 H I C CNN "Height"
-F9 "Yes" 325 975 60 H I C CNN "RHoS?"
-F10 "JST Sales America Inc" 425 1075 60 H I C CNN "MFR"
-F11 "S2B-PH-SM4-TB(LF)(SN)" 525 1175 60 H I C CNN "MFR#"
-F12 "SMT/SMD" 625 1275 60 H I C CNN "Mounting"
-F13 "2" 725 1375 60 H I C CNN "Pin Count#"
-F14 "Active" 825 1475 60 H I C CNN "Status"
-F15 "N/A" 925 1575 60 H I C CNN "Tolerance"
-F16 "Surface mount right angle 2 pin connector" 1025 1675 60 H I C CNN "Type"
-F17 "N/A" 1125 1775 60 H I C CNN "Voltage"
-F18 "N/A" 1225 1875 60 H I C CNN "Wattage"
-F19 "N/A" 1325 1975 60 H I C CNN "Component-Value"
-F20 "2 Positions Header, Shrouded Connector 0.079\" (2.00mm) Surface Mount, Right Angle Tin" 1425 2075 60 H I C CNN "Description"
+DEF RSB39VTE-17 D 0 40 Y Y 1 F N
+F0 "D" -275 100 60 H V C CNN
+F1 "RSB39VTE-17" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:RSB39VTE-17" 1425 1925 60 H I C CNN
+F3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/zener/rsb39v.pdf" 1625 2050 60 H I C CNN
+F4 "0.07326 @ 6000" -150 200 60 H I C CNN "Cost"
+F5 "15 Sept 2016" -50 300 60 H I C CNN "Date Created"
+F6 "15 Sept 2016" 50 400 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 150 500 60 H I C CNN "Designer"
+F8 ".7mm" 250 600 60 H I C CNN "Height"
+F9 "Yes" 350 700 60 H I C CNN "RhoS?"
+F10 "Rohm Semiconductor" 450 800 60 H I C CNN "MFR"
+F11 "RSB39VTE-17" 550 900 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 650 1000 60 H I C CNN "Mounting"
+F13 "2" 750 1100 60 H I C CNN "Pin Count#"
+F14 "Active" 850 1200 60 H I C CNN "Status"
+F15 "N/A" 950 1300 60 H I C CNN "Tolerance"
+F16 "TVS DIODE" 1050 1400 60 H I C CNN "Type"
+F17 "30V" 1150 1500 60 H I C CNN "Voltage"
+F18 "N/A" 1250 1600 60 H I C CNN "Wattage"
+F19 "N/A" 1350 1700 60 H I C CNN "Component-Value"
+F20 "TVS DIODE 30VWM SOD323" 1450 1800 60 H I C CNN "Description"
 DRAW
-S -100 125 0 -50 0 1 0 N
-X ~ 1 200 75 200 L 50 50 1 1 B
-X ~ 2 200 0 200 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# S3B-PH-SM4-TB(LF)(SN)
-#
-DEF S3B-PH-SM4-TB(LF)(SN) J 0 40 Y Y 1 F N
-F0 "J" -50 175 60 H V C CNN
-F1 "S3B-PH-SM4-TB(LF)(SN)" 400 -175 60 H V C CNN
-F2 "PCB_Footprints:S3B-PH-SM4-TB(LF)(SN)" -150 75 60 H I C CNN
-F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" -275 375 60 H I C CNN
-F4 "0.28250 @ 5000" -175 475 60 H I C CNN "Cost"
-F5 "9 Sept 2016" -75 575 60 H I C CNN "Date Created "
-F6 "9 Sept 2016" 25 675 60 H I C CNN "Date Modified"
-F7 "Adam Vadala-Roth" 125 775 60 H I C CNN "Designer "
-F8 "5.5mm" 225 875 60 H I C CNN "Height"
-F9 "Yes" 325 975 60 H I C CNN "RHoS?"
-F10 "JST Sales America Inc" 425 1075 60 H I C CNN "MFR"
-F11 "S3B-PH-K-S(LF)(SN)" 525 1175 60 H I C CNN "MFR#"
-F12 "Through Hole" 625 1275 60 H I C CNN "SMT/SMD"
-F13 "3" 725 1375 60 H I C CNN "Pin Count#"
-F14 "Active" 825 1475 60 H I C CNN "Status"
-F15 "N/A" 925 1575 60 H I C CNN "Tolerance"
-F16 "Surface Mount Right Angle 3 Pin Connector" 1025 1675 60 H I C CNN "Type"
-F17 "N/A" 1125 1775 60 H I C CNN "Voltage"
-F18 "N/A" 1225 1875 60 H I C CNN "Wattage"
-F19 "N/A" 1325 1975 60 H I C CNN "Component-Value"
-F20 "3 Positions Header, Shrouded Connector 0.079\" (2.00mm) Surface Mount, Right Angle Tin" 1425 2075 60 H I C CNN "Description"
-DRAW
-S -100 125 0 -125 0 1 0 N
-X ~ 1 200 75 200 L 50 50 1 1 B
-X ~ 2 200 0 200 L 50 50 1 1 B
-X ~ 3 200 -75 200 L 50 50 1 1 B
+P 2 0 1 0 0 -50 -25 -75 N
+P 2 0 1 0 0 50 0 -50 N
+P 2 0 1 0 0 50 25 75 N
+P 4 0 1 0 -50 50 -50 -50 0 0 -50 50 N
+P 4 0 1 0 0 0 50 50 50 -50 0 0 N
+X ~ 1 -250 0 200 R 50 50 1 1 P
+X ~ 2 250 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
