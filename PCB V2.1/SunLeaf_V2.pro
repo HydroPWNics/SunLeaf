@@ -1,4 +1,4 @@
-update=9/17/2016 5:13:09 PM
+update=9/17/2016 7:16:59 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=197
 [eeschema]
 version=1
 LibDir=
@@ -70,3 +60,14 @@ LibName28=contrib
 LibName29=valves
 LibName30=C:/Users/adam/Documents/GitHub/footprints/Libraries - KiCAD/HydroPWNics_Lib
 LibName31=C:/Users/adam/Documents/GitHub/ESP32-kiCAD-Footprints/ESP32-Footprints/ESP32-footprints-Shem-Lib
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=197
+ERC_TestSimilarLabels=1
