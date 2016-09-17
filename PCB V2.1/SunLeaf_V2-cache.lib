@@ -1427,39 +1427,6 @@ X ~ 2 250 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# S4B-PH-SM4-TB(LF)(SN)
-#
-DEF S4B-PH-SM4-TB(LF)(SN) J 0 40 Y Y 1 F N
-F0 "J" -50 175 60 H V C CNN
-F1 "S4B-PH-SM4-TB(LF)(SN)" 400 -250 60 H V C CNN
-F2 "PCB_Footprints:S4B-PH-SM4-TB(LF)(SN)" -150 75 60 H I C CNN
-F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" -275 375 60 H I C CNN
-F4 "0.32612 @ 5000" -175 475 60 H I C CNN "Cost"
-F5 "9 Sept 2016" -75 575 60 H I C CNN "Date Created "
-F6 "9 Sept 2016" 25 675 60 H I C CNN "Date Modified"
-F7 "Adam Vadala-Roth" 125 775 60 H I C CNN "Designer "
-F8 "8mm" 225 875 60 H I C CNN "Height"
-F9 "Yes" 325 975 60 H I C CNN "RHoS?"
-F10 "JST Sales America Inc" 425 1075 60 H I C CNN "MFR"
-F11 "S4B-PH-SM4-TB(LF)(SN)" 525 1175 60 H I C CNN "MFR#"
-F12 "SMT/SMD" 625 1275 60 H I C CNN "Mounting"
-F13 "4" 725 1375 60 H I C CNN "Pin Count#"
-F14 "Active" 825 1475 60 H I C CNN "Status"
-F15 "N/A" 925 1575 60 H I C CNN "Tolerance"
-F16 "Surface Mount Right angle 4 pin connector" 1025 1675 60 H I C CNN "Type"
-F17 "N/A" 1125 1775 60 H I C CNN "Voltage"
-F18 "N/A" 1225 1875 60 H I C CNN "Wattage"
-F19 "N/A" 1325 1975 60 H I C CNN "Component-Value"
-F20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" 1425 2075 60 H I C CNN "Description"
-DRAW
-S -100 125 0 -200 0 1 0 N
-X ~ 1 200 75 200 L 50 50 1 1 B
-X ~ 2 200 0 200 L 50 50 1 1 B
-X ~ 3 200 -75 200 L 50 50 1 1 B
-X ~ 4 200 -150 200 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
 # STM32F446RET6_-_TQFP64
 #
 DEF STM32F446RET6_-_TQFP64 U 0 40 Y Y 2 L N
