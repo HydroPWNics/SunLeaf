@@ -28,8 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:stm32
-LIBS:ESP8266
 LIBS:HydroPWNics_Lib
 LIBS:ESP32-footprints-Shem-Lib
 LIBS:SunLeaf_V2-cache
@@ -1611,4 +1609,16 @@ F 20 "TVS DIODE 30VWM SOD323" H 11675 5700 60  0001 C CNN "Description"
 	1    10225 3900
 	0    1    1    0   
 $EndComp
+$Comp
+L GND #PWR?
+U 1 1 57DDB978
+P 8225 6175
+F 0 "#PWR?" H 8225 5925 50  0001 C CNN
+F 1 "GND" H 8225 6025 50  0000 C CNN
+F 2 "" H 8225 6175 50  0000 C CNN
+F 3 "" H 8225 6175 50  0000 C CNN
+	1    8225 6175
+	1    0    0    -1  
+$EndComp
+Connection ~ 8225 6175
 $EndSCHEMATC

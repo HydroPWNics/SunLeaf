@@ -28,8 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:stm32
-LIBS:ESP8266
 LIBS:HydroPWNics_Lib
 LIBS:ESP32-footprints-Shem-Lib
 LIBS:SunLeaf_V2-cache
@@ -176,45 +174,44 @@ F 20 "TVS DIODE 3.3VWM 26VC SOT23" H 7475 6325 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9950 2650 1000 2650
+	9950 2650 5500 2650
 Wire Wire Line
-	9950 2725 1000 2725
+	5500 2650 1000 2650
 Wire Wire Line
-	9950 3375 1000 3375
+	9950 2725 5350 2725
 Wire Wire Line
-	9950 3450 1000 3450
+	5350 2725 1000 2725
 Wire Wire Line
-	9950 4075 1000 4075
+	9950 3375 4900 3375
 Wire Wire Line
-	1000 4150 9950 4150
+	4900 3375 1000 3375
 Wire Wire Line
-	9950 2000 1000 2000
+	9950 3450 4750 3450
 Wire Wire Line
-	9950 1925 1000 1925
+	4750 3450 1000 3450
 Wire Wire Line
-	4150 4275 4150 4075
-Connection ~ 4150 4075
+	9950 4075 4300 4075
 Wire Wire Line
-	4300 4275 4300 4150
-Connection ~ 4300 4150
+	4300 4075 1000 4075
 Wire Wire Line
-	4750 4275 4750 3375
-Connection ~ 4750 3375
+	1000 4150 4150 4150
 Wire Wire Line
-	4900 4275 4900 3450
-Connection ~ 4900 3450
+	4150 4150 9950 4150
 Wire Wire Line
-	5500 4275 5500 2725
-Connection ~ 5500 2725
+	9950 2000 5950 2000
 Wire Wire Line
-	5350 4275 5350 2650
-Connection ~ 5350 2650
+	5950 2000 1000 2000
 Wire Wire Line
-	5950 4275 5950 1925
-Connection ~ 5950 1925
+	9950 1925 6100 1925
 Wire Wire Line
-	6100 4275 6100 2000
-Connection ~ 6100 2000
+	6100 1925 1000 1925
+Connection ~ 4300 4075
+Connection ~ 4150 4150
+Connection ~ 4900 3375
+Connection ~ 4750 3450
+Connection ~ 5350 2725
+Connection ~ 5500 2650
+Connection ~ 6100 1925
 $Comp
 L GND #PWR73
 U 1 1 57DACA24
@@ -483,4 +480,23 @@ F 20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" 
 	1    10150 4075
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	5950 4275 5950 2000
+Connection ~ 5950 2000
+Wire Wire Line
+	6100 1925 6100 4275
+Wire Wire Line
+	5500 2650 5500 4275
+Wire Wire Line
+	5350 4275 5350 2725
+Wire Wire Line
+	4900 3375 4900 4275
+Wire Wire Line
+	4900 4275 4900 4275
+Wire Wire Line
+	4750 3450 4750 4275
+Wire Wire Line
+	4300 4075 4300 4275
+Wire Wire Line
+	4150 4150 4150 4275
 $EndSCHEMATC

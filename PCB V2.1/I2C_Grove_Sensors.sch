@@ -28,8 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:stm32
-LIBS:ESP8266
 LIBS:HydroPWNics_Lib
 LIBS:ESP32-footprints-Shem-Lib
 LIBS:SunLeaf_V2-cache
@@ -622,30 +620,14 @@ Wire Wire Line
 	5900 3650 5900 3400
 Wire Wire Line
 	5900 3400 6000 3400
-Wire Wire Line
-	5275 5200 5275 3800
-Connection ~ 5275 3800
-Wire Wire Line
-	5425 5200 5425 3875
-Connection ~ 5425 3875
-Wire Wire Line
-	5800 5200 5800 4150
-Connection ~ 5800 4150
-Wire Wire Line
-	5950 5200 5950 4225
-Connection ~ 5950 4225
-Wire Wire Line
-	6325 5200 6325 4500
-Connection ~ 6325 4500
-Wire Wire Line
-	6475 5200 6475 4575
-Connection ~ 6475 4575
-Wire Wire Line
-	6850 5200 6850 4850
-Connection ~ 6850 4850
-Wire Wire Line
-	7000 5200 7000 4925
-Connection ~ 7000 4925
+Connection ~ 5425 3800
+Connection ~ 5275 3875
+Connection ~ 5950 4150
+Connection ~ 5800 4225
+Connection ~ 6475 4500
+Connection ~ 6325 4575
+Connection ~ 7000 4850
+Connection ~ 6850 4925
 $Comp
 L GND #PWR57
 U 1 1 57DA31E3
@@ -919,4 +901,20 @@ F 20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" 
 	1    10775 4850
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	5275 3875 5275 5200
+Wire Wire Line
+	5425 5200 5425 3800
+Wire Wire Line
+	5950 4150 5950 5200
+Wire Wire Line
+	5800 4225 5800 5200
+Wire Wire Line
+	6475 4500 6475 5200
+Wire Wire Line
+	6325 5200 6325 4575
+Wire Wire Line
+	6850 4925 6850 5200
+Wire Wire Line
+	7000 5200 7000 4850
 $EndSCHEMATC

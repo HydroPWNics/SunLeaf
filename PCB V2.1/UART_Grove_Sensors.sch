@@ -28,8 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:stm32
-LIBS:ESP8266
 LIBS:HydroPWNics_Lib
 LIBS:ESP32-footprints-Shem-Lib
 LIBS:SunLeaf_V2-cache
@@ -437,30 +435,14 @@ Wire Wire Line
 	6400 3725 6400 3850
 Wire Wire Line
 	6400 3850 6875 3850
-Wire Wire Line
-	4525 4700 4525 5400
-Connection ~ 4525 4700
-Wire Wire Line
-	4375 4625 4375 5400
-Connection ~ 4375 4625
-Wire Wire Line
-	4800 5400 4800 4375
-Connection ~ 4800 4375
-Wire Wire Line
-	4950 5400 4950 4450
-Connection ~ 4950 4450
-Wire Wire Line
-	5200 5400 5200 4150
-Connection ~ 5200 4150
-Wire Wire Line
-	5350 5400 5350 4225
-Connection ~ 5350 4225
-Wire Wire Line
-	5600 5400 5600 3925
-Connection ~ 5600 3925
-Wire Wire Line
-	5750 5400 5750 4000
-Connection ~ 5750 4000
+Connection ~ 4375 4700
+Connection ~ 4525 4625
+Connection ~ 4950 4375
+Connection ~ 4800 4450
+Connection ~ 5350 4150
+Connection ~ 5200 4225
+Connection ~ 5750 3925
+Connection ~ 5600 4000
 $Comp
 L GND #PWR41
 U 1 1 57D97A54
@@ -650,4 +632,20 @@ Text Label 1125 3875 0    39   ~ 0
 UART_S_TX
 Text Label 1125 3975 0    39   ~ 0
 UART_S_RX
+Wire Wire Line
+	5600 4000 5600 5400
+Wire Wire Line
+	5750 3925 5750 5400
+Wire Wire Line
+	5350 4150 5350 5400
+Wire Wire Line
+	5200 5400 5200 4225
+Wire Wire Line
+	4950 4375 4950 5400
+Wire Wire Line
+	4800 5400 4800 4450
+Wire Wire Line
+	4525 4625 4525 5400
+Wire Wire Line
+	4375 4700 4375 5400
 $EndSCHEMATC
