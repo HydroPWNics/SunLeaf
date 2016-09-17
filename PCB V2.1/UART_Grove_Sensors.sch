@@ -86,6 +86,34 @@ F 20 "TVS DIODE 3.3VWM 26VC SOT23" H 5900 7450 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
+L CL05B104JP5NNNC C23
+U 1 1 57D8F945
+P 7925 5275
+F 0 "C23" V 7900 5450 60  0000 C CNN
+F 1 "CL05B104JP5NNNC" H 7975 5125 60  0001 C CNN
+F 2 "PCB_Footprints:C0402" H 8175 5325 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 8175 5325 60  0001 C CNN
+F 4 "$0.00903 @ 5000" H 7825 5525 60  0001 C CNN "Cost"
+F 5 "4 Sept 2016" H 7925 5625 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 8025 5725 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 8125 5825 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 8225 5925 60  0001 C CNN "Height"
+F 9 "Yes" H 8325 6025 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 8425 6125 60  0001 C CNN "MFR"
+F 11 "CL05B104JP5NNNC" H 8525 6225 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 8625 6325 60  0001 C CNN "Mounting"
+F 13 "2" H 8725 6425 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 8825 6525 60  0001 C CNN "Status"
+F 15 "5%" H 8925 6625 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 9025 6725 60  0001 C CNN "Type"
+F 17 "10V" H 9125 6825 60  0001 C CNN "Voltage"
+F 18 "N/A" H 9225 6925 60  0001 C CNN "Wattage"
+F 19 "0.10uF" V 7975 5450 60  0000 C CNN "Component-Value"
+F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 9425 7125 60  0001 C CNN "Description"
+	1    7925 5275
+	0    1    1    0   
+$EndComp
+$Comp
 L RC1005F102CS R26
 U 1 1 57D8FA1F
 P 2225 3425
@@ -280,6 +308,17 @@ F 3 "" H 7750 3725 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L GND #PWR51
+U 1 1 57D95A00
+P 8600 5475
+F 0 "#PWR51" H 8600 5225 50  0001 C CNN
+F 1 "GND" H 8600 5325 50  0000 C CNN
+F 2 "" H 8600 5475 50  0000 C CNN
+F 3 "" H 8600 5475 50  0000 C CNN
+	1    8600 5475
+	1    0    0    -1  
+$EndComp
+$Comp
 L GND #PWR52
 U 1 1 57D95B46
 P 8775 3975
@@ -288,6 +327,101 @@ F 1 "GND" H 8775 3825 50  0000 C CNN
 F 2 "" H 8775 3975 50  0000 C CNN
 F 3 "" H 8775 3975 50  0000 C CNN
 	1    8775 3975
+	1    0    0    -1  
+$EndComp
+$Comp
+L CL05B104JP5NNNC C24
+U 1 1 57D961FE
+P 8375 5275
+F 0 "C24" V 8350 5450 60  0000 C CNN
+F 1 "CL05B104JP5NNNC" H 8425 5125 60  0001 C CNN
+F 2 "PCB_Footprints:C0402" H 8625 5325 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 8625 5325 60  0001 C CNN
+F 4 "$0.00903 @ 5000" H 8275 5525 60  0001 C CNN "Cost"
+F 5 "4 Sept 2016" H 8375 5625 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 8475 5725 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 8575 5825 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 8675 5925 60  0001 C CNN "Height"
+F 9 "Yes" H 8775 6025 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 8875 6125 60  0001 C CNN "MFR"
+F 11 "CL05B104JP5NNNC" H 8975 6225 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 9075 6325 60  0001 C CNN "Mounting"
+F 13 "2" H 9175 6425 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 9275 6525 60  0001 C CNN "Status"
+F 15 "5%" H 9375 6625 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 9475 6725 60  0001 C CNN "Type"
+F 17 "10V" H 9575 6825 60  0001 C CNN "Voltage"
+F 18 "N/A" H 9675 6925 60  0001 C CNN "Wattage"
+F 19 "0.10uF" V 8425 5450 60  0000 C CNN "Component-Value"
+F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 9875 7125 60  0001 C CNN "Description"
+	1    8375 5275
+	0    1    1    0   
+$EndComp
+$Comp
+L CL05B104JP5NNNC C25
+U 1 1 57D9626E
+P 8825 5275
+F 0 "C25" V 8800 5450 60  0000 C CNN
+F 1 "CL05B104JP5NNNC" H 8875 5125 60  0001 C CNN
+F 2 "PCB_Footprints:C0402" H 9075 5325 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 9075 5325 60  0001 C CNN
+F 4 "$0.00903 @ 5000" H 8725 5525 60  0001 C CNN "Cost"
+F 5 "4 Sept 2016" H 8825 5625 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 8925 5725 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 9025 5825 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 9125 5925 60  0001 C CNN "Height"
+F 9 "Yes" H 9225 6025 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 9325 6125 60  0001 C CNN "MFR"
+F 11 "CL05B104JP5NNNC" H 9425 6225 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 9525 6325 60  0001 C CNN "Mounting"
+F 13 "2" H 9625 6425 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 9725 6525 60  0001 C CNN "Status"
+F 15 "5%" H 9825 6625 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 9925 6725 60  0001 C CNN "Type"
+F 17 "10V" H 10025 6825 60  0001 C CNN "Voltage"
+F 18 "N/A" H 10125 6925 60  0001 C CNN "Wattage"
+F 19 "0.10uF" V 8875 5450 60  0000 C CNN "Component-Value"
+F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 10325 7125 60  0001 C CNN "Description"
+	1    8825 5275
+	0    1    1    0   
+$EndComp
+$Comp
+L CL05B104JP5NNNC C26
+U 1 1 57D962E7
+P 9275 5275
+F 0 "C26" V 9250 5450 60  0000 C CNN
+F 1 "CL05B104JP5NNNC" H 9325 5125 60  0001 C CNN
+F 2 "PCB_Footprints:C0402" H 9525 5325 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 9525 5325 60  0001 C CNN
+F 4 "$0.00903 @ 5000" H 9175 5525 60  0001 C CNN "Cost"
+F 5 "4 Sept 2016" H 9275 5625 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 9375 5725 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 9475 5825 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 9575 5925 60  0001 C CNN "Height"
+F 9 "Yes" H 9675 6025 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 9775 6125 60  0001 C CNN "MFR"
+F 11 "CL05B104JP5NNNC" H 9875 6225 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 9975 6325 60  0001 C CNN "Mounting"
+F 13 "2" H 10075 6425 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 10175 6525 60  0001 C CNN "Status"
+F 15 "5%" H 10275 6625 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 10375 6725 60  0001 C CNN "Type"
+F 17 "10V" H 10475 6825 60  0001 C CNN "Voltage"
+F 18 "N/A" H 10575 6925 60  0001 C CNN "Wattage"
+F 19 "0.10uF" V 9325 5450 60  0000 C CNN "Component-Value"
+F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 10775 7125 60  0001 C CNN "Description"
+	1    9275 5275
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR50
+U 1 1 57D9679F
+P 8600 5025
+F 0 "#PWR50" H 8600 4875 50  0001 C CNN
+F 1 "+3.3V" H 8600 5165 50  0000 C CNN
+F 2 "" H 8600 5025 50  0000 C CNN
+F 3 "" H 8600 5025 50  0000 C CNN
+	1    8600 5025
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -437,6 +571,16 @@ Wire Wire Line
 	6400 3725 6400 3850
 Wire Wire Line
 	6400 3850 6875 3850
+Wire Wire Line
+	7925 5475 9275 5475
+Wire Wire Line
+	7925 5025 9275 5025
+Connection ~ 8375 5475
+Connection ~ 8600 5475
+Connection ~ 8825 5475
+Connection ~ 8825 5025
+Connection ~ 8375 5025
+Connection ~ 8600 5025
 Wire Wire Line
 	4525 4700 4525 5400
 Connection ~ 4525 4700

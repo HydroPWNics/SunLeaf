@@ -598,30 +598,30 @@ $EndComp
 $Comp
 L B2B-PH-K-S(LF)(SN) J3
 U 1 1 57DB364E
-P 1725 3550
-F 0 "J3" H 1675 3325 60  0000 C CNN
-F 1 "B2B-PH-K-S(LF)(SN)" H 1650 3425 60  0000 C CNN
-F 2 "PCB_Footprints:B2B-PH-K-S(LF)(SN)" H 1575 3625 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1450 3925 60  0001 C CNN
-F 4 "0.06216 @ 5000" H 1550 4025 60  0001 C CNN "Cost"
-F 5 "15 Sept 2016" H 1650 4125 60  0001 C CNN "Date Created "
-F 6 "15 Sept 2016" H 1750 4225 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 1850 4325 60  0001 C CNN "Designer "
-F 8 "6.6mm" H 1950 4425 60  0001 C CNN "Height"
-F 9 "Yes" H 2050 4525 60  0001 C CNN "RHoS?"
-F 10 "JST Sales America Inc" H 2150 4625 60  0001 C CNN "MFR"
-F 11 "B2B-PH-K-S(LF)(SN)" H 2250 4725 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 2350 4825 60  0001 C CNN "Mounting"
-F 13 "2" H 2450 4925 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 2550 5025 60  0001 C CNN "Status"
-F 15 "N/A" H 2650 5125 60  0001 C CNN "Tolerance"
-F 16 "Through hole mount 2 pin connector" H 2750 5225 60  0001 C CNN "Type"
-F 17 "N/A" H 2850 5325 60  0001 C CNN "Voltage"
-F 18 "N/A" H 2950 5425 60  0001 C CNN "Wattage"
-F 19 "N/A" H 3050 5525 60  0001 C CNN "Component-Value"
-F 20 "2 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" H 3150 5625 60  0001 C CNN "Description"
-	1    1725 3550
-	1    0    0    1   
+P 1725 3625
+F 0 "J3" H 1781 3947 60  0000 C CNN
+F 1 "B2B-PH-K-S(LF)(SN)" H 1781 3841 60  0000 C CNN
+F 2 "PCB_Footprints:B2B-PH-K-S(LF)(SN)" H 1575 3700 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1450 4000 60  0001 C CNN
+F 4 "0.06216 @ 5000" H 1550 4100 60  0001 C CNN "Cost"
+F 5 "15 Sept 2016" H 1650 4200 60  0001 C CNN "Date Created "
+F 6 "15 Sept 2016" H 1750 4300 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 1850 4400 60  0001 C CNN "Designer "
+F 8 "6.6mm" H 1950 4500 60  0001 C CNN "Height"
+F 9 "Yes" H 2050 4600 60  0001 C CNN "RHoS?"
+F 10 "JST Sales America Inc" H 2150 4700 60  0001 C CNN "MFR"
+F 11 "B2B-PH-K-S(LF)(SN)" H 2250 4800 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 2350 4900 60  0001 C CNN "Mounting"
+F 13 "2" H 2450 5000 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 2550 5100 60  0001 C CNN "Status"
+F 15 "N/A" H 2650 5200 60  0001 C CNN "Tolerance"
+F 16 "Through hole mount 2 pin connector" H 2750 5300 60  0001 C CNN "Type"
+F 17 "N/A" H 2850 5400 60  0001 C CNN "Voltage"
+F 18 "N/A" H 2950 5500 60  0001 C CNN "Wattage"
+F 19 "N/A" H 3050 5600 60  0001 C CNN "Component-Value"
+F 20 "2 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" H 3150 5700 60  0001 C CNN "Description"
+	1    1725 3625
+	1    0    0    -1  
 $EndComp
 $Comp
 L B3B-PH-K-S(LF)(SN) J4
