@@ -646,4 +646,8 @@ F 20 "4 Positions Header, Shrouded Connector 0.079\" (2.00mm) Through Hole Tin" 
 	1    9850 4625
 	-1   0    0    1   
 $EndComp
+Text Label 1125 3875 0    39   ~ 0
+UART_S_TX
+Text Label 1125 3975 0    39   ~ 0
+UART_S_RX
 $EndSCHEMATC

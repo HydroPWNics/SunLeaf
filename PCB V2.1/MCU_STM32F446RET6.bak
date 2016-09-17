@@ -1515,7 +1515,7 @@ SWO_TDI
 Text Label 9000 6175 0    60   ~ 0
 NJTRST
 Text Label 6625 1750 0    60   ~ 0
-SWO_TDI
+SWO_TDO
 Wire Wire Line
 	8025 1150 8325 1150
 Wire Wire Line
