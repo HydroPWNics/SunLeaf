@@ -1,4 +1,4 @@
-update=9/17/2016 7:16:59 PM
+update=9/19/2016 12:45:11 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,6 +60,7 @@ LibName28=contrib
 LibName29=valves
 LibName30=C:/Users/adam/Documents/GitHub/footprints/Libraries - KiCAD/HydroPWNics_Lib
 LibName31=C:/Users/adam/Documents/GitHub/ESP32-kiCAD-Footprints/ESP32-Footprints/ESP32-footprints-Shem-Lib
+LibName32=C:/Users/adam/Documents/GitHub/kicad-ESP8266/ESP8266
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
