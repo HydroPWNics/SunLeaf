@@ -823,6 +823,37 @@ X ~ 3 0 300 200 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# ERA-3AEB3741V
+#
+DEF ERA-3AEB3741V R 0 40 Y Y 1 F N
+F0 "R" -300 350 60 H V C CNN
+F1 "ERA-3AEB3741V" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0603" -400 250 60 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/ERA%201A,2A,3A,6A,8A.pdf" -300 450 60 H I C CNN
+F4 "0.04275 @ 5000" 1550 1950 60 H I C CNN "Cost"
+F5 "19 Sept 2016" -100 550 60 H I C CNN "Date Created"
+F6 "19 Sept 2016" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.55mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Panasonic Electronic Components" 400 1050 60 H I C CNN "MFR"
+F11 "ERA-3AEB3741V" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "1%" 900 1550 60 H I C CNN "Tolerance"
+F16 "passive" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/10" 1200 1850 60 H I C CNN "Wattage"
+F19 "3.74K" -550 0 60 H V C CNN "Component-Value"
+F20 "RES SMD 3.74KOHM 0.1% 1/10W 0603" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # ESDA6V1BC6
 #
 DEF ESDA6V1BC6 DA 0 40 Y Y 1 F N
@@ -991,6 +1022,44 @@ F17 "N/A" 1150 1500 60 H I C CNN "Voltage"
 F18 "N/A" 1250 1600 60 H I C CNN "Wattage"
 F19 "N/A" 1350 1700 60 H I C CNN "Component-Value"
 F20 "Green 571nm LED Indication - Discrete 2V 0603 (1608 Metric)" 1450 1800 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 0 -50 0 N
+P 2 0 1 0 25 50 25 -50 N
+P 2 0 1 0 50 0 25 0 N
+P 2 0 1 0 75 -25 150 -100 N
+P 2 0 1 0 150 -100 125 -100 N
+P 2 0 1 0 150 -100 150 -75 N
+P 4 0 1 0 -25 50 -25 -50 25 0 -25 50 N
+P 5 0 1 0 50 -50 100 -100 100 -75 100 -100 75 -100 N
+X ~ 1 -250 0 200 R 50 50 1 1 P
+X ~ 2 250 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# LTST-C193TBKT-5A
+#
+DEF LTST-C193TBKT-5A LED 0 40 Y Y 1 F N
+F0 "LED" -275 100 60 H V C CNN
+F1 "LTST-C193TBKT-5A" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:LED0603" 1425 1925 60 H I C CNN
+F3 "http://optoelectronics.liteon.com/upload/download/DS22-2004-060/P_100_LTST-C193TBKT-5A.pdf" 1625 2050 60 H I C CNN
+F4 "0.06102 @ 6000" -150 200 60 H I C CNN "Cost"
+F5 "8 Sept 2016" -50 300 60 H I C CNN "Date Created"
+F6 "8 Sept 2016" 50 400 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 150 500 60 H I C CNN "Designer"
+F8 "0.55mm" 250 600 60 H I C CNN "Height"
+F9 "Yes" 350 700 60 H I C CNN "RhoS?"
+F10 "Lite-On Inc" 450 800 60 H I C CNN "MFR"
+F11 "LTST-C193TBKT-5A" 550 900 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 650 1000 60 H I C CNN "Mounting"
+F13 "2" 750 1100 60 H I C CNN "Pin Count#"
+F14 "Active" 850 1200 60 H I C CNN "Status"
+F15 "N/A" 950 1300 60 H I C CNN "Tolerance"
+F16 "0603 LED" 1050 1400 60 H I C CNN "Type"
+F17 "2.8V Forward Voltage" 1150 1500 60 H I C CNN "Voltage"
+F18 "N/A" 1250 1600 60 H I C CNN "Wattage"
+F19 "N/A" 1350 1700 60 H I C CNN "Component-Value"
+F20 "Blue 470nm LED Indication - Discrete 2.8V 0603 (1608 Metric)" 1450 1800 60 H I C CNN "Description"
 DRAW
 P 2 0 1 0 -25 0 -50 0 N
 P 2 0 1 0 25 50 25 -50 N
