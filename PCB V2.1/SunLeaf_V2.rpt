@@ -1,0 +1,11 @@
+** Drc report for C:\Users\adam\Documents\GitHub\SunLeaf\PCB V2.1\SunLeaf_V2.kicad_pcb **
+** Created on  **
+
+** Found 0 DRC errors **
+
+** Found 1 unconnected pads **
+ErrType(2): Unconnected pads
+    @ (3.7330 in,2.5020 in): Pad 2 on F.Cu, Non-copper of R34 net Net-(D9-Pad2)
+    @ (3.7600 in,2.5624 in): Pad 2 on B.Cu, Non-copper of D9
+
+** End of Report **
