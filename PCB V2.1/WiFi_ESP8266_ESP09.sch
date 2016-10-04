@@ -392,90 +392,6 @@ F 20 "RES SMD 200 OHM 1% 1/16W 0402" H 3575 4175 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RC1005F102CS R16
-U 1 1 57D76831
-P 4750 2875
-F 0 "R16" V 4700 3000 60  0000 C CNN
-F 1 "RC1005F102CS" H 4750 2725 60  0001 C CNN
-F 2 "PCB_Footprints:R0402" H 4350 3125 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 4450 3325 60  0001 C CNN
-F 4 "0.00173 @ 5000" H 6300 4825 60  0001 C CNN "Cost"
-F 5 "5 Sept 2016" H 4650 3425 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 4750 3525 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 4850 3625 60  0001 C CNN "Designer"
-F 8 "0.4mm" H 4950 3725 60  0001 C CNN "Height"
-F 9 "Yes" H 5050 3825 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 5150 3925 60  0001 C CNN "MFR"
-F 11 "RC1005F102CS" H 5250 4025 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 5350 4125 60  0001 C CNN "Mounting"
-F 13 "2" H 5450 4225 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 5550 4325 60  0001 C CNN "Status"
-F 15 "%" H 5650 4425 60  0001 C CNN "Tolerance"
-F 16 "passive" H 5750 4525 60  0001 C CNN "Type"
-F 17 "N/A" H 5850 4625 60  0001 C CNN "Voltage"
-F 18 "1/16" H 5950 4725 60  0001 C CNN "Wattage"
-F 19 "1k" V 4775 3000 60  0000 C CNN "Component-Value"
-F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 6150 4925 60  0001 C CNN "Description"
-	1    4750 2875
-	0    1    1    0   
-$EndComp
-$Comp
-L RC1005F102CS R15
-U 1 1 57D769FB
-P 4450 2875
-F 0 "R15" V 4400 3000 60  0000 C CNN
-F 1 "RC1005F102CS" H 4450 2725 60  0001 C CNN
-F 2 "PCB_Footprints:R0402" H 4050 3125 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 4150 3325 60  0001 C CNN
-F 4 "0.00173 @ 5000" H 6000 4825 60  0001 C CNN "Cost"
-F 5 "5 Sept 2016" H 4350 3425 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 4450 3525 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 4550 3625 60  0001 C CNN "Designer"
-F 8 "0.4mm" H 4650 3725 60  0001 C CNN "Height"
-F 9 "Yes" H 4750 3825 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 4850 3925 60  0001 C CNN "MFR"
-F 11 "RC1005F102CS" H 4950 4025 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 5050 4125 60  0001 C CNN "Mounting"
-F 13 "2" H 5150 4225 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 5250 4325 60  0001 C CNN "Status"
-F 15 "%" H 5350 4425 60  0001 C CNN "Tolerance"
-F 16 "passive" H 5450 4525 60  0001 C CNN "Type"
-F 17 "N/A" H 5550 4625 60  0001 C CNN "Voltage"
-F 18 "1/16" H 5650 4725 60  0001 C CNN "Wattage"
-F 19 "1k" V 4475 3000 60  0000 C CNN "Component-Value"
-F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 5850 4925 60  0001 C CNN "Description"
-	1    4450 2875
-	0    1    1    0   
-$EndComp
-$Comp
-L RC1005F102CS R14
-U 1 1 57D76B97
-P 4300 3750
-F 0 "R14" V 4250 3875 60  0000 C CNN
-F 1 "RC1005F102CS" H 4300 3600 60  0001 C CNN
-F 2 "PCB_Footprints:R0402" H 3900 4000 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 4000 4200 60  0001 C CNN
-F 4 "0.00173 @ 5000" H 5850 5700 60  0001 C CNN "Cost"
-F 5 "5 Sept 2016" H 4200 4300 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 4300 4400 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 4400 4500 60  0001 C CNN "Designer"
-F 8 "0.4mm" H 4500 4600 60  0001 C CNN "Height"
-F 9 "Yes" H 4600 4700 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 4700 4800 60  0001 C CNN "MFR"
-F 11 "RC1005F102CS" H 4800 4900 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 4900 5000 60  0001 C CNN "Mounting"
-F 13 "2" H 5000 5100 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 5100 5200 60  0001 C CNN "Status"
-F 15 "%" H 5200 5300 60  0001 C CNN "Tolerance"
-F 16 "passive" H 5300 5400 60  0001 C CNN "Type"
-F 17 "N/A" H 5400 5500 60  0001 C CNN "Voltage"
-F 18 "1/16" H 5500 5600 60  0001 C CNN "Wattage"
-F 19 "1k" V 4325 3875 60  0000 C CNN "Component-Value"
-F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 5700 5800 60  0001 C CNN "Description"
-	1    4300 3750
-	0    1    1    0   
-$EndComp
-$Comp
 L GND #PWR23
 U 1 1 57D76DFD
 P 4300 4050
@@ -519,30 +435,6 @@ F 3 "" H 4575 2575 50  0000 C CNN
 	1    4575 2575
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_01X04 P1
-U 1 1 57D7B8BB
-P 9300 2925
-F 0 "P1" H 9300 3175 50  0000 C CNN
-F 1 "CONN_01X04" V 9400 2925 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 9300 2925 50  0001 C CNN
-F 3 "" H 9300 2925 50  0000 C CNN
-	1    9300 2925
-	1    0    0    1   
-$EndComp
-$Comp
-L GND #PWR34
-U 1 1 57D7BD68
-P 9100 3075
-F 0 "#PWR34" H 9100 2825 50  0001 C CNN
-F 1 "GND" H 9100 2925 50  0000 C CNN
-F 2 "" H 9100 3075 50  0000 C CNN
-F 3 "" H 9100 3075 50  0000 C CNN
-	1    9100 3075
-	1    0    0    -1  
-$EndComp
-Text Label 8600 2775 0    60   ~ 0
-PGM_MODE
 Text Label 2975 2125 0    60   ~ 0
 PGM_MODE
 Text Label 6625 4450 1    60   ~ 0
@@ -571,120 +463,10 @@ F 3 "" H 7225 4250 60  0001 C CNN
 	1    5825 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9100 2775 8550 2775
-Connection ~ 8375 2250
-Wire Wire Line
-	8375 2975 8375 2250
-Wire Wire Line
-	9100 2975 8375 2975
-Connection ~ 5225 4050
-Connection ~ 7050 3850
-Connection ~ 8500 2150
-Wire Wire Line
-	8500 2875 8500 2150
-Wire Wire Line
-	9100 2875 8500 2875
-Connection ~ 4575 2575
-Wire Wire Line
-	4450 2575 4750 2575
-Wire Wire Line
-	4100 2225 2475 2225
-Wire Wire Line
-	4100 4375 4100 2225
-Wire Wire Line
-	4700 4375 4100 4375
-Wire Wire Line
-	4700 3650 4700 4375
-Wire Wire Line
-	5225 3650 4700 3650
-Wire Wire Line
-	4550 3550 4550 4050
-Wire Wire Line
-	5225 3550 4550 3550
-Wire Wire Line
-	5225 3950 5225 4175
-Wire Wire Line
-	5225 3450 4300 3450
-Connection ~ 4750 3250
-Wire Wire Line
-	4750 3175 4750 3250
-Wire Wire Line
-	4450 3350 5225 3350
-Wire Wire Line
-	4450 3175 4450 3350
-Wire Wire Line
-	4225 3250 5225 3250
-Wire Wire Line
-	4225 2125 4225 3250
-Wire Wire Line
-	2475 2125 4225 2125
-Wire Wire Line
-	1350 2225 1875 2225
-Wire Wire Line
-	1350 2125 1875 2125
-Wire Wire Line
-	7275 2350 9300 2350
-Wire Wire Line
-	7200 2250 9300 2250
-Wire Wire Line
-	10500 2350 9900 2350
-Wire Wire Line
-	9900 2250 10500 2250
-Wire Wire Line
-	7100 2150 9300 2150
-Wire Wire Line
-	10500 2150 9900 2150
-Connection ~ 7275 3550
-Wire Wire Line
-	7275 2350 7275 3550
-Wire Wire Line
-	7200 3450 7200 2250
-Wire Wire Line
-	6425 3450 7200 3450
-Wire Wire Line
-	7100 3350 7100 2150
-Wire Wire Line
-	6425 3350 7100 3350
-Wire Wire Line
-	6625 3750 6625 4875
-Wire Wire Line
-	6425 3750 6625 3750
-Connection ~ 7450 3550
-Wire Wire Line
-	6425 3550 7450 3550
-Connection ~ 6900 3650
-Wire Wire Line
-	6425 3250 6900 3250
-Connection ~ 7050 4300
-Wire Wire Line
-	6900 4300 7050 4300
-Wire Wire Line
-	6900 3250 6900 4300
-Wire Wire Line
-	6425 3650 6900 3650
-Wire Wire Line
-	6425 3850 7050 3850
 Text HLabel 1350 2300 0    60   BiDi ~ 0
 ESPTOST_BOOT0
 Text HLabel 1350 2400 0    60   BiDi ~ 0
 ESPTOST_BOOT1
-Wire Wire Line
-	5225 3750 4775 3750
-Wire Wire Line
-	4775 3750 4775 4500
-Wire Wire Line
-	4775 4500 3975 4500
-Wire Wire Line
-	3975 4500 3975 2300
-Wire Wire Line
-	5225 3850 4850 3850
-Wire Wire Line
-	4850 3850 4850 4625
-Wire Wire Line
-	4850 4625 3850 4625
-Wire Wire Line
-	3850 4625 3850 2400
 $Comp
 L RC1005F201CS R9
 U 1 1 57DFC0D1
@@ -741,14 +523,6 @@ F 20 "RES SMD 200 OHM 1% 1/16W 0402" H 4700 4450 60  0001 C CNN "Description"
 	1    3300 2400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3000 2300 1350 2300
-Wire Wire Line
-	3000 2400 1350 2400
-Wire Wire Line
-	3850 2400 3600 2400
-Wire Wire Line
-	3975 2300 3600 2300
 $Comp
 L RC1005F103CS R42
 U 1 1 57EC0ECA
@@ -788,6 +562,294 @@ F 3 "" H 6050 4550 50  0000 C CNN
 	1    6050 4550
 	1    0    0    -1  
 $EndComp
+$Comp
+L RC1005F103CS R15
+U 1 1 57F2DFB6
+P 4450 2875
+F 0 "R15" V 4300 2900 60  0000 L CNN
+F 1 "RC1005F103CS" V 4450 2963 60  0001 L CNN
+F 2 "PCB_Footprints:R0402" H 4050 3125 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 4150 3325 60  0001 C CNN
+F 4 "0.00173 @ 5000" H 6000 4825 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 4350 3425 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 4450 3525 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 4550 3625 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 4650 3725 60  0001 C CNN "Height"
+F 9 "Yes" H 4750 3825 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 4850 3925 60  0001 C CNN "MFR"
+F 11 "RC1005F103CS" H 4950 4025 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 5050 4125 60  0001 C CNN "Mounting"
+F 13 "2" H 5150 4225 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 5250 4325 60  0001 C CNN "Status"
+F 15 "1%" H 5350 4425 60  0001 C CNN "Tolerance"
+F 16 "passive" H 5450 4525 60  0001 C CNN "Type"
+F 17 "N/A" H 5550 4625 60  0001 C CNN "Voltage"
+F 18 "1/16" H 5650 4725 60  0001 C CNN "Wattage"
+F 19 "10k" V 4600 2900 60  0000 L CNN "Component-Value"
+F 20 "RES SMD 10K OHM 1% 1/16W 0402" H 5850 4925 60  0001 C CNN "Description"
+	1    4450 2875
+	0    1    1    0   
+$EndComp
+$Comp
+L RC1005F103CS R16
+U 1 1 57F2E345
+P 4750 2875
+F 0 "R16" V 4600 2900 60  0000 L CNN
+F 1 "RC1005F103CS" V 4750 2963 60  0001 L CNN
+F 2 "PCB_Footprints:R0402" H 4350 3125 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 4450 3325 60  0001 C CNN
+F 4 "0.00173 @ 5000" H 6300 4825 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 4650 3425 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 4750 3525 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 4850 3625 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 4950 3725 60  0001 C CNN "Height"
+F 9 "Yes" H 5050 3825 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 5150 3925 60  0001 C CNN "MFR"
+F 11 "RC1005F103CS" H 5250 4025 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 5350 4125 60  0001 C CNN "Mounting"
+F 13 "2" H 5450 4225 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 5550 4325 60  0001 C CNN "Status"
+F 15 "1%" H 5650 4425 60  0001 C CNN "Tolerance"
+F 16 "passive" H 5750 4525 60  0001 C CNN "Type"
+F 17 "N/A" H 5850 4625 60  0001 C CNN "Voltage"
+F 18 "1/16" H 5950 4725 60  0001 C CNN "Wattage"
+F 19 "10k" V 4900 2900 60  0000 L CNN "Component-Value"
+F 20 "RES SMD 10K OHM 1% 1/16W 0402" H 6150 4925 60  0001 C CNN "Description"
+	1    4750 2875
+	0    1    1    0   
+$EndComp
+$Comp
+L RC1005F103CS R14
+U 1 1 57F2F569
+P 4300 3750
+F 0 "R14" V 4150 3775 60  0000 L CNN
+F 1 "RC1005F103CS" V 4300 3838 60  0001 L CNN
+F 2 "PCB_Footprints:R0402" H 3900 4000 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 4000 4200 60  0001 C CNN
+F 4 "0.00173 @ 5000" H 5850 5700 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 4200 4300 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 4300 4400 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 4400 4500 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 4500 4600 60  0001 C CNN "Height"
+F 9 "Yes" H 4600 4700 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 4700 4800 60  0001 C CNN "MFR"
+F 11 "RC1005F103CS" H 4800 4900 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 4900 5000 60  0001 C CNN "Mounting"
+F 13 "2" H 5000 5100 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 5100 5200 60  0001 C CNN "Status"
+F 15 "1%" H 5200 5300 60  0001 C CNN "Tolerance"
+F 16 "passive" H 5300 5400 60  0001 C CNN "Type"
+F 17 "N/A" H 5400 5500 60  0001 C CNN "Voltage"
+F 18 "1/16" H 5500 5600 60  0001 C CNN "Wattage"
+F 19 "10k" V 4450 3775 60  0000 L CNN "Component-Value"
+F 20 "RES SMD 10K OHM 1% 1/16W 0402" H 5700 5800 60  0001 C CNN "Description"
+	1    4300 3750
+	0    1    1    0   
+$EndComp
+Connection ~ 5225 4050
+Connection ~ 7050 3850
+Connection ~ 4575 2575
+Wire Wire Line
+	4450 2575 4750 2575
+Wire Wire Line
+	2475 2225 4100 2225
+Wire Wire Line
+	4100 2225 4100 4375
+Wire Wire Line
+	4100 4375 4700 4375
+Wire Wire Line
+	4700 4375 4700 3650
+Wire Wire Line
+	4700 3650 5225 3650
+Wire Wire Line
+	4550 3550 4550 4050
+Wire Wire Line
+	5225 3550 4550 3550
+Wire Wire Line
+	5225 3950 5225 4175
+Wire Wire Line
+	5225 3450 4300 3450
+Connection ~ 4750 3250
+Wire Wire Line
+	4750 3175 4750 3250
+Wire Wire Line
+	4450 3350 5225 3350
+Wire Wire Line
+	4450 3175 4450 3350
+Wire Wire Line
+	4225 3250 5225 3250
+Wire Wire Line
+	2475 2125 4225 2125
+Wire Wire Line
+	1350 2225 1875 2225
+Wire Wire Line
+	1350 2125 1875 2125
+Wire Wire Line
+	7275 2350 9300 2350
+Wire Wire Line
+	7200 2250 9300 2250
+Wire Wire Line
+	10500 2350 9900 2350
+Wire Wire Line
+	9900 2250 10500 2250
+Wire Wire Line
+	7100 2150 9300 2150
+Wire Wire Line
+	10500 2150 9900 2150
+Connection ~ 7275 3550
+Wire Wire Line
+	7275 2350 7275 3550
+Wire Wire Line
+	7200 3450 7200 2250
+Wire Wire Line
+	6425 3450 7200 3450
+Wire Wire Line
+	7100 3350 7100 2150
+Wire Wire Line
+	6425 3350 7100 3350
+Wire Wire Line
+	6625 3750 6625 4875
+Wire Wire Line
+	6425 3750 6625 3750
+Connection ~ 7450 3550
+Wire Wire Line
+	6425 3550 7450 3550
+Connection ~ 6900 3650
+Wire Wire Line
+	6425 3250 6900 3250
+Connection ~ 7050 4300
+Wire Wire Line
+	6900 4300 7050 4300
+Wire Wire Line
+	6900 3250 6900 4300
+Wire Wire Line
+	6425 3650 6900 3650
+Wire Wire Line
+	6425 3850 7050 3850
+Wire Wire Line
+	5225 3750 4775 3750
+Wire Wire Line
+	4775 3750 4775 4500
+Wire Wire Line
+	4775 4500 3975 4500
+Wire Wire Line
+	3975 4500 3975 2300
+Wire Wire Line
+	5225 3850 4850 3850
+Wire Wire Line
+	4850 3850 4850 4625
+Wire Wire Line
+	4850 4625 3850 4625
+Wire Wire Line
+	3850 4625 3850 2400
+Wire Wire Line
+	3000 2300 1350 2300
+Wire Wire Line
+	3000 2400 1350 2400
+Wire Wire Line
+	3975 2300 3600 2300
 Wire Wire Line
 	6050 4550 6425 4550
+Wire Wire Line
+	8325 1900 8325 2150
+Connection ~ 8325 2150
+Wire Wire Line
+	8600 1900 8600 2250
+Connection ~ 8600 2250
+Wire Wire Line
+	8850 1900 8850 2350
+Connection ~ 8850 2350
+Wire Wire Line
+	4225 2125 4225 3250
+Wire Wire Line
+	3850 2400 3600 2400
+Connection ~ 1425 2400
+Connection ~ 1625 2300
+Connection ~ 1600 2225
+$Comp
+L TEST_POINT TP2
+U 1 1 57F477DF
+P 1425 2575
+F 0 "TP2" H 1725 2575 60  0000 R CNN
+F 1 "TEST_POINT" H 1775 2675 60  0000 R CNN
+F 2 "PCB_Footprints:TEST_POINT" H 1600 2850 60  0001 C CNN
+F 3 "" H 1500 2575 60  0001 C CNN
+	1    1425 2575
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST_POINT TP4
+U 1 1 57F47BAE
+P 1625 2600
+F 0 "TP4" H 1925 2600 60  0000 R CNN
+F 1 "TEST_POINT" H 1975 2700 60  0000 R CNN
+F 2 "PCB_Footprints:TEST_POINT" H 1800 2875 60  0001 C CNN
+F 3 "" H 1700 2600 60  0001 C CNN
+	1    1625 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST_POINT TP1
+U 1 1 57F47C16
+P 2800 1925
+F 0 "TP1" H 3100 1925 60  0000 R CNN
+F 1 "TEST_POINT" H 3150 2025 60  0000 R CNN
+F 2 "PCB_Footprints:TEST_POINT" H 2975 2200 60  0001 C CNN
+F 3 "" H 2875 1925 60  0001 C CNN
+	1    2800 1925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST_POINT TP3
+U 1 1 57F47CEC
+P 1600 1900
+F 0 "TP3" H 1900 1900 60  0000 R CNN
+F 1 "TEST_POINT" H 1950 2000 60  0000 R CNN
+F 2 "PCB_Footprints:TEST_POINT" H 1775 2175 60  0001 C CNN
+F 3 "" H 1675 1900 60  0001 C CNN
+	1    1600 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 2025 1600 2225
+Wire Wire Line
+	1625 2300 1625 2475
+Wire Wire Line
+	1425 2400 1425 2450
+$Comp
+L TEST_POINT TP5
+U 1 1 57F48E1D
+P 8325 1775
+F 0 "TP5" H 8625 1775 60  0000 R CNN
+F 1 "TEST_POINT" H 8675 1875 60  0000 R CNN
+F 2 "PCB_Footprints:TEST_POINT" H 8500 2050 60  0001 C CNN
+F 3 "" H 8400 1775 60  0001 C CNN
+	1    8325 1775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST_POINT TP6
+U 1 1 57F49505
+P 8600 1775
+F 0 "TP6" H 8900 1775 60  0000 R CNN
+F 1 "TEST_POINT" H 8950 1875 60  0000 R CNN
+F 2 "PCB_Footprints:TEST_POINT" H 8775 2050 60  0001 C CNN
+F 3 "" H 8675 1775 60  0001 C CNN
+	1    8600 1775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST_POINT TP7
+U 1 1 57F4956E
+P 8850 1775
+F 0 "TP7" H 9150 1775 60  0000 R CNN
+F 1 "TEST_POINT" H 9200 1875 60  0000 R CNN
+F 2 "PCB_Footprints:TEST_POINT" H 9025 2050 60  0001 C CNN
+F 3 "" H 8925 1775 60  0001 C CNN
+	1    8850 1775
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2800 2050 2800 2125
+Connection ~ 2800 2125
 $EndSCHEMATC
