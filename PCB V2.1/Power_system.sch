@@ -79,29 +79,29 @@ $EndComp
 $Comp
 L CL05A105KA5NQNC C20
 U 1 1 57D7E6BF
-P 8900 3125
-F 0 "C20" V 8825 3200 60  0000 C CNN
-F 1 "CL05A105KA5NQNC" H 8600 2975 60  0001 C CNN
-F 2 "PCB_Footprints:C0402" H 8150 3175 60  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05A105KA5NQNC.pdf" H 8250 3275 60  0001 C CNN
-F 4 "0.05618 @ 5000" H 8350 3375 60  0001 C CNN "Cost"
-F 5 "5 Sept 2016" H 8450 3475 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 8550 3575 60  0001 C CNN "Date Modifed"
-F 7 "Adam Vadala-Roth" H 8650 3675 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 8750 3775 60  0001 C CNN "Height"
-F 9 "Yes" H 8850 3875 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 8950 3975 60  0001 C CNN "MFR"
-F 11 "CL05A105KA5NQNC" H 9050 4075 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 9150 4175 60  0001 C CNN "Mounting"
-F 13 "2" H 9250 4275 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 9350 4375 60  0001 C CNN "Status"
-F 15 "10%" H 9450 4475 60  0001 C CNN "Tolerance"
-F 16 "Ceramic Capacitor 0402" H 9550 4575 60  0001 C CNN "Type"
-F 17 "25V" H 9650 4675 60  0001 C CNN "Voltage"
-F 18 "N/A" H 10200 4675 60  0001 C CNN "Wattage"
-F 19 "1uF" V 8975 3250 60  0000 C CNN "Componen-Value"
-F 20 "1µF 25V Ceramic Capacitor X5R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 10400 4875 60  0001 C CNN "Description"
-	1    8900 3125
+P 8775 3125
+F 0 "C20" V 8700 3200 60  0000 C CNN
+F 1 "CL05A105KA5NQNC" H 8475 2975 60  0001 C CNN
+F 2 "PCB_Footprints:C0402" H 8025 3175 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05A105KA5NQNC.pdf" H 8125 3275 60  0001 C CNN
+F 4 "0.05618 @ 5000" H 8225 3375 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 8325 3475 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 8425 3575 60  0001 C CNN "Date Modifed"
+F 7 "Adam Vadala-Roth" H 8525 3675 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 8625 3775 60  0001 C CNN "Height"
+F 9 "Yes" H 8725 3875 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 8825 3975 60  0001 C CNN "MFR"
+F 11 "CL05A105KA5NQNC" H 8925 4075 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 9025 4175 60  0001 C CNN "Mounting"
+F 13 "2" H 9125 4275 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 9225 4375 60  0001 C CNN "Status"
+F 15 "10%" H 9325 4475 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 9425 4575 60  0001 C CNN "Type"
+F 17 "25V" H 9525 4675 60  0001 C CNN "Voltage"
+F 18 "N/A" H 10075 4675 60  0001 C CNN "Wattage"
+F 19 "1uF" V 8850 3250 60  0000 C CNN "Componen-Value"
+F 20 "1µF 25V Ceramic Capacitor X5R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 10275 4875 60  0001 C CNN "Description"
+	1    8775 3125
 	0    1    1    0   
 $EndComp
 $Comp
@@ -131,34 +131,6 @@ F 19 "10uF" V 10425 3225 60  0000 C CNN "Componen-Value"
 F 20 "10µF 6.3V Ceramic Capacitor X5R 0603 (1608 Metric) 0.063\" L x 0.031\" W (1.60mm x 0.80mm)" H 11825 4850 60  0001 C CNN "Description"
 	1    10325 3100
 	0    1    1    0   
-$EndComp
-$Comp
-L AZ1117CR-3.3TRG1_1 U3
-U 1 1 57D7E887
-P 9600 2950
-F 0 "U3" H 9350 3150 60  0000 C CNN
-F 1 "AZ1117CR-3.3TRG1_1" H 10000 3150 60  0000 C CNN
-F 2 "PCB_Footprints:AZ1117CR-3.3TRG1" H 9250 3050 60  0001 C CNN
-F 3 "" H 9350 3150 60  0001 C CNN
-F 4 "0.08330 @ 5000" H 9450 3250 60  0001 C CNN "Cost"
-F 5 "19 Aug 2016" H 9550 3350 60  0001 C CNN "Date Created"
-F 6 "19 Aug 2016" H 9650 3450 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 9750 3550 60  0001 C CNN "Designer"
-F 8 "1.6mm" H 9850 3650 60  0001 C CNN "Height"
-F 9 "Yes" H 9950 3750 60  0001 C CNN "RHoS?"
-F 10 "Diodes Inc" H 10050 3850 60  0001 C CNN "MFR"
-F 11 "AZ1117CR-3.3TRG1" H 10150 3950 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 10250 4050 60  0001 C CNN "Mounting"
-F 13 "4" H 10350 4150 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 10450 4250 60  0001 C CNN "Status"
-F 15 "N/A" H 10550 4350 60  0001 C CNN "Tolerance"
-F 16 "LDO Linear DC Voltage Regulator" H 10650 4450 60  0001 C CNN "Type"
-F 17 "3.7V input 3.3V Output" H 10750 4550 60  0001 C CNN "Voltage"
-F 18 "N/A" H 10850 4650 60  0001 C CNN "Wattage"
-F 19 "N/A" H 10950 4750 60  0001 C CNN "Component-Value"
-F 20 "Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 800mA SOT-89" H 11050 4850 60  0001 C CNN "Description"
-	1    9600 2950
-	1    0    0    -1  
 $EndComp
 $Comp
 L BAT20JFILM D1
@@ -301,10 +273,10 @@ F 20 "Green 571nm LED Indication - Discrete 2V 0603 (1608 Metric)" H 7600 4900 6
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR40
+L +3.3V #PWR42
 U 1 1 57D80E79
 P 10875 2900
-F 0 "#PWR40" H 10875 2750 50  0001 C CNN
+F 0 "#PWR42" H 10875 2750 50  0001 C CNN
 F 1 "+3.3V" H 10875 3040 50  0000 C CNN
 F 2 "" H 10875 2900 50  0000 C CNN
 F 3 "" H 10875 2900 50  0000 C CNN
@@ -312,14 +284,14 @@ F 3 "" H 10875 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR39
+L GND #PWR38
 U 1 1 57D80F19
-P 9600 3350
-F 0 "#PWR39" H 9600 3100 50  0001 C CNN
-F 1 "GND" H 9600 3200 50  0000 C CNN
-F 2 "" H 9600 3350 50  0000 C CNN
-F 3 "" H 9600 3350 50  0000 C CNN
-	1    9600 3350
+P 8775 3350
+F 0 "#PWR38" H 8775 3100 50  0001 C CNN
+F 1 "GND" H 8775 3200 50  0000 C CNN
+F 2 "" H 8775 3350 50  0000 C CNN
+F 3 "" H 8775 3350 50  0000 C CNN
+	1    8775 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -629,10 +601,10 @@ F 20 "RES SMD 3.74KOHM 0.1% 1/10W 0603" H 9875 6275 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR38
+L GND #PWR39
 U 1 1 57E05471
 P 8775 4525
-F 0 "#PWR38" H 8775 4275 50  0001 C CNN
+F 0 "#PWR39" H 8775 4275 50  0001 C CNN
 F 1 "GND" H 8775 4375 50  0000 C CNN
 F 2 "" H 8775 4525 50  0000 C CNN
 F 3 "" H 8775 4525 50  0000 C CNN
@@ -738,10 +710,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 2900 10875 2900
 Connection ~ 10325 2900
-Wire Wire Line
-	8900 3350 10325 3350
-Connection ~ 9600 3350
-Connection ~ 8900 2900
+Connection ~ 8775 2900
 Connection ~ 8275 2900
 Wire Wire Line
 	7000 2900 7000 3100
@@ -902,4 +871,98 @@ Connection ~ 10025 3350
 Wire Wire Line
 	10600 2650 10600 2900
 Connection ~ 10600 2900
+$Comp
+L AP2112K-3.3TRG1 U3
+U 1 1 5816BF07
+P 9600 3000
+F 0 "U3" H 9600 3347 60  0000 C CNN
+F 1 "AP2112K-3.3TRG1" H 9600 3241 60  0000 C CNN
+F 2 "PCB_Footprints:AP2112K-3.3TRG1" H 11300 5000 60  0001 C CNN
+F 3 "http://www.diodes.com/_files/datasheets/AP2112.pdf" H 9350 3200 60  0001 C CNN
+F 4 "0.11866 @ 1000" H 9450 3300 60  0001 C CNN "Cost"
+F 5 "30 Oct 2016" H 9550 3400 60  0001 C CNN "Date Created"
+F 6 "30 Oct 2016" H 9650 3500 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 9750 3600 60  0001 C CNN "Designer"
+F 8 "1.45mm" H 9850 3700 60  0001 C CNN "Height"
+F 9 "Yes" H 9950 3800 60  0001 C CNN "RHoS?"
+F 10 "Diodes Inc" H 10050 3900 60  0001 C CNN "MFR"
+F 11 "AP2112K-3.3TRG1" H 10150 4000 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 10250 4100 60  0001 C CNN "Mounting"
+F 13 "4" H 10350 4200 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 10450 4300 60  0001 C CNN "Status"
+F 15 "N/A" H 10550 4400 60  0001 C CNN "Tolerance"
+F 16 "LDO Linear DC Voltage Regulator" H 10650 4500 60  0001 C CNN "Type"
+F 17 "6V input 3.3V Output" H 10750 4600 60  0001 C CNN "Voltage"
+F 18 "N/A" H 10850 4700 60  0001 C CNN "Wattage"
+F 19 "N/A" H 10950 4800 60  0001 C CNN "Component-Value"
+F 20 "Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 600mA SOT-23-5" H 11050 4900 60  0001 C CNN "Description"
+	1    9600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CUS-12TB SW3
+U 1 1 5816C152
+P 9475 3975
+F 0 "SW3" V 9472 3697 60  0000 R CNN
+F 1 "CUS-12TB" V 9366 3697 60  0000 R CNN
+F 2 "PCB_Footprints:CUS-12TB" H 8725 4950 60  0001 C CNN
+F 3 "http://www.nidec-copal-electronics.com/e/catalog/switch/cus.pdf" H 8825 5050 60  0001 C CNN
+F 4 "0.45329 @ 1000" H 8925 5150 60  0001 C CNN "Cost"
+F 5 "24 Oct 2016" H 9025 5250 60  0001 C CNN "Date Created"
+F 6 "24 Oct 2016" H 9125 5350 60  0001 C CNN "Date Modifed"
+F 7 "Adam Vadala-Roth" H 9225 5450 60  0001 C CNN "Designer"
+F 8 "2mm" H 9325 5550 60  0001 C CNN "Height"
+F 9 "Yes" H 9425 5650 60  0001 C CNN "RHoS?"
+F 10 "Copal Electronics Inc." H 9525 5750 60  0001 C CNN "MFR"
+F 11 "CUS-12TB" H 9625 5850 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 9725 5950 60  0001 C CNN "Mounting"
+F 13 "3" H 9825 6050 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 9925 6150 60  0001 C CNN "Status"
+F 15 "N/A" H 10025 6250 60  0001 C CNN "Tolerance"
+F 16 "SMT Slider switch SPDT" H 10125 6350 60  0001 C CNN "Type"
+F 17 "50V 100mA" H 10225 6450 60  0001 C CNN "Voltage"
+F 18 "N/A" H 10775 6450 60  0001 C CNN "Wattage"
+F 19 "N/A" H 9175 4850 60  0001 C CNN "Componen-Value"
+F 20 "Slide Switch SPDT Surface Mount, Right Angle" H 10975 6650 60  0001 C CNN "Description"
+	1    9475 3975
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9925 3350 10325 3350
+$Comp
+L GND #PWR41
+U 1 1 5816D740
+P 9925 3350
+F 0 "#PWR41" H 9925 3100 50  0001 C CNN
+F 1 "GND" H 9925 3200 50  0000 C CNN
+F 2 "" H 9925 3350 50  0000 C CNN
+F 3 "" H 9925 3350 50  0000 C CNN
+	1    9925 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 3000 9000 3000
+Wire Wire Line
+	9000 3000 9000 3350
+Wire Wire Line
+	9000 3350 8775 3350
+Wire Wire Line
+	9200 4075 9200 4375
+Wire Wire Line
+	9200 4375 9475 4375
+$Comp
+L GND #PWR40
+U 1 1 5816E5B4
+P 9200 4375
+F 0 "#PWR40" H 9200 4125 50  0001 C CNN
+F 1 "GND" H 9200 4225 50  0000 C CNN
+F 2 "" H 9200 4375 50  0000 C CNN
+F 3 "" H 9200 4375 50  0000 C CNN
+	1    9200 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 3100 9100 3975
+Wire Wire Line
+	9100 3975 9200 3975
 $EndSCHEMATC
